@@ -3,7 +3,7 @@ MPlayerX-Localization instruction
 INTRO
   Welcome to MPlayerX-Localization Project.
 
-  This is a sub-project of MPlayerX, which is a open-source media player project on Mac OS X. You could take a look at http://code.google.com/p/mplayerx
+  This is a sub-project of MPlayerX, which is a open-source media player project on Mac OS X. You could take a look at http://github.com/niltsh/MPlayerX
 
   This is the document will help you to understand how to make a localization package of MPlayerX.
 
