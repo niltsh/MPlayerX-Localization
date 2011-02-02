@@ -1,6 +1,5 @@
 MPlayerX-Localization instruction
 =============
-
 INTRO
 -------
   Welcome to MPlayerX-Localization Project.
