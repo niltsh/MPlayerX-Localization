@@ -57,7 +57,7 @@ h2. INFO
 
 h2. Appendix
 
-* How to make a increment localization
+* *How to make a increment localization*
 ** For strings file
 There is no better way.
 Just use a difftool(such as FileMerge.app) to compare the latest untranslated file with the last version,
@@ -65,6 +65,7 @@ then merge the items you have translated.
 ** For xib files
 Before start to translate, you could run this command to transfer your previous work to the new one.
 @ibtool --previous-file {old master}/MyNib.nib --incremental-file {old translated}/MyNib.nib --localize-incremental --write {new translated}/MyNib.nib {new master}/MyNib.nib@
+Then use InterfaceBuilder to open the xib files, in Menubar @Tools->Strings@, you could find all the items you should translate.
 
 * For more info about how to localize to another language, please read
 ** The basic concepts
