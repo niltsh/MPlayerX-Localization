@@ -758,7 +758,7 @@
 								<object class="NSTextField" id="663614641">
 									<reference key="NSNextResponder" ref="85098728"/>
 									<int key="NSvFlags">301</int>
-									<string key="NSFrame">{{119, 31}, {60, 14}}</string>
+									<string key="NSFrame">{{104, 31}, {75, 14}}</string>
 									<reference key="NSSuperview" ref="85098728"/>
 									<reference key="NSWindow"/>
 									<int key="NSViewLayerContentsRedrawPolicy">2</int>
@@ -1279,7 +1279,7 @@
 				<string key="NSWindowContentMaxSize">{500, 94}</string>
 				<string key="NSWindowContentMinSize">{500, 94}</string>
 				<object class="NSView" key="NSWindowView" id="77567990">
-					<reference key="NSNextResponder"/>
+					<nil key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
 					<object class="NSMutableArray" key="NSSubviews">
 						<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1288,7 +1288,6 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{17, 54}, {71, 17}}</string>
 							<reference key="NSSuperview" ref="77567990"/>
-							<reference key="NSWindow"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="186577716">
 								<int key="NSCellFlags">67239424</int>
@@ -1313,7 +1312,6 @@
 							<int key="NSvFlags">289</int>
 							<string key="NSFrame">{{294, 14}, {96, 32}}</string>
 							<reference key="NSSuperview" ref="77567990"/>
-							<reference key="NSWindow"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="1034873959">
 								<int key="NSCellFlags">67239424</int>
@@ -1334,7 +1332,6 @@
 							<int key="NSvFlags">289</int>
 							<string key="NSFrame">{{390, 14}, {96, 32}}</string>
 							<reference key="NSSuperview" ref="77567990"/>
-							<reference key="NSWindow"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="638429671">
 								<int key="NSCellFlags">67239424</int>
@@ -1355,7 +1352,6 @@
 							<int key="NSvFlags">266</int>
 							<string key="NSFrame">{{95, 50}, {388, 26}}</string>
 							<reference key="NSSuperview" ref="77567990"/>
-							<reference key="NSWindow"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSComboBoxCell" key="NSCell" id="524065192">
 								<int key="NSCellFlags">343014976</int>
@@ -1457,7 +1453,6 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{18, 20}, {254, 14}}</string>
 							<reference key="NSSuperview" ref="77567990"/>
-							<reference key="NSWindow"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="423930580">
 								<int key="NSCellFlags">67239424</int>
@@ -1471,8 +1466,6 @@
 						</object>
 					</object>
 					<string key="NSFrameSize">{500, 94}</string>
-					<reference key="NSSuperview"/>
-					<reference key="NSWindow"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1920, 1178}}</string>
 				<string key="NSMinSize">{500, 116}</string>
