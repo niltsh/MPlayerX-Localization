@@ -2,13 +2,13 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1060</int>
-		<string key="IBDocument.SystemVersion">10J846</string>
-		<string key="IBDocument.InterfaceBuilderVersion">851</string>
+		<string key="IBDocument.SystemVersion">10J567</string>
+		<string key="IBDocument.InterfaceBuilderVersion">823</string>
 		<string key="IBDocument.AppKitVersion">1038.35</string>
-		<string key="IBDocument.HIToolboxVersion">461.00</string>
+		<string key="IBDocument.HIToolboxVersion">462.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
-			<string key="NS.object.0">851</string>
+			<string key="NS.object.0">823</string>
 		</object>
 		<array class="NSMutableArray" key="IBDocument.EditedObjectIDs"/>
 		<array key="IBDocument.PluginDependencies">
@@ -50,6 +50,11 @@
 								<int key="NSCellFlags">-2079981824</int>
 								<int key="NSCellFlags2">131072</int>
 								<string key="NSContents"/>
+								<object class="NSFont" key="NSSupport" id="262565370">
+									<string key="NSName">LucidaGrande</string>
+									<double key="NSSize">13</double>
+									<int key="NSfFlags">1044</int>
+								</object>
 								<reference key="NSControlView" ref="902036486"/>
 								<double key="NSMaxValue">1</double>
 								<double key="NSMinValue">-1</double>
@@ -108,11 +113,7 @@
 								<int key="NSCellFlags">67763712</int>
 								<int key="NSCellFlags2">134217728</int>
 								<string key="NSContents"/>
-								<object class="NSFont" key="NSSupport" id="262565370">
-									<string key="NSName">LucidaGrande</string>
-									<double key="NSSize">13</double>
-									<int key="NSfFlags">1044</int>
-								</object>
+								<reference key="NSSupport" ref="262565370"/>
 								<reference key="NSControlView" ref="830129517"/>
 								<int key="NSButtonFlags">138690815</int>
 								<int key="NSButtonFlags2">66</int>
@@ -164,6 +165,7 @@
 								<int key="NSCellFlags">-2079981824</int>
 								<int key="NSCellFlags2">131072</int>
 								<string key="NSContents"/>
+								<reference key="NSSupport" ref="262565370"/>
 								<reference key="NSControlView" ref="431469802"/>
 								<double key="NSMaxValue">100</double>
 								<double key="NSMinValue">0.0</double>
@@ -260,6 +262,7 @@
 								<int key="NSCellFlags">-2079981824</int>
 								<int key="NSCellFlags2">131072</int>
 								<string key="NSContents"/>
+								<reference key="NSSupport" ref="262565370"/>
 								<reference key="NSControlView" ref="865809363"/>
 								<double key="NSMaxValue">100</double>
 								<double key="NSMinValue">0.0</double>
@@ -356,6 +359,7 @@
 								<int key="NSCellFlags">-2079981824</int>
 								<int key="NSCellFlags2">131072</int>
 								<string key="NSContents"/>
+								<reference key="NSSupport" ref="262565370"/>
 								<reference key="NSControlView" ref="1043857880"/>
 								<double key="NSMaxValue">100</double>
 								<double key="NSMinValue">0.0</double>
@@ -452,6 +456,7 @@
 								<int key="NSCellFlags">-2079981824</int>
 								<int key="NSCellFlags2">131072</int>
 								<string key="NSContents"/>
+								<reference key="NSSupport" ref="262565370"/>
 								<reference key="NSControlView" ref="332392762"/>
 								<double key="NSMaxValue">100</double>
 								<double key="NSMinValue">0.0</double>
@@ -548,6 +553,7 @@
 								<int key="NSCellFlags">-2079981824</int>
 								<int key="NSCellFlags2">131072</int>
 								<string key="NSContents"/>
+								<reference key="NSSupport" ref="262565370"/>
 								<reference key="NSControlView" ref="728003644"/>
 								<double key="NSMaxValue">100</double>
 								<double key="NSMinValue">0.0</double>
@@ -644,6 +650,7 @@
 								<int key="NSCellFlags">-2079981824</int>
 								<int key="NSCellFlags2">131072</int>
 								<string key="NSContents"/>
+								<reference key="NSSupport" ref="262565370"/>
 								<reference key="NSControlView" ref="844707451"/>
 								<double key="NSMaxValue">100</double>
 								<double key="NSMinValue">0.0</double>
@@ -764,7 +771,7 @@
 						<object class="NSButton" id="194107108">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">269</int>
-							<string key="NSFrame">{{240, 18}, {55, 17}}</string>
+							<string key="NSFrame">{{240, 16}, {55, 19}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSWindow"/>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>

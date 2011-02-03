@@ -12,7 +12,6 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="420"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -73,9 +72,11 @@
 				</object>
 				<string key="NSWindowContentMaxSize">{1.79769e+308, 1.79769e+308}</string>
 				<object class="NSView" key="NSWindowView" id="1006">
-					<nil key="NSNextResponder"/>
+					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
 					<string key="NSFrameSize">{413, 228}</string>
+					<reference key="NSSuperview"/>
+					<reference key="NSWindow"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1680, 1028}}</string>
 				<string key="NSMaxSize">{1.79769e+308, 1.79769e+308}</string>
@@ -1571,7 +1572,7 @@
 									<object class="NSTextField" id="530963442">
 										<reference key="NSNextResponder" ref="210617437"/>
 										<int key="NSvFlags">268</int>
-										<string key="NSFrame">{{15, 24}, {91, 17}}</string>
+										<string key="NSFrame">{{15, 22}, {91, 17}}</string>
 										<reference key="NSSuperview" ref="210617437"/>
 										<reference key="NSWindow"/>
 										<bool key="NSEnabled">YES</bool>
@@ -1588,7 +1589,7 @@
 									<object class="NSButton" id="394821043">
 										<reference key="NSNextResponder" ref="210617437"/>
 										<int key="NSvFlags">268</int>
-										<string key="NSFrame">{{109, 23}, {63, 18}}</string>
+										<string key="NSFrame">{{109, 21}, {63, 18}}</string>
 										<reference key="NSSuperview" ref="210617437"/>
 										<reference key="NSWindow"/>
 										<bool key="NSEnabled">YES</bool>
@@ -1611,7 +1612,7 @@
 									<object class="NSButton" id="438918833">
 										<reference key="NSNextResponder" ref="210617437"/>
 										<int key="NSvFlags">268</int>
-										<string key="NSFrame">{{176, 23}, {63, 18}}</string>
+										<string key="NSFrame">{{176, 21}, {63, 18}}</string>
 										<reference key="NSSuperview" ref="210617437"/>
 										<reference key="NSWindow"/>
 										<bool key="NSEnabled">YES</bool>
@@ -1637,7 +1638,7 @@
 								<reference key="NSWindow"/>
 							</object>
 						</object>
-						<string key="NSFrame">{{17, 81}, {455, 74}}</string>
+						<string key="NSFrame">{{17, 83}, {455, 74}}</string>
 						<reference key="NSSuperview" ref="656454476"/>
 						<reference key="NSWindow"/>
 						<string key="NSOffsets">{0, 0}</string>
@@ -2634,6 +2635,7 @@ sIblnKjkuIvmrKHmkq3mlL7ml7bnlJ/mlYg</string>
 						<int key="NSvFlags">268</int>
 						<string key="NSFrame">{{17, 20}, {446, 42}}</string>
 						<reference key="NSSuperview" ref="615974115"/>
+						<reference key="NSWindow"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSTextFieldCell" key="NSCell" id="1064472169">
 							<int key="NSCellFlags">67239424</int>
@@ -2656,6 +2658,7 @@ bGF5ZXIg5pa56Z2i55qE5LiT5a625YaN5pu05pS56L+Z5Liq5Y+C5pWw77yM5ZCm5YiZ6K+355WZ56m6
 						<int key="NSvFlags">266</int>
 						<string key="NSFrame">{{79, 68}, {350, 22}}</string>
 						<reference key="NSSuperview" ref="615974115"/>
+						<reference key="NSWindow"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSTextFieldCell" key="NSCell" id="1029152748">
 							<int key="NSCellFlags">-1804468671</int>
@@ -2673,6 +2676,7 @@ bGF5ZXIg5pa56Z2i55qE5LiT5a625YaN5pu05pS56L+Z5Liq5Y+C5pWw77yM5ZCm5YiZ6K+355WZ56m6
 						<int key="NSvFlags">268</int>
 						<string key="NSFrame">{{17, 70}, {88, 17}}</string>
 						<reference key="NSSuperview" ref="615974115"/>
+						<reference key="NSWindow"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSTextFieldCell" key="NSCell" id="955401261">
 							<int key="NSCellFlags">68288064</int>
@@ -2687,6 +2691,7 @@ bGF5ZXIg5pa56Z2i55qE5LiT5a625YaN5pu05pS56L+Z5Liq5Y+C5pWw77yM5ZCm5YiZ6K+355WZ56m6
 				</object>
 				<string key="NSFrameSize">{480, 110}</string>
 				<reference key="NSSuperview"/>
+				<reference key="NSWindow"/>
 				<string key="NSClassName">NSView</string>
 			</object>
 			<object class="NSUserDefaultsController" id="659034198">
