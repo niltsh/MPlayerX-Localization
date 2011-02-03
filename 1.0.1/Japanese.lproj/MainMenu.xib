@@ -329,7 +329,7 @@
 								</object>
 								<object class="NSMenuItem" id="838516892">
 									<reference key="NSMenu" ref="458109416"/>
-									<string key="NSTitle">全てを選択する</string>
+									<string key="NSTitle">全てを選択</string>
 									<string key="NSKeyEquiv">a</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -427,7 +427,7 @@
 								</object>
 								<object class="NSMenuItem" id="21662899">
 									<reference key="NSMenu" ref="912779322"/>
-									<string key="NSTitle">字幕ボックスを表示する</string>
+									<string key="NSTitle">字幕ボックスを表示</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -445,7 +445,7 @@
 								</object>
 								<object class="NSMenuItem" id="733106672">
 									<reference key="NSMenu" ref="912779322"/>
-									<string key="NSTitle">画面サイズを拡大する</string>
+									<string key="NSTitle">画面サイズを拡大</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -453,7 +453,7 @@
 								</object>
 								<object class="NSMenuItem" id="142053655">
 									<reference key="NSMenu" ref="912779322"/>
-									<string key="NSTitle">画面サイズを縮小する</string>
+									<string key="NSTitle">画面サイズを縮小</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -496,7 +496,7 @@
 								<object class="NSMenuItem" id="666544122">
 									<reference key="NSMenu" ref="891719963"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">前回止まった所から再生する</string>
+									<string key="NSTitle">前回止まった所から再生</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -580,7 +580,7 @@
 								<object class="NSMenuItem" id="199276934">
 									<reference key="NSMenu" ref="891719963"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">字幕サイズを拡大する</string>
+									<string key="NSTitle">字幕サイズを拡大</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -589,7 +589,7 @@
 								<object class="NSMenuItem" id="1012303407">
 									<reference key="NSMenu" ref="891719963"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">字幕サイズを縮小する</string>
+									<string key="NSTitle">字幕サイズを縮小</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -607,7 +607,7 @@
 								</object>
 								<object class="NSMenuItem" id="159735098">
 									<reference key="NSMenu" ref="891719963"/>
-									<string key="NSTitle">補助コントローラを表示する</string>
+									<string key="NSTitle">補助コントローラを表示</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -3943,7 +3943,7 @@
 						<object class="IBToolTipAttribute" key="NS.object.0">
 							<string key="name">ToolTip</string>
 							<reference key="object" ref="278255822"/>
-							<string key="toolTip">速度を設定する</string>
+							<string key="toolTip">速度を設定</string>
 						</object>
 					</object>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -3961,7 +3961,7 @@
 						<object class="IBToolTipAttribute" key="NS.object.0">
 							<string key="name">ToolTip</string>
 							<reference key="object" ref="129911483"/>
-							<string key="toolTip">オーディオ遅延を設定する</string>
+							<string key="toolTip">オーディオ遅延を設定</string>
 						</object>
 					</object>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
