@@ -12,6 +12,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
+			<integer value="371"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -746,7 +747,7 @@
 				<string key="NSWindowContentMaxSize">{1.79769e+308, 1.79769e+308}</string>
 				<string key="NSWindowContentMinSize">{480, 360}</string>
 				<object class="NSView" key="NSWindowView" id="439893737">
-					<nil key="NSNextResponder"/>
+					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">274</int>
 					<object class="NSMutableArray" key="NSSubviews">
 						<bool key="EncodedWithXMLCoder">YES</bool>
@@ -828,7 +829,7 @@
 										<object class="NSTextField" id="630664672">
 											<reference key="NSNextResponder" ref="491486245"/>
 											<int key="NSvFlags">260</int>
-											<string key="NSFrame">{{277, 4}, {32, 16}}</string>
+											<string key="NSFrame">{{277, 5}, {32, 15}}</string>
 											<reference key="NSSuperview" ref="491486245"/>
 											<int key="NSViewLayerContentsRedrawPolicy">2</int>
 											<bool key="NSEnabled">YES</bool>
@@ -876,7 +877,7 @@
 										<object class="NSTextField" id="129911483">
 											<reference key="NSNextResponder" ref="491486245"/>
 											<int key="NSvFlags">260</int>
-											<string key="NSFrame">{{171, 4}, {32, 16}}</string>
+											<string key="NSFrame">{{171, 5}, {32, 15}}</string>
 											<reference key="NSSuperview" ref="491486245"/>
 											<int key="NSViewLayerContentsRedrawPolicy">2</int>
 											<bool key="NSEnabled">YES</bool>
@@ -922,7 +923,7 @@
 										<object class="NSTextField" id="278255822">
 											<reference key="NSNextResponder" ref="491486245"/>
 											<int key="NSvFlags">260</int>
-											<string key="NSFrame">{{51, 4}, {32, 16}}</string>
+											<string key="NSFrame">{{51, 5}, {32, 15}}</string>
 											<reference key="NSSuperview" ref="491486245"/>
 											<int key="NSViewLayerContentsRedrawPolicy">2</int>
 											<bool key="NSEnabled">YES</bool>
@@ -1237,6 +1238,7 @@
 						</object>
 					</object>
 					<string key="NSFrameSize">{480, 360}</string>
+					<reference key="NSSuperview"/>
 					<bool key="NSViewIsLayerTreeHost">YES</bool>
 					<int key="NSViewLayerContentsRedrawPolicy">2</int>
 				</object>
