@@ -42,6 +42,28 @@ h2. BASIC WORKFLOW
 # Finally, localization is really a lengthy job and need much much carefulness and patience.
   <b>I really appreciate your help and THANK YOU VERY VERY MUCH.</b>
 
+h2. HOW TO MAKE A TRANSLATION
+
+* Necessary Tools
+## Interface Builder
+## any Text Editor
+## if there are any diff/merge tools in hand, that will save much time.
+I recommend TextWrangler, DiffMerge.
+* For xib files
+## Use Interface Builder to open the file.
+## In the MenuBar, hit @Tools->Strings@, there will pop up a window, which will list all the strings could be translated in the xib file.
+## Double click the text area in that window, translate it, enter key.
+And I don't recommand to edit the text in the UI directly, since I may change the Font, AFAIK.
+## Adjust the layout,
+## Save the file and quit Interface Builder,
+* For strings files
+## Use the diff/merge tools to compare the new untranslated file and old translated file.
+## And you could see which items are added, deleted, modified, unchanged.
+## According to the changes, to transfer the translated item to the untranslated file as many as possible.
+## Then translate the items which are added and modified.
+* For others
+There are no easy ways.
+
 h2. USAGE OF MAKEFILE
 
 There is a template.Makfile, you could make the necessary lproj files with just a make command
