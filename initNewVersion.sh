@@ -48,7 +48,8 @@ else
 								find $oldVer -name *.lproj -and -not -name $masterLProj | while read folderPath
 								do
 									# 寻找旧文件夹里面所有的【翻译版本】
-									echo "ibtool --previous-file ./$oldVer/$masterLProj/$fileName --incremental-file ./$folderPath/$fileName --localize-incremental --write ./$folderPath/$fileNameNoExt.updated.$ext $filePath"
+									echo "update: $folderPath/$fileNameNoExt.updated.$ext"
+									ibtool --previous-file ./$oldVer/$masterLProj/$fileName --incremental-file ./$folderPath/$fileName --localize-incremental --write ./$folderPath/$fileNameNoExt.updated.$ext $filePath
 								done
 							else
 								# 如果是普通文件的话，直接拷贝
@@ -56,18 +57,21 @@ else
 								find $oldVer -name *.lproj -and -not -name $masterLProj | while read folderPath
 								do
 									# 寻找旧文件夹里面所有的【翻译版本】
-									echo "cp -R $filePath ./$folderPath/$fileNameNoExt.updated.$ext"
+									echo "copy  : $folderPath/$fileNameNoExt.updated.$ext"
+									cp -R $filePath ./$folderPath/$fileNameNoExt.updated.$ext
 								done
 							fi
 							
 							# 然后将【Master版本】拷贝
-							echo "cp -R $filePath $oldVer/$masterLProj/$fileName"
+							echo "copy  : $oldVer/$masterLProj/$fileName"
+							cp -R $filePath $oldVer/$masterLProj/$fileName
 						fi
 					else
 						# 如果旧文件夹里面没有该文件的话，说明是新文件，那么就更新
 						find $oldVer -name *.lproj -and -not -name $masterLProj | while read folderPath
 						do
-							echo "cp -R $filePath ./$folderPath/$fileNameNoExt.newfish.$ext"
+							echo "copy  : $folderPath/$fileNameNoExt.newfish.$ext"
+							cp -R $filePath ./$folderPath/$fileNameNoExt.newfish.$ext
 						done
 					fi
 				done
@@ -107,14 +111,18 @@ else
 						
 							if [ -f ./$oldVer/$masterLProj/$fileName ] && [ -f ./$filePath ] && [ -f ./$newVer/$masterLProj/$fileName ] ; then
 								# 对于xib文件，命令不一样
-								echo "ibtool --previous-file ./$oldVer/$masterLProj/$fileName --incremental-file ./$filePath --localize-incremental --write ./$newVer/$folderName/$fileName ./$newVer/$masterLProj/$fileName"
+								echo "update ./$newVer/$folderName/$fileName"
+								ibtool --previous-file ./$oldVer/$masterLProj/$fileName --incremental-file ./$filePath --localize-incremental --write ./$newVer/$folderName/$fileName ./$newVer/$masterLProj/$fileName
 							else
 								echo "necessary files are missing for xib transformation"
 							fi
 						else
 							# 如果是其他文件，既拷贝旧【翻译版本】，也拷贝新【Master版本】
-							echo "cp ./$filePath ./$newVer/$folderName/$fileNameNoExt.prev.$ext"
-							echo "cp ./$newVer/$masterLProj/$fileName ./$newVer/$folderName/$fileNameNoExt.now.$ext"
+							echo "copy  : $newVer/$folderName/$fileNameNoExt.prev.$ext"
+							cp ./$filePath ./$newVer/$folderName/$fileNameNoExt.prev.$ext
+							
+							echo "copy  : $newVer/$folderName/$fileNameNoExt.now.$ext"
+							cp ./$newVer/$masterLProj/$fileName ./$newVer/$folderName/$fileNameNoExt.now.$ext
 						fi
 					done
 				done
@@ -133,7 +141,8 @@ else
 						find $newVer -name *.lproj -and -not -name $masterLProj | while read folderPath
 						do
 							# 新出现的文件就拷贝
-							echo "cp -R ./$newFilePath ./$folderPath/$fileNameNoExt.newfish.$ext"
+							echo "copy  : $folderPath/$fileNameNoExt.newfish.$ext"
+							cp -R ./$newFilePath ./$folderPath/$fileNameNoExt.newfish.$ext
 						done
 					fi
 				done
