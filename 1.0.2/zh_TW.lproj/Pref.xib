@@ -1867,7 +1867,7 @@ CuS9huaYr+mAmuW4uOS4jeaOqOiWpumAmem6vOWBmuOAgg</string>
 						<object class="NSTextFieldCell" key="NSTitleCell">
 							<int key="NSCellFlags">67239424</int>
 							<int key="NSCellFlags2">0</int>
-							<string key="NSContents">文本編碼檢測</string>
+							<string key="NSContents">檔案編碼檢測</string>
 							<reference key="NSSupport" ref="26"/>
 							<reference key="NSBackgroundColor" ref="566051966"/>
 							<object class="NSColor" key="NSTextColor">
@@ -2423,7 +2423,7 @@ CuS9huaYr+mAmuW4uOS4jeaOqOiWpumAmem6vOWBmuOAgg</string>
 						<object class="NSButtonCell" key="NSCell" id="237718181">
 							<int key="NSCellFlags">-2080244224</int>
 							<int key="NSCellFlags2">0</int>
-							<string key="NSContents">使用 ffmpeg 處理流</string>
+							<string key="NSContents">使用 ffmpeg 編碼播放</string>
 							<reference key="NSSupport" ref="472449914"/>
 							<reference key="NSControlView" ref="925213523"/>
 							<int key="NSButtonFlags">1211912703</int>
@@ -2445,7 +2445,7 @@ CuS9huaYr+mAmuW4uOS4jeaOqOiWpumAmem6vOWBmuOAgg</string>
 						<object class="NSButtonCell" key="NSCell" id="820009925">
 							<int key="NSCellFlags">-2080244224</int>
 							<int key="NSCellFlags2">0</int>
-							<string key="NSContents">通過 HTTP 協議傳輸 RTSP 流</string>
+							<string key="NSContents">通過 HTTP 協議傳輸 RTSP 編碼播放</string>
 							<reference key="NSSupport" ref="472449914"/>
 							<reference key="NSControlView" ref="342192785"/>
 							<int key="NSButtonFlags">1211912703</int>
@@ -2522,7 +2522,7 @@ CuS9huaYr+mAmuW4uOS4jeaOqOiWpumAmem6vOWBmuOAgg</string>
 						<object class="NSTextFieldCell" key="NSCell" id="861227818">
 							<int key="NSCellFlags">68288064</int>
 							<int key="NSCellFlags2">272630784</int>
-							<string key="NSContents">流緩存大小：</string>
+							<string key="NSContents">緩存大小：</string>
 							<reference key="NSSupport" ref="472449914"/>
 							<reference key="NSControlView" ref="298127255"/>
 							<reference key="NSBackgroundColor" ref="592303529"/>

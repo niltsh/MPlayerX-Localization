@@ -1490,7 +1490,7 @@
 							<object class="NSTextFieldCell" key="NSCell" id="423930580">
 								<int key="NSCellFlags">67239424</int>
 								<int key="NSCellFlags2">4329472</int>
-								<string key="NSContents">⌘-好：使用 ffmpeg 處理流</string>
+								<string key="NSContents">⌘-確定：使用 ffmpeg 編碼播放</string>
 								<reference key="NSSupport" ref="26"/>
 								<reference key="NSControlView" ref="968896216"/>
 								<reference key="NSBackgroundColor" ref="129299394"/>

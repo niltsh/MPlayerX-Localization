@@ -163,7 +163,7 @@
 							<object class="NSButtonCell" key="NSCell" id="184295387">
 								<int key="NSCellFlags">67239424</int>
 								<int key="NSCellFlags2">134348800</int>
-								<string key="NSContents">好</string>
+								<string key="NSContents">確定</string>
 								<reference key="NSSupport" ref="26"/>
 								<reference key="NSControlView" ref="315092976"/>
 								<int key="NSButtonFlags">-2038284033</int>
