@@ -32,9 +32,10 @@ h2. BASIC WORKFLOW
 # Except [the project owner], It is PROHIBITED for contributors to modify any files in English.lproj.
 # Contributors could create any files or folders for their own localization.
 # Since the lproj folder has naming rules, if not known, please look into http://developer.apple.com/mac/library/documentation/MacOSX/Conceptual/BPInternational/Articles/LanguageDesignations.html
-# There are two sorts of files contributors could upload or update, .xib or .strings.
+# There are three sorts of files contributors could upload or update, .xib, .strings and .rtf.
 ** xib should be the raw, editable xib files. please DO NOT upload the compiled nib files.
 ** strings should be encoded by UTF-16.
+** please DO NOT use microsoft word or wordpad to modify the rtf, since it will mess up the file totally. I recommend TextEdit.app
 # When contributors is going to finish the localization, there are two ways to let [the project owner] know.
 ** email to [the project owner]
 ** write some commit messages in the final commit.(PLEASE use English, rather than you own language, in the final commit)
@@ -53,7 +54,7 @@ I recommend TextWrangler, DiffMerge.
 ## Use Interface Builder to open the file.
 ## In the MenuBar, hit @Tools->Strings@, there will pop up a window, which will list all the strings could be translated in the xib file.
 ## Double click the text area in that window, translate it, enter key.
-And I don't recommand to edit the text in the UI directly, since I may change the Font, AFAIK.
+*And I don't recommand to edit the text in the UI directly, since It may change the Font, AFAIK.*
 ## Adjust the layout,
 ## Save the file and quit Interface Builder,
 * For strings files
