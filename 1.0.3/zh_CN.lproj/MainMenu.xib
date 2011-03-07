@@ -2,16 +2,17 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="7.10">
 	<data>
 		<int key="IBDocument.SystemTarget">1060</int>
-		<string key="IBDocument.SystemVersion">10J567</string>
-		<string key="IBDocument.InterfaceBuilderVersion">823</string>
+		<string key="IBDocument.SystemVersion">10J860</string>
+		<string key="IBDocument.InterfaceBuilderVersion">851</string>
 		<string key="IBDocument.AppKitVersion">1038.35</string>
-		<string key="IBDocument.HIToolboxVersion">462.00</string>
+		<string key="IBDocument.HIToolboxVersion">461.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
-			<string key="NS.object.0">823</string>
+			<string key="NS.object.0">851</string>
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
+			<integer value="29"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -453,7 +454,7 @@
 								</object>
 								<object class="NSMenuItem" id="356932461">
 									<reference key="NSMenu" ref="912779322"/>
-									<string key="NSTitle">Mirror</string>
+									<string key="NSTitle">镜面</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -461,7 +462,7 @@
 								</object>
 								<object class="NSMenuItem" id="389315182">
 									<reference key="NSMenu" ref="912779322"/>
-									<string key="NSTitle">Flip</string>
+									<string key="NSTitle">翻转</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -479,7 +480,7 @@
 								</object>
 								<object class="NSMenuItem" id="733106672">
 									<reference key="NSMenu" ref="912779322"/>
-									<string key="NSTitle">Increase Window Size</string>
+									<string key="NSTitle">增加窗口大小</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -487,7 +488,7 @@
 								</object>
 								<object class="NSMenuItem" id="142053655">
 									<reference key="NSMenu" ref="912779322"/>
-									<string key="NSTitle">Decrease Window Size</string>
+									<string key="NSTitle">减小窗口大小</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -506,7 +507,7 @@
 								<object class="NSMenuItem" id="1003790884">
 									<reference key="NSMenu" ref="912779322"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">Increase Frame Size</string>
+									<string key="NSTitle">增加画面大小</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -517,7 +518,7 @@
 									<reference key="NSMenu" ref="912779322"/>
 									<bool key="NSIsDisabled">YES</bool>
 									<bool key="NSIsAlternate">YES</bool>
-									<string key="NSTitle">Increase Frame Size (minor)</string>
+									<string key="NSTitle">增加画面大小（微调）</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -527,7 +528,7 @@
 								<object class="NSMenuItem" id="15943074">
 									<reference key="NSMenu" ref="912779322"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">Decrease Frame Size</string>
+									<string key="NSTitle">减小画面大小</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -538,7 +539,7 @@
 									<reference key="NSMenu" ref="912779322"/>
 									<bool key="NSIsDisabled">YES</bool>
 									<bool key="NSIsAlternate">YES</bool>
-									<string key="NSTitle">Decrease Frame Size (minor)</string>
+									<string key="NSTitle">减小画面大小（微调）</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -547,7 +548,7 @@
 								</object>
 								<object class="NSMenuItem" id="570279377">
 									<reference key="NSMenu" ref="912779322"/>
-									<string key="NSTitle">Reset Frame Size</string>
+									<string key="NSTitle">重置画面大小</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -701,7 +702,7 @@
 								</object>
 								<object class="NSMenuItem" id="273671535">
 									<reference key="NSMenu" ref="891719963"/>
-									<string key="NSTitle">Play Next Episode</string>
+									<string key="NSTitle">播放下一章节</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -709,7 +710,7 @@
 								</object>
 								<object class="NSMenuItem" id="733720992">
 									<reference key="NSMenu" ref="891719963"/>
-									<string key="NSTitle">Play Previous Episode</string>
+									<string key="NSTitle">播放上一章节</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -908,14 +909,14 @@
 											<object class="NSButtonCell" key="NSCell" id="46490347">
 												<int key="NSCellFlags">67239424</int>
 												<int key="NSCellFlags2">134217728</int>
-												<string key="NSContents">prev-episode</string>
+												<string key="NSContents">上一章</string>
 												<object class="NSFont" key="NSSupport" id="723267852">
 													<string key="NSName">LucidaGrande</string>
 													<double key="NSSize">13</double>
 													<int key="NSfFlags">1044</int>
 												</object>
 												<reference key="NSControlView" ref="658583842"/>
-												<int key="NSButtonFlags">138690815</int>
+												<int key="NSButtonFlags">139215103</int>
 												<int key="NSButtonFlags2">194</int>
 												<object class="NSCustomResource" key="NSNormalImage">
 													<string key="NSClassName">NSImage</string>
@@ -937,10 +938,10 @@
 											<object class="NSButtonCell" key="NSCell" id="507628283">
 												<int key="NSCellFlags">67239424</int>
 												<int key="NSCellFlags2">134217728</int>
-												<string key="NSContents">next-episode</string>
+												<string key="NSContents">下一章</string>
 												<reference key="NSSupport" ref="723267852"/>
 												<reference key="NSControlView" ref="723958092"/>
-												<int key="NSButtonFlags">138690815</int>
+												<int key="NSButtonFlags">139215103</int>
 												<int key="NSButtonFlags2">194</int>
 												<object class="NSCustomResource" key="NSNormalImage">
 													<string key="NSClassName">NSImage</string>
@@ -4326,7 +4327,7 @@
 						<object class="IBToolTipAttribute" key="NS.object.0">
 							<string key="name">ToolTip</string>
 							<reference key="object" ref="233686659"/>
-							<string key="toolTip">In fullscreen mode, you could move the frame by alt + dragging, or alt + shift +dragging</string>
+							<string key="toolTip">在全屏模式中，您可以通过“alt+拖动”或者“alt+shift+拖动”来移动画面。</string>
 						</object>
 					</object>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -4357,7 +4358,7 @@
 						<object class="IBToolTipAttribute" key="NS.object.0">
 							<string key="name">ToolTip</string>
 							<reference key="object" ref="570279377"/>
-							<string key="toolTip">In fullscreen mode, you could also enlarge/shrink frame by alt + scroll or magnify on touchpad</string>
+							<string key="toolTip">在全屏模式中，您可以通过“alt+滚动”或者在触控板上缩放画面。</string>
 						</object>
 					</object>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -4407,11 +4408,11 @@
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{842, 760}, {194, 143}}</string>
+					<string>{{816, 561}, {162, 143}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{{525, 802}, {197, 73}}</string>
-					<string>{{482, 1075}, {442, 20}}</string>
+					<string>{{535, 704}, {385, 20}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{74, 862}</string>
@@ -4428,7 +4429,7 @@
 					<string>RootLayerView</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{878, 849}, {248, 53}}</string>
+					<string>{{862, 651}, {211, 53}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -4482,7 +4483,7 @@
 						</object>
 					</object>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{509, 699}, {197, 203}}</string>
+					<string>{{547, 501}, {184, 203}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{{23, 794}, {245, 183}}</string>
@@ -4524,7 +4525,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{808, 574}, {138, 133}}</string>
+					<string>{{678, 571}, {103, 133}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -4590,7 +4591,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{573, 597}, {244, 273}}</string>
+					<string>{{770, 431}, {192, 273}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -4599,7 +4600,7 @@
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{695, 593}, {192, 143}}</string>
+					<string>{{632, 561}, {163, 143}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{{145, 474}, {199, 203}}</string>
@@ -4642,7 +4643,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{665, 712}, {246, 363}}</string>
+					<string>{{724, 341}, {246, 363}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
