@@ -65,7 +65,7 @@
 								</object>
 								<object class="NSMenuItem" id="815510797">
 									<reference key="NSMenu" ref="110575045"/>
-									<string key="NSTitle">Жертвовать...</string>
+									<string key="NSTitle">Пожертвовать...</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
