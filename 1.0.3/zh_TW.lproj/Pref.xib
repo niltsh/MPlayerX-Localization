@@ -1068,7 +1068,7 @@
 						<object class="NSTextFieldCell" key="NSCell" id="826759971">
 							<int key="NSCellFlags">68288064</int>
 							<int key="NSCellFlags2">272630784</int>
-							<string key="NSContents">如何保存 “影像調節器” 中的設置？</string>
+							<string key="NSContents">如何保存 “影像調節器” 中的設定？</string>
 							<reference key="NSSupport" ref="472449914"/>
 							<reference key="NSControlView" ref="495317593"/>
 							<reference key="NSBackgroundColor" ref="592303529"/>
@@ -1445,7 +1445,7 @@
 						<object class="NSTextFieldCell" key="NSCell" id="368863349">
 							<int key="NSCellFlags">68288064</int>
 							<int key="NSCellFlags2">272630784</int>
-							<string key="NSContents">如何保存 “EQ等化器” 中的設置？</string>
+							<string key="NSContents">如何保存 “EQ等化器” 中的設定？</string>
 							<reference key="NSSupport" ref="472449914"/>
 							<reference key="NSControlView" ref="691778775"/>
 							<reference key="NSBackgroundColor" ref="592303529"/>
@@ -1461,7 +1461,7 @@
 						<object class="NSTextFieldCell" key="NSCell" id="238107217">
 							<int key="NSCellFlags">68288064</int>
 							<int key="NSCellFlags2">272761856</int>
-							<string key="NSContents">如果您使用內建 2 聲道揚聲器或聲音接口，請開啓此選項</string>
+							<string key="NSContents">如果您使用內建 2 聲道揚聲器或耳機，請開啓此選項</string>
 							<reference key="NSSupport" ref="26"/>
 							<reference key="NSControlView" ref="642343796"/>
 							<reference key="NSBackgroundColor" ref="592303529"/>
@@ -2327,7 +2327,7 @@ CuS9huaYr+mAmuW4uOS4jeaOqOiWpumAmem6vOWBmuOAgg</string>
 										<object class="NSTextFieldCell" key="NSCell" id="535032756">
 											<int key="NSCellFlags">68288064</int>
 											<int key="NSCellFlags2">71308352</int>
-											<string key="NSContents">Alignment:</string>
+											<string key="NSContents">字幕對齊:</string>
 											<reference key="NSSupport" ref="472449914"/>
 											<reference key="NSControlView" ref="186509643"/>
 											<reference key="NSBackgroundColor" ref="592303529"/>
@@ -2353,7 +2353,7 @@ CuS9huaYr+mAmuW4uOS4jeaOqOiWpumAmem6vOWBmuOAgg</string>
 											<int key="NSPeriodicInterval">75</int>
 											<object class="NSMenuItem" key="NSMenuItem" id="478480222">
 												<reference key="NSMenu" ref="75158206"/>
-												<string key="NSTitle">Default (use the value in sub file)</string>
+												<string key="NSTitle">預設 (使用字幕檔原本設定)</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSKeyEquivModMask">1048576</int>
 												<int key="NSMnemonicLoc">2147483647</int>
@@ -2371,7 +2371,7 @@ CuS9huaYr+mAmuW4uOS4jeaOqOiWpumAmem6vOWBmuOAgg</string>
 													<reference ref="478480222"/>
 													<object class="NSMenuItem" id="1053606448">
 														<reference key="NSMenu" ref="75158206"/>
-														<string key="NSTitle">Bottom - Left</string>
+														<string key="NSTitle">底部 - 左邊</string>
 														<string key="NSKeyEquiv"/>
 														<int key="NSKeyEquivModMask">1048576</int>
 														<int key="NSMnemonicLoc">2147483647</int>
@@ -2383,7 +2383,7 @@ CuS9huaYr+mAmuW4uOS4jeaOqOiWpumAmem6vOWBmuOAgg</string>
 													</object>
 													<object class="NSMenuItem" id="80142318">
 														<reference key="NSMenu" ref="75158206"/>
-														<string key="NSTitle">Bottom - Middle</string>
+														<string key="NSTitle">底部 - 置中</string>
 														<string key="NSKeyEquiv"/>
 														<int key="NSKeyEquivModMask">1048576</int>
 														<int key="NSMnemonicLoc">2147483647</int>
@@ -2395,7 +2395,7 @@ CuS9huaYr+mAmuW4uOS4jeaOqOiWpumAmem6vOWBmuOAgg</string>
 													</object>
 													<object class="NSMenuItem" id="600803155">
 														<reference key="NSMenu" ref="75158206"/>
-														<string key="NSTitle">Bottom - Right</string>
+														<string key="NSTitle">底部 - 右邊</string>
 														<string key="NSKeyEquiv"/>
 														<int key="NSMnemonicLoc">2147483647</int>
 														<reference key="NSOnImage" ref="321644239"/>
@@ -2406,7 +2406,7 @@ CuS9huaYr+mAmuW4uOS4jeaOqOiWpumAmem6vOWBmuOAgg</string>
 													</object>
 													<object class="NSMenuItem" id="906935378">
 														<reference key="NSMenu" ref="75158206"/>
-														<string key="NSTitle">Top - Left</string>
+														<string key="NSTitle">頂部 - 左邊</string>
 														<string key="NSKeyEquiv"/>
 														<int key="NSMnemonicLoc">2147483647</int>
 														<reference key="NSOnImage" ref="321644239"/>
@@ -2417,7 +2417,7 @@ CuS9huaYr+mAmuW4uOS4jeaOqOiWpumAmem6vOWBmuOAgg</string>
 													</object>
 													<object class="NSMenuItem" id="898206383">
 														<reference key="NSMenu" ref="75158206"/>
-														<string key="NSTitle">Top - Middle</string>
+														<string key="NSTitle">頂部 - 置中</string>
 														<string key="NSKeyEquiv"/>
 														<int key="NSMnemonicLoc">2147483647</int>
 														<reference key="NSOnImage" ref="321644239"/>
@@ -2428,7 +2428,7 @@ CuS9huaYr+mAmuW4uOS4jeaOqOiWpumAmem6vOWBmuOAgg</string>
 													</object>
 													<object class="NSMenuItem" id="211580964">
 														<reference key="NSMenu" ref="75158206"/>
-														<string key="NSTitle">Top - Right</string>
+														<string key="NSTitle">頂部 - 右邊</string>
 														<string key="NSKeyEquiv"/>
 														<int key="NSMnemonicLoc">2147483647</int>
 														<reference key="NSOnImage" ref="321644239"/>
