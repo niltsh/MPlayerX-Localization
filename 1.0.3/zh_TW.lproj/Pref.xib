@@ -42,7 +42,7 @@
 				<int key="NSWindowBacking">2</int>
 				<string key="NSWindowRect">{{196, 282}, {413, 228}}</string>
 				<int key="NSWTFlags">-528998400</int>
-				<string key="NSWindowTitle">預設</string>
+				<string key="NSWindowTitle">偏好設定</string>
 				<string key="NSWindowClass">NSWindow</string>
 				<object class="NSToolbar" key="NSViewClass" id="195730489">
 					<object class="NSMutableString" key="NSToolbarIdentifier">
@@ -191,7 +191,7 @@
 						<object class="NSButtonCell" key="NSCell" id="802626929">
 							<int key="NSCellFlags">-2080244224</int>
 							<int key="NSCellFlags2">0</int>
-							<string key="NSContents">自動查找並播放下一個檔案</string>
+							<string key="NSContents">自動搜尋並播放下一個檔案</string>
 							<reference key="NSSupport" ref="472449914"/>
 							<reference key="NSControlView" ref="303374544"/>
 							<int key="NSButtonFlags">1211912703</int>

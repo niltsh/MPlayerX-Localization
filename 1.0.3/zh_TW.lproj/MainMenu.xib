@@ -65,7 +65,7 @@
 								</object>
 								<object class="NSMenuItem" id="815510797">
 									<reference key="NSMenu" ref="110575045"/>
-									<string key="NSTitle">贊助我們...</string>
+									<string key="NSTitle">贊助本專案...</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -227,7 +227,7 @@
 											<bool key="EncodedWithXMLCoder">YES</bool>
 											<object class="NSMenuItem" id="759406840">
 												<reference key="NSMenu" ref="1065607017"/>
-												<string key="NSTitle">清除選單</string>
+												<string key="NSTitle">清除播放紀錄</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSKeyEquivModMask">1048576</int>
 												<int key="NSMnemonicLoc">2147483647</int>
@@ -453,7 +453,7 @@
 								</object>
 								<object class="NSMenuItem" id="356932461">
 									<reference key="NSMenu" ref="912779322"/>
-									<string key="NSTitle">鏡射</string>
+									<string key="NSTitle">畫面左右翻轉</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -461,7 +461,7 @@
 								</object>
 								<object class="NSMenuItem" id="389315182">
 									<reference key="NSMenu" ref="912779322"/>
-									<string key="NSTitle">翻轉</string>
+									<string key="NSTitle">畫面上下翻轉</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
