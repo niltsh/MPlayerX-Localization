@@ -901,7 +901,7 @@
 										<object class="NSButton" id="658583842">
 											<reference key="NSNextResponder" ref="482950071"/>
 											<int key="NSvFlags">269</int>
-											<string key="NSFrame">{{14, 0.5}, {24, 24}}</string>
+											<string key="NSFrame">{{14, 1}, {24, 24}}</string>
 											<reference key="NSSuperview" ref="482950071"/>
 											<int key="NSViewLayerContentsRedrawPolicy">2</int>
 											<bool key="NSEnabled">YES</bool>
@@ -930,7 +930,7 @@
 										<object class="NSButton" id="723958092">
 											<reference key="NSNextResponder" ref="482950071"/>
 											<int key="NSvFlags">269</int>
-											<string key="NSFrame">{{142, 0.5}, {24, 24}}</string>
+											<string key="NSFrame">{{142, 1}, {24, 24}}</string>
 											<reference key="NSSuperview" ref="482950071"/>
 											<int key="NSViewLayerContentsRedrawPolicy">2</int>
 											<bool key="NSEnabled">YES</bool>
@@ -2922,6 +2922,14 @@
 					</object>
 					<int key="connectionID">1055</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">menuZoom</string>
+						<reference key="source" ref="85098728"/>
+						<reference key="destination" ref="575023229"/>
+					</object>
+					<int key="connectionID">1056</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -4371,7 +4379,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{838, 1012}, {164, 23}}</string>
+					<string>{{821, 935}, {143, 23}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{{522, 812}, {146, 23}}</string>
@@ -4407,11 +4415,11 @@
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{842, 760}, {194, 143}}</string>
+					<string>{{792, 932}, {194, 143}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{{525, 802}, {197, 73}}</string>
-					<string>{{482, 1075}, {469, 20}}</string>
+					<string>{{482, 1075}, {442, 20}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{74, 862}</string>
@@ -4524,7 +4532,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{653, 942}, {187, 133}}</string>
+					<string>{{808, 574}, {138, 133}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -4590,7 +4598,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{745, 802}, {206, 273}}</string>
+					<string>{{573, 597}, {244, 273}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -4599,7 +4607,7 @@
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{579, 932}, {259, 143}}</string>
+					<string>{{695, 593}, {192, 143}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{{145, 474}, {199, 203}}</string>
@@ -4642,7 +4650,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{699, 712}, {206, 363}}</string>
+					<string>{{665, 712}, {246, 363}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -4671,7 +4679,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">1055</int>
+			<int key="maxID">1056</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -5133,6 +5141,7 @@
 							<string>menuToggleLockAspectRatio</string>
 							<string>menuVolDec</string>
 							<string>menuVolInc</string>
+							<string>menuZoom</string>
 							<string>osd</string>
 							<string>playPauseButton</string>
 							<string>playerController</string>
@@ -5155,6 +5164,7 @@
 							<string>NSButton</string>
 							<string>NSButton</string>
 							<string>NSTextField</string>
+							<string>NSMenuItem</string>
 							<string>NSMenuItem</string>
 							<string>NSMenuItem</string>
 							<string>NSMenuItem</string>
@@ -5238,6 +5248,7 @@
 							<string>menuToggleLockAspectRatio</string>
 							<string>menuVolDec</string>
 							<string>menuVolInc</string>
+							<string>menuZoom</string>
 							<string>osd</string>
 							<string>playPauseButton</string>
 							<string>playerController</string>
@@ -5392,6 +5403,10 @@
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">menuVolInc</string>
+								<string key="candidateClassName">NSMenuItem</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">menuZoom</string>
 								<string key="candidateClassName">NSMenuItem</string>
 							</object>
 							<object class="IBToOneOutletInfo">
