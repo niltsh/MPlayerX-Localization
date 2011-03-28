@@ -325,8 +325,8 @@
 													<bool key="NS.raise.underflow">YES</bool>
 													<bool key="NS.raise.dividebyzero">YES</bool>
 												</object>
-												<string key="NS.decimal">.</string>
-												<string key="NS.thousand">,</string>
+												<string key="NS.decimal">,</string>
+												<string type="base64-UTF8" key="NS.thousand">wqA</string>
 												<bool key="NS.hasthousands">NO</bool>
 												<bool key="NS.localized">YES</bool>
 												<bool key="NS.allowsfloats">YES</bool>
@@ -736,8 +736,8 @@
 													<bool key="NS.raise.underflow">YES</bool>
 													<bool key="NS.raise.dividebyzero">YES</bool>
 												</object>
-												<string key="NS.decimal">.</string>
-												<string key="NS.thousand">,</string>
+												<string key="NS.decimal">,</string>
+												<string type="base64-UTF8" key="NS.thousand">wqA</string>
 												<bool key="NS.hasthousands">NO</bool>
 												<bool key="NS.localized">YES</bool>
 												<bool key="NS.allowsfloats">YES</bool>
@@ -1001,7 +1001,7 @@
 							<int key="NSPeriodicInterval">75</int>
 							<object class="NSMenuItem" key="NSMenuItem" id="1050559466">
 								<reference key="NSMenu" ref="261642187"/>
-								<string key="NSTitle">Never reset, save it as my preferences</string>
+								<string key="NSTitle">Всегда сохранять, никогда не сбрасывать</string>
 								<string key="NSKeyEquiv"/>
 								<int key="NSMnemonicLoc">2147483647</int>
 								<int key="NSState">1</int>
@@ -1017,7 +1017,7 @@
 									<bool key="EncodedWithXMLCoder">YES</bool>
 									<object class="NSMenuItem" id="694133520">
 										<reference key="NSMenu" ref="261642187"/>
-										<string key="NSTitle">Do not keep, always reset the settings when the playback stops</string>
+										<string key="NSTitle">Не сохранять, всегда сбрасывать настройки при остановке воспроизведения</string>
 										<string key="NSKeyEquiv"/>
 										<int key="NSKeyEquivModMask">1048576</int>
 										<int key="NSMnemonicLoc">2147483647</int>
@@ -1028,7 +1028,7 @@
 									</object>
 									<object class="NSMenuItem" id="494590809">
 										<reference key="NSMenu" ref="261642187"/>
-										<string key="NSTitle">Reset the settings when there is no next one to play</string>
+										<string key="NSTitle">Сбрасывать настройки, когда все файлы воспроизведутся</string>
 										<string key="NSKeyEquiv"/>
 										<int key="NSKeyEquivModMask">1048576</int>
 										<int key="NSMnemonicLoc">2147483647</int>
@@ -1039,7 +1039,7 @@
 									</object>
 									<object class="NSMenuItem" id="1030837932">
 										<reference key="NSMenu" ref="261642187"/>
-										<string key="NSTitle">Reset the settings when the application quits</string>
+										<string key="NSTitle">Сбрасывать настройки при выходе из программы</string>
 										<string key="NSKeyEquiv"/>
 										<int key="NSKeyEquivModMask">1048576</int>
 										<int key="NSMnemonicLoc">2147483647</int>
@@ -1062,13 +1062,13 @@
 					<object class="NSTextField" id="495317593">
 						<reference key="NSNextResponder" ref="668958637"/>
 						<int key="NSvFlags">268</int>
-						<string key="NSFrame">{{17, 48}, {302, 17}}</string>
+						<string key="NSFrame">{{17, 48}, {546, 17}}</string>
 						<reference key="NSSuperview" ref="668958637"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSTextFieldCell" key="NSCell" id="826759971">
 							<int key="NSCellFlags">68288064</int>
 							<int key="NSCellFlags2">272630784</int>
-							<string key="NSContents">How to keep the settings in the "Video Tuner" ?</string>
+							<string key="NSContents">Каким образом хранить настройки видео?</string>
 							<reference key="NSSupport" ref="472449914"/>
 							<reference key="NSControlView" ref="495317593"/>
 							<reference key="NSBackgroundColor" ref="592303529"/>
@@ -1379,7 +1379,7 @@
 							<int key="NSPeriodicInterval">75</int>
 							<object class="NSMenuItem" key="NSMenuItem" id="807924885">
 								<reference key="NSMenu" ref="235534925"/>
-								<string key="NSTitle">Do not keep, always reset the settings when the playback stops</string>
+								<string key="NSTitle">Не сохранять, всегда сбрасывать настройки при остановке воспроизведения</string>
 								<string key="NSKeyEquiv"/>
 								<int key="NSKeyEquivModMask">1048576</int>
 								<int key="NSMnemonicLoc">2147483647</int>
@@ -1397,7 +1397,7 @@
 									<reference ref="807924885"/>
 									<object class="NSMenuItem" id="61558764">
 										<reference key="NSMenu" ref="235534925"/>
-										<string key="NSTitle">Reset the settings when there is no next one to play</string>
+										<string key="NSTitle">Сбрасывать настройки, когда все файлы воспроизведутся</string>
 										<string key="NSKeyEquiv"/>
 										<int key="NSKeyEquivModMask">1048576</int>
 										<int key="NSMnemonicLoc">2147483647</int>
@@ -1408,7 +1408,7 @@
 									</object>
 									<object class="NSMenuItem" id="726019069">
 										<reference key="NSMenu" ref="235534925"/>
-										<string key="NSTitle">Reset the settings when the application quits</string>
+										<string key="NSTitle">Сбрасывать настройки при выходе из программы</string>
 										<string key="NSKeyEquiv"/>
 										<int key="NSKeyEquivModMask">1048576</int>
 										<int key="NSMnemonicLoc">2147483647</int>
@@ -1419,7 +1419,7 @@
 									</object>
 									<object class="NSMenuItem" id="31778442">
 										<reference key="NSMenu" ref="235534925"/>
-										<string key="NSTitle">Never reset, save it as my preferences</string>
+										<string key="NSTitle">Всегда сохранять, никогда не сбрасывать</string>
 										<string key="NSKeyEquiv"/>
 										<int key="NSMnemonicLoc">2147483647</int>
 										<reference key="NSOnImage" ref="321644239"/>
@@ -1445,7 +1445,7 @@
 						<object class="NSTextFieldCell" key="NSCell" id="368863349">
 							<int key="NSCellFlags">68288064</int>
 							<int key="NSCellFlags2">272630784</int>
-							<string key="NSContents">How to keep the settings in the "Equalizer" ?</string>
+							<string key="NSContents">Каким образом хранить настройки аудио?</string>
 							<reference key="NSSupport" ref="472449914"/>
 							<reference key="NSControlView" ref="691778775"/>
 							<reference key="NSBackgroundColor" ref="592303529"/>
@@ -1932,7 +1932,7 @@
 										<object class="NSTextFieldCell" key="NSCell" id="1012710697">
 											<int key="NSCellFlags">68288064</int>
 											<int key="NSCellFlags2">71304192</int>
-											<string key="NSContents">высота:</string>
+											<string key="NSContents">Высота:</string>
 											<reference key="NSSupport" ref="472449914"/>
 											<reference key="NSControlView" ref="177782240"/>
 											<reference key="NSBackgroundColor" ref="592303529"/>
@@ -1942,7 +1942,7 @@
 									<object class="NSTextField" id="706080986">
 										<reference key="NSNextResponder" ref="613799215"/>
 										<int key="NSvFlags">268</int>
-										<string key="NSFrame">{{294, 14}, {47, 19}}</string>
+										<string key="NSFrame">{{308, 14}, {47, 19}}</string>
 										<reference key="NSSuperview" ref="613799215"/>
 										<bool key="NSEnabled">YES</bool>
 										<object class="NSTextFieldCell" key="NSCell" id="785939094">
@@ -2215,8 +2215,8 @@
 													<bool key="NS.raise.underflow">YES</bool>
 													<bool key="NS.raise.dividebyzero">YES</bool>
 												</object>
-												<string key="NS.decimal">.</string>
-												<string key="NS.thousand">,</string>
+												<string key="NS.decimal">,</string>
+												<string type="base64-UTF8" key="NS.thousand">wqA</string>
 												<bool key="NS.hasthousands">NO</bool>
 												<bool key="NS.localized">YES</bool>
 												<bool key="NS.allowsfloats">YES</bool>
@@ -2326,7 +2326,7 @@
 										<object class="NSTextFieldCell" key="NSCell" id="535032756">
 											<int key="NSCellFlags">68288064</int>
 											<int key="NSCellFlags2">71308352</int>
-											<string key="NSContents">Alignment:</string>
+											<string key="NSContents">Равнение:</string>
 											<reference key="NSSupport" ref="472449914"/>
 											<reference key="NSControlView" ref="186509643"/>
 											<reference key="NSBackgroundColor" ref="592303529"/>
@@ -2352,7 +2352,7 @@
 											<int key="NSPeriodicInterval">75</int>
 											<object class="NSMenuItem" key="NSMenuItem" id="478480222">
 												<reference key="NSMenu" ref="75158206"/>
-												<string key="NSTitle">Default (use the value in sub file)</string>
+												<string key="NSTitle">По умолчанию (как указано в файле субтитров)</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSKeyEquivModMask">1048576</int>
 												<int key="NSMnemonicLoc">2147483647</int>
@@ -2370,7 +2370,7 @@
 													<reference ref="478480222"/>
 													<object class="NSMenuItem" id="1053606448">
 														<reference key="NSMenu" ref="75158206"/>
-														<string key="NSTitle">Bottom - Left</string>
+														<string key="NSTitle">Снизу слева</string>
 														<string key="NSKeyEquiv"/>
 														<int key="NSKeyEquivModMask">1048576</int>
 														<int key="NSMnemonicLoc">2147483647</int>
@@ -2382,7 +2382,7 @@
 													</object>
 													<object class="NSMenuItem" id="80142318">
 														<reference key="NSMenu" ref="75158206"/>
-														<string key="NSTitle">Bottom - Middle</string>
+														<string key="NSTitle">Снизу посередине</string>
 														<string key="NSKeyEquiv"/>
 														<int key="NSKeyEquivModMask">1048576</int>
 														<int key="NSMnemonicLoc">2147483647</int>
@@ -2394,7 +2394,7 @@
 													</object>
 													<object class="NSMenuItem" id="600803155">
 														<reference key="NSMenu" ref="75158206"/>
-														<string key="NSTitle">Bottom - Right</string>
+														<string key="NSTitle">Снизу справа</string>
 														<string key="NSKeyEquiv"/>
 														<int key="NSMnemonicLoc">2147483647</int>
 														<reference key="NSOnImage" ref="321644239"/>
@@ -2405,7 +2405,7 @@
 													</object>
 													<object class="NSMenuItem" id="906935378">
 														<reference key="NSMenu" ref="75158206"/>
-														<string key="NSTitle">Top - Left</string>
+														<string key="NSTitle">Сверху слева</string>
 														<string key="NSKeyEquiv"/>
 														<int key="NSMnemonicLoc">2147483647</int>
 														<reference key="NSOnImage" ref="321644239"/>
@@ -2416,7 +2416,7 @@
 													</object>
 													<object class="NSMenuItem" id="898206383">
 														<reference key="NSMenu" ref="75158206"/>
-														<string key="NSTitle">Top - Middle</string>
+														<string key="NSTitle">Сверху посередине</string>
 														<string key="NSKeyEquiv"/>
 														<int key="NSMnemonicLoc">2147483647</int>
 														<reference key="NSOnImage" ref="321644239"/>
@@ -2427,7 +2427,7 @@
 													</object>
 													<object class="NSMenuItem" id="211580964">
 														<reference key="NSMenu" ref="75158206"/>
-														<string key="NSTitle">Top - Right</string>
+														<string key="NSTitle">Сверху справа</string>
 														<string key="NSKeyEquiv"/>
 														<int key="NSMnemonicLoc">2147483647</int>
 														<reference key="NSOnImage" ref="321644239"/>
