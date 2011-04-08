@@ -205,7 +205,7 @@
 								</object>
 								<object class="NSMenuItem" id="45875320">
 									<reference key="NSMenu" ref="720053764"/>
-									<string key="NSTitle">Open VIDEO_TS...</string>
+									<string key="NSTitle">VIDEO_TSを開く...</string>
 									<string key="NSKeyEquiv">d</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
