@@ -48,8 +48,8 @@ else
 								find $oldVer -name *.lproj -and -not -name $masterLProj | while read folderPath
 								do
 									# 寻找旧文件夹里面所有的【翻译版本】
-									echo "update: $folderPath/$fileNameNoExt.updated.$ext"
-									ibtool --previous-file ./$oldVer/$masterLProj/$fileName --incremental-file ./$folderPath/$fileName --localize-incremental --write ./$folderPath/$fileNameNoExt.updated.$ext $filePath
+									echo "update: $folderPath/$fileNameNoExt.$ext"
+									ibtool --previous-file ./$oldVer/$masterLProj/$fileName --incremental-file ./$folderPath/$fileName --localize-incremental --write ./$folderPath/$fileNameNoExt.$ext $filePath
 								done
 							else
 								# 如果是普通文件的话，直接拷贝
