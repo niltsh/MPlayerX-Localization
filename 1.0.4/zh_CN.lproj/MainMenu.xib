@@ -205,7 +205,7 @@
 								</object>
 								<object class="NSMenuItem" id="45875320">
 									<reference key="NSMenu" ref="720053764"/>
-									<string key="NSTitle">Open VIDEO_TS...</string>
+									<string key="NSTitle">打开 VIDEO_TS文件夹...</string>
 									<string key="NSKeyEquiv">d</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -390,7 +390,7 @@
 								<object class="NSMenuItem" id="824383306">
 									<reference key="NSMenu" ref="912779322"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">Back To Original Size</string>
+									<string key="NSTitle">恢复画面原始尺寸</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -646,7 +646,7 @@
 								<object class="NSMenuItem" id="283755832">
 									<reference key="NSMenu" ref="891719963"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">Increase Speed</string>
+									<string key="NSTitle">加快播放速度</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -656,7 +656,7 @@
 								<object class="NSMenuItem" id="748140116">
 									<reference key="NSMenu" ref="891719963"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">Decrease Speed</string>
+									<string key="NSTitle">减慢播放速度</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -665,7 +665,7 @@
 								</object>
 								<object class="NSMenuItem" id="1050872344">
 									<reference key="NSMenu" ref="891719963"/>
-									<string key="NSTitle">Reset To Normal Speed</string>
+									<string key="NSTitle">恢复默认播放速度</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -711,7 +711,7 @@
 								<object class="NSMenuItem" id="203791877">
 									<reference key="NSMenu" ref="891719963"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">Increase Audio Delay</string>
+									<string key="NSTitle">增加音频延时</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -721,7 +721,7 @@
 								<object class="NSMenuItem" id="729397308">
 									<reference key="NSMenu" ref="891719963"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">Decrease Audio Delay</string>
+									<string key="NSTitle">减少音频延时</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -730,7 +730,7 @@
 								</object>
 								<object class="NSMenuItem" id="220491596">
 									<reference key="NSMenu" ref="891719963"/>
-									<string key="NSTitle">Reset Audio Delay</string>
+									<string key="NSTitle">重置音频延时</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -776,7 +776,7 @@
 								<object class="NSMenuItem" id="523962749">
 									<reference key="NSMenu" ref="891719963"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">Increase Subtitle Delay</string>
+									<string key="NSTitle">增加字幕延时</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -786,7 +786,7 @@
 								<object class="NSMenuItem" id="698940786">
 									<reference key="NSMenu" ref="891719963"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">Decrease Subtitle Delay</string>
+									<string key="NSTitle">减少字幕延时</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -795,7 +795,7 @@
 								</object>
 								<object class="NSMenuItem" id="851150020">
 									<reference key="NSMenu" ref="891719963"/>
-									<string key="NSTitle">Reset Subtitle Delay</string>
+									<string key="NSTitle">重置字幕延时</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -4846,7 +4846,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{{525, 802}, {197, 73}}</string>
-					<string>{{529, 1000}, {442, 20}}</string>
+					<string>{{529, 1000}, {385, 20}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{74, 862}</string>
@@ -5034,7 +5034,7 @@
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{626, 837}, {211, 163}}</string>
+					<string>{{626, 837}, {245, 163}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{{145, 474}, {199, 203}}</string>
