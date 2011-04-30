@@ -3,15 +3,16 @@
 	<data>
 		<int key="IBDocument.SystemTarget">1060</int>
 		<string key="IBDocument.SystemVersion">10J869</string>
-		<string key="IBDocument.InterfaceBuilderVersion">823</string>
+		<string key="IBDocument.InterfaceBuilderVersion">851</string>
 		<string key="IBDocument.AppKitVersion">1038.35</string>
 		<string key="IBDocument.HIToolboxVersion">461.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
-			<string key="NS.object.0">823</string>
+			<string key="NS.object.0">851</string>
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
+			<integer value="420"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -325,8 +326,8 @@
 													<bool key="NS.raise.underflow">YES</bool>
 													<bool key="NS.raise.dividebyzero">YES</bool>
 												</object>
-												<string key="NS.decimal">.</string>
-												<string key="NS.thousand">,</string>
+												<string key="NS.decimal">,</string>
+												<string type="base64-UTF8" key="NS.thousand">wqA</string>
 												<bool key="NS.hasthousands">NO</bool>
 												<bool key="NS.localized">YES</bool>
 												<bool key="NS.allowsfloats">YES</bool>
@@ -736,8 +737,8 @@
 													<bool key="NS.raise.underflow">YES</bool>
 													<bool key="NS.raise.dividebyzero">YES</bool>
 												</object>
-												<string key="NS.decimal">.</string>
-												<string key="NS.thousand">,</string>
+												<string key="NS.decimal">,</string>
+												<string type="base64-UTF8" key="NS.thousand">wqA</string>
 												<bool key="NS.hasthousands">NO</bool>
 												<bool key="NS.localized">YES</bool>
 												<bool key="NS.allowsfloats">YES</bool>
@@ -1609,7 +1610,7 @@
 						<object class="NSButtonCell" key="NSCell" id="159354095">
 							<int key="NSCellFlags">-2080244224</int>
 							<int key="NSCellFlags2">0</int>
-							<string key="NSContents">Load but don't display subtitle when playback starts</string>
+							<string key="NSContents">При воспроизведении, загружать шрифты, но не отображать</string>
 							<reference key="NSSupport" ref="472449914"/>
 							<reference key="NSControlView" ref="807484289"/>
 							<int key="NSButtonFlags">1211912703</int>
@@ -1847,7 +1848,7 @@
 						<object class="NSTextFieldCell" key="NSTitleCell">
 							<int key="NSCellFlags">67239424</int>
 							<int key="NSCellFlags2">0</int>
-							<string key="NSContents">Text Encoding Detection</string>
+							<string key="NSContents">Определение кодировок</string>
 							<reference key="NSSupport" ref="26"/>
 							<reference key="NSBackgroundColor" ref="566051966"/>
 							<object class="NSColor" key="NSTextColor">
@@ -2055,7 +2056,7 @@
 										<object class="NSTextFieldCell" key="NSCell" id="865090287">
 											<int key="NSCellFlags">68288064</int>
 											<int key="NSCellFlags2">272630784</int>
-											<string key="NSContents">of movie's height</string>
+											<string key="NSContents">от высоты видео</string>
 											<reference key="NSSupport" ref="472449914"/>
 											<reference key="NSControlView" ref="275212377"/>
 											<reference key="NSBackgroundColor" ref="592303529"/>
@@ -2065,14 +2066,15 @@
 									<object class="NSButton" id="176188564">
 										<reference key="NSNextResponder" ref="613799215"/>
 										<int key="NSvFlags">268</int>
-										<string key="NSFrame">{{16, 76}, {492, 34}}</string>
+										<string key="NSFrame">{{24, 70}, {599, 48}}</string>
 										<reference key="NSSuperview" ref="613799215"/>
 										<bool key="NSEnabled">YES</bool>
 										<object class="NSButtonCell" key="NSCell" id="62190704">
 											<int key="NSCellFlags">-2080244224</int>
 											<int key="NSCellFlags2">0</int>
-											<string type="base64-UTF8" key="NSContents">V2hlbiBlbnRlcmluZyBpbnRvIGZ1bGwgc2NyZWVuIG1vZGUsIAphZGp1c3QgdGhlIGxldHRlcmJveCdz
-IGhlaWdodCB0byBmaXQgdG8gdGhlIHNjcmVlbidzIGhlaWdodA</string>
+											<string type="base64-UTF8" key="NSContents">0J/RgNC4INCy0YXQvtC00LUg0LIg0L/QvtC70L3QvtGN0LrRgNCw0L3QvdGL0Lkg0YDQtdC20LjQvCwg
+0L/QvtC00LPQvtC90Y/RgtGMINCy0YvRgdC+0YLRgyBMZXR0ZXJib3gg0L/QvtC0CtCy0YvRgdC+0YLR
+gyDRjdC60YDQsNC90LAuA</string>
 											<reference key="NSSupport" ref="472449914"/>
 											<reference key="NSControlView" ref="176188564"/>
 											<int key="NSButtonFlags">1211912703</int>
@@ -2094,11 +2096,7 @@ IGhlaWdodCB0byBmaXQgdG8gdGhlIHNjcmVlbidzIGhlaWdodA</string>
 										<object class="NSTextFieldCell" key="NSCell" id="731629251">
 											<int key="NSCellFlags">67239424</int>
 											<int key="NSCellFlags2">272764928</int>
-											<string type="base64-UTF8" key="NSContents">V2l0aCB0aGlzIG9wdGlvbiBPTiwgTVBsYXllclggd2lsbCBtYWtlIHN1YnRpdGxlIG5vdCB0byBvdmVy
-bGF5IHRoZSBmcmFtZSBhcyBtdWNoIGFzIGl0IGNvdWxkLgpIb3dldmVyLCB0aGlzIG9wdGlvbiB3aWxs
-IGVubGFyZ2UgdGhlIHJlbmRlcmluZyBmcmFtZSB0byB0aGUgc2NyZWVuIHNpemUsIHNvbWV0aW1lcywg
-ZXNwY2lhbGx5IGZvciBzb21lIEhEIGNvbnRlbnQsIGxhZ2dpbmcgbWF5IGJlIGJyb3VnaHQgdG8gdGhl
-IHBsYXliYWNrLg</string>
+											<string key="NSContents">При включении этой опции, MPlayerX постарается не накладывать субтитры поверх видео насколько это возможно. Тем не менее, это увеличит размер кадра до размеров экрана, что может привести к некоторым проблем с производительностью во время воспроизведения, особенно HD-контента.</string>
 											<reference key="NSSupport" ref="26"/>
 											<reference key="NSControlView" ref="257674765"/>
 											<reference key="NSBackgroundColor" ref="592303529"/>
@@ -2214,7 +2212,7 @@ IHBsYXliYWNrLg</string>
 									<object class="NSTextField" id="1010816139">
 										<reference key="NSNextResponder" ref="816859717"/>
 										<int key="NSvFlags">268</int>
-										<string key="NSFrame">{{11, 52}, {54, 17}}</string>
+										<string key="NSFrame">{{13, 52}, {54, 17}}</string>
 										<reference key="NSSuperview" ref="816859717"/>
 										<bool key="NSEnabled">YES</bool>
 										<object class="NSTextFieldCell" key="NSCell" id="304157939">
@@ -2287,8 +2285,8 @@ IHBsYXliYWNrLg</string>
 													<bool key="NS.raise.underflow">YES</bool>
 													<bool key="NS.raise.dividebyzero">YES</bool>
 												</object>
-												<string key="NS.decimal">.</string>
-												<string key="NS.thousand">,</string>
+												<string key="NS.decimal">,</string>
+												<string type="base64-UTF8" key="NS.thousand">wqA</string>
 												<bool key="NS.hasthousands">NO</bool>
 												<bool key="NS.localized">YES</bool>
 												<bool key="NS.allowsfloats">YES</bool>
@@ -2392,7 +2390,7 @@ IHBsYXliYWNrLg</string>
 									<object class="NSTextField" id="186509643">
 										<reference key="NSNextResponder" ref="816859717"/>
 										<int key="NSvFlags">268</int>
-										<string key="NSFrame">{{11, 15}, {74, 17}}</string>
+										<string key="NSFrame">{{7, 15}, {74, 17}}</string>
 										<reference key="NSSuperview" ref="816859717"/>
 										<bool key="NSEnabled">YES</bool>
 										<object class="NSTextFieldCell" key="NSCell" id="535032756">
@@ -2520,13 +2518,13 @@ IHBsYXliYWNrLg</string>
 									<object class="NSTextField" id="310716074">
 										<reference key="NSNextResponder" ref="816859717"/>
 										<int key="NSvFlags">268</int>
-										<string key="NSFrame">{{11, 120}, {47, 17}}</string>
+										<string key="NSFrame">{{14, 120}, {54, 17}}</string>
 										<reference key="NSSuperview" ref="816859717"/>
 										<bool key="NSEnabled">YES</bool>
 										<object class="NSTextFieldCell" key="NSCell" id="21590266">
 											<int key="NSCellFlags">68288064</int>
 											<int key="NSCellFlags2">4199424</int>
-											<string key="NSContents">Font:</string>
+											<string key="NSContents">Шрифт:</string>
 											<reference key="NSSupport" ref="472449914"/>
 											<reference key="NSControlView" ref="310716074"/>
 											<reference key="NSBackgroundColor" ref="592303529"/>
@@ -2536,7 +2534,7 @@ IHBsYXliYWNrLg</string>
 									<object class="NSPopUpButton" id="119789155">
 										<reference key="NSNextResponder" ref="816859717"/>
 										<int key="NSvFlags">268</int>
-										<string key="NSFrame">{{60, 114}, {291, 26}}</string>
+										<string key="NSFrame">{{67, 114}, {291, 26}}</string>
 										<reference key="NSSuperview" ref="816859717"/>
 										<bool key="NSEnabled">YES</bool>
 										<object class="NSPopUpButtonCell" key="NSCell" id="472015576">
@@ -2579,8 +2577,11 @@ IHBsYXliYWNrLg</string>
 										<object class="NSTextFieldCell" key="NSCell" id="473809054">
 											<int key="NSCellFlags">67239424</int>
 											<int key="NSCellFlags2">4329472</int>
-											<string type="base64-UTF8" key="NSContents">Rm9udCBmYWxsYmFjayBpcyBub3Qgc3VwcG9ydGVkIHlldC4KU28gdGhpcyBvcHRpb24gbWF5IHJpc2sg
-bW9ub2xpbmd1YWwgc3VwcG9ydC4</string>
+											<string type="base64-UTF8" key="NSContents">0JjRgdC/0L7Qu9GM0LfQvtCy0LDQvdC40LUg0YDQtdC30LXRgNCy0L3Ri9GFINGI0YDQuNGE0YLQvtCy
+IChmb250IGZhbGxiYWNrKSDQstGA0LXQvNC10L3QvdC+INC90LUg0L/QvtC00LTQtdGA0LbQuNCy0LDQ
+tdGC0YHRjy4K0JLQutC70Y7Rh9C10L3QuNC1INGN0YLQvtC5INC+0L/RhtC40Lgg0LzQvtC20LXRgiDQ
+v9C+0LLQu9C40Y/RgtGMINC90LAg0YDQsNCx0L7RgtGDINGB0YPQsdGC0LjRgtGA0L7QsiDQsiDQvtC0
+0L3QvtGP0LfRi9GH0L3QvtC8INGA0LXQttC40LzQtS4</string>
 											<reference key="NSSupport" ref="26"/>
 											<reference key="NSControlView" ref="675898443"/>
 											<reference key="NSBackgroundColor" ref="592303529"/>
@@ -2768,20 +2769,20 @@ bW9ub2xpbmd1YWwgc3VwcG9ydC4</string>
 				<string key="NSClassName">NSView</string>
 			</object>
 			<object class="NSCustomView" id="615974115">
-				<nil key="NSNextResponder"/>
+				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">274</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<object class="NSButton" id="403144561">
 						<reference key="NSNextResponder" ref="615974115"/>
 						<int key="NSvFlags">268</int>
-						<string key="NSFrame">{{18, 18}, {454, 18}}</string>
+						<string key="NSFrame">{{18, 18}, {534, 18}}</string>
 						<reference key="NSSuperview" ref="615974115"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSButtonCell" key="NSCell" id="219962974">
 							<int key="NSCellFlags">-2080244224</int>
 							<int key="NSCellFlags2">0</int>
-							<string key="NSContents">Disable vertical mouse scrolling to change volume</string>
+							<string key="NSContents">Отключить настройку громкости вертикальной прокруткой колесиком мышки</string>
 							<reference key="NSSupport" ref="472449914"/>
 							<reference key="NSControlView" ref="403144561"/>
 							<int key="NSButtonFlags">1211912703</int>
@@ -2797,13 +2798,13 @@ bW9ub2xpbmd1YWwgc3VwcG9ydC4</string>
 					<object class="NSButton" id="669776367">
 						<reference key="NSNextResponder" ref="615974115"/>
 						<int key="NSvFlags">268</int>
-						<string key="NSFrame">{{18, 46}, {454, 18}}</string>
+						<string key="NSFrame">{{18, 46}, {511, 18}}</string>
 						<reference key="NSSuperview" ref="615974115"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSButtonCell" key="NSCell" id="1004711901">
 							<int key="NSCellFlags">-2080244224</int>
 							<int key="NSCellFlags2">0</int>
-							<string key="NSContents">Disable horizontal mouse scrolling to seek</string>
+							<string key="NSContents">Отключить поиск по видео горизонтальной прокруткой колесиком мышки</string>
 							<reference key="NSSupport" ref="472449914"/>
 							<reference key="NSControlView" ref="669776367"/>
 							<int key="NSButtonFlags">1211912703</int>
@@ -2876,6 +2877,7 @@ stC10YDQtdC90Ysg0LIg0YHQstC+0LjRhSDQtNC10LnRgdGC0LLQuNGP0YUsINC+0YHRgtCw0LLRjNGC
 					</object>
 				</object>
 				<string key="NSFrameSize">{560, 165}</string>
+				<reference key="NSSuperview"/>
 				<string key="NSClassName">NSView</string>
 			</object>
 			<object class="NSUserDefaultsController" id="659034198">
@@ -5069,8 +5071,8 @@ stC10YDQtdC90Ysg0LIg0YHQstC+0LjRhSDQtNC10LnRgdGC0LLQuNGP0YUsINC+0YHRgtCw0LLRjNGC
 							<reference ref="177782240"/>
 							<reference ref="706080986"/>
 							<reference ref="275212377"/>
-							<reference ref="176188564"/>
 							<reference ref="257674765"/>
+							<reference ref="176188564"/>
 						</object>
 						<reference key="parent" ref="403688566"/>
 					</object>
@@ -6316,7 +6318,7 @@ stC10YDQtdC90Ysg0LIg0YHQstC+0LjRhSDQtNC10LnRgdGC0LLQuNGP0YUsINC+0YHRgtCw0LLRjNGC
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{700, 488}, {560, 604}}</string>
+					<string>{{399, 464}, {560, 604}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<object class="NSMutableDictionary">
 						<string key="NS.key.0">ToolTip</string>
@@ -6553,7 +6555,7 @@ YWxsIGxpbmVzIHdpdGggYSAoLTEgMiA2IDIgLTEpIGZpbHRlci4</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<object class="NSAffineTransform">
-						<bytes key="NSTransformStruct">P4AAAL+AAABBgAAAwdgAAA</bytes>
+						<bytes key="NSTransformStruct">P4AAAL+AAABDNgAAwtgAAA</bytes>
 					</object>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>

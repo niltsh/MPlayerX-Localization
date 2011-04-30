@@ -3,15 +3,16 @@
 	<data>
 		<int key="IBDocument.SystemTarget">1060</int>
 		<string key="IBDocument.SystemVersion">10J869</string>
-		<string key="IBDocument.InterfaceBuilderVersion">823</string>
+		<string key="IBDocument.InterfaceBuilderVersion">851</string>
 		<string key="IBDocument.AppKitVersion">1038.35</string>
 		<string key="IBDocument.HIToolboxVersion">461.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
-			<string key="NS.object.0">823</string>
+			<string key="NS.object.0">851</string>
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
+			<integer value="29"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -205,7 +206,7 @@
 								</object>
 								<object class="NSMenuItem" id="45875320">
 									<reference key="NSMenu" ref="720053764"/>
-									<string key="NSTitle">Open VIDEO_TS...</string>
+									<string key="NSTitle">Открыть папку VIDEO_TS</string>
 									<string key="NSKeyEquiv">d</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -214,7 +215,7 @@
 								</object>
 								<object class="NSMenuItem" id="462099003">
 									<reference key="NSMenu" ref="720053764"/>
-									<string key="NSTitle">Открыть адрес...</string>
+									<string key="NSTitle">Открыть URL</string>
 									<string key="NSKeyEquiv">u</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -223,7 +224,7 @@
 								</object>
 								<object class="NSMenuItem" id="1025936716">
 									<reference key="NSMenu" ref="720053764"/>
-									<string key="NSTitle">Открыть недавние...</string>
+									<string key="NSTitle">Открыть последние...</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -231,7 +232,7 @@
 									<reference key="NSMixedImage" ref="502551668"/>
 									<string key="NSAction">submenuAction:</string>
 									<object class="NSMenu" key="NSSubmenu" id="1065607017">
-										<string key="NSTitle">Открыть недавние...</string>
+										<string key="NSTitle">Открыть последние...</string>
 										<object class="NSMutableArray" key="NSMenuItems">
 											<bool key="EncodedWithXMLCoder">YES</bool>
 											<object class="NSMenuItem" id="759406840">
@@ -390,7 +391,7 @@
 								<object class="NSMenuItem" id="824383306">
 									<reference key="NSMenu" ref="912779322"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">Back To Original Size</string>
+									<string key="NSTitle">Сбросить настройки размера</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -637,7 +638,7 @@
 								<object class="NSMenuItem" id="164921386">
 									<reference key="NSMenu" ref="891719963"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">Переключить видео</string>
+									<string key="NSTitle">Переключить дорожку видео</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -646,7 +647,7 @@
 								<object class="NSMenuItem" id="283755832">
 									<reference key="NSMenu" ref="891719963"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">Increase Speed</string>
+									<string key="NSTitle">Увеличить скорость</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -656,7 +657,7 @@
 								<object class="NSMenuItem" id="748140116">
 									<reference key="NSMenu" ref="891719963"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">Decrease Speed</string>
+									<string key="NSTitle">Уменьшить скорость</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -665,7 +666,7 @@
 								</object>
 								<object class="NSMenuItem" id="1050872344">
 									<reference key="NSMenu" ref="891719963"/>
-									<string key="NSTitle">Reset To Normal Speed</string>
+									<string key="NSTitle">Сбросить настройки скорости</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -711,7 +712,7 @@
 								<object class="NSMenuItem" id="203791877">
 									<reference key="NSMenu" ref="891719963"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">Increase Audio Delay</string>
+									<string key="NSTitle">Увеличить задержку звука</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -721,7 +722,7 @@
 								<object class="NSMenuItem" id="729397308">
 									<reference key="NSMenu" ref="891719963"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">Decrease Audio Delay</string>
+									<string key="NSTitle">Уменьшить задержку звука</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -730,7 +731,7 @@
 								</object>
 								<object class="NSMenuItem" id="220491596">
 									<reference key="NSMenu" ref="891719963"/>
-									<string key="NSTitle">Reset Audio Delay</string>
+									<string key="NSTitle">Сбросить настройки задержки звука</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -776,7 +777,7 @@
 								<object class="NSMenuItem" id="523962749">
 									<reference key="NSMenu" ref="891719963"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">Increase Subtitle Delay</string>
+									<string key="NSTitle">Увеличить задержку субтитров</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -786,7 +787,7 @@
 								<object class="NSMenuItem" id="698940786">
 									<reference key="NSMenu" ref="891719963"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">Decrease Subtitle Delay</string>
+									<string key="NSTitle">Уменьшить задержку субтитров</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -795,7 +796,7 @@
 								</object>
 								<object class="NSMenuItem" id="851150020">
 									<reference key="NSMenu" ref="891719963"/>
-									<string key="NSTitle">Reset Subtitle Delay</string>
+									<string key="NSTitle">Сброить настройки задержки субтитров</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -4806,7 +4807,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{821, 935}, {143, 23}}</string>
+					<string>{{904, 917}, {183, 23}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{{522, 812}, {146, 23}}</string>
@@ -4842,11 +4843,11 @@
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{792, 932}, {194, 143}}</string>
+					<string>{{934, 857}, {284, 143}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{{525, 802}, {197, 73}}</string>
-					<string>{{529, 1000}, {442, 20}}</string>
+					<string>{{529, 1000}, {548, 20}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{74, 862}</string>
@@ -4863,7 +4864,7 @@
 					<string>RootLayerView</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{878, 849}, {248, 53}}</string>
+					<string>{{989, 947}, {357, 53}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -5025,7 +5026,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{784, 624}, {244, 453}}</string>
+					<string>{{792, 547}, {394, 453}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -5034,7 +5035,7 @@
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{626, 837}, {211, 163}}</string>
+					<string>{{626, 837}, {268, 163}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{{145, 474}, {199, 203}}</string>
@@ -5077,7 +5078,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{712, 607}, {246, 393}}</string>
+					<string>{{747, 607}, {387, 393}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
