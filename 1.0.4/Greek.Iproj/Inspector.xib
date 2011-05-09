@@ -199,7 +199,7 @@
 								<object class="NSTextField" id="289215259">
 									<reference key="NSNextResponder" ref="878856962"/>
 									<int key="NSvFlags">268</int>
-									<string key="NSFrame">{{1, 54}, {80, 14}}</string>
+									<string key="NSFrame">{{-3, 54}, {84, 14}}</string>
 									<reference key="NSSuperview" ref="878856962"/>
 									<bool key="NSEnabled">YES</bool>
 									<object class="NSTextFieldCell" key="NSCell" id="247241577">
@@ -245,7 +245,7 @@
 									<object class="NSTextFieldCell" key="NSCell" id="968719353">
 										<int key="NSCellFlags">68288064</int>
 										<int key="NSCellFlags2">71439360</int>
-										<string key="NSContents">Πηγή</string>
+										<string key="NSContents">Πηγή:</string>
 										<reference key="NSSupport" ref="26"/>
 										<reference key="NSControlView" ref="278892576"/>
 										<reference key="NSBackgroundColor" ref="1034800408"/>
