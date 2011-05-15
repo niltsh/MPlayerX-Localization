@@ -219,7 +219,7 @@
 								</object>
 								<object class="NSMenuItem" id="45875320">
 									<reference key="NSMenu" ref="720053764"/>
-									<string key="NSTitle">Open VIDEO_TS...</string>
+									<string key="NSTitle">Abrir VIDEO_TS...</string>
 									<string key="NSKeyEquiv">d</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -680,7 +680,7 @@
 								<object class="NSMenuItem" id="283755832">
 									<reference key="NSMenu" ref="891719963"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">Increase Speed</string>
+									<string key="NSTitle">Aumentar velocidade</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -690,7 +690,7 @@
 								<object class="NSMenuItem" id="748140116">
 									<reference key="NSMenu" ref="891719963"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">Decrease Speed</string>
+									<string key="NSTitle">Diminuir velocidade</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -699,7 +699,7 @@
 								</object>
 								<object class="NSMenuItem" id="1050872344">
 									<reference key="NSMenu" ref="891719963"/>
-									<string key="NSTitle">Reset To Normal Speed</string>
+									<string key="NSTitle">Repor velocidade normal</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -745,7 +745,7 @@
 								<object class="NSMenuItem" id="203791877">
 									<reference key="NSMenu" ref="891719963"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">Increase Audio Delay</string>
+									<string key="NSTitle">Aumentar atraso do áudio</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -755,7 +755,7 @@
 								<object class="NSMenuItem" id="729397308">
 									<reference key="NSMenu" ref="891719963"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">Decrease Audio Delay</string>
+									<string key="NSTitle">Diminuir atraso do áudio</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -764,7 +764,7 @@
 								</object>
 								<object class="NSMenuItem" id="220491596">
 									<reference key="NSMenu" ref="891719963"/>
-									<string key="NSTitle">Reset Audio Delay</string>
+									<string key="NSTitle">Repor atraso do áudio</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -810,7 +810,7 @@
 								<object class="NSMenuItem" id="523962749">
 									<reference key="NSMenu" ref="891719963"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">Increase Subtitle Delay</string>
+									<string key="NSTitle">Aumentar atraso das legendas</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -820,7 +820,7 @@
 								<object class="NSMenuItem" id="698940786">
 									<reference key="NSMenu" ref="891719963"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">Decrease Subtitle Delay</string>
+									<string key="NSTitle">Diminuir atraso das legendas</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -829,7 +829,7 @@
 								</object>
 								<object class="NSMenuItem" id="851150020">
 									<reference key="NSMenu" ref="891719963"/>
-									<string key="NSTitle">Reset Subtitle Delay</string>
+									<string key="NSTitle">Repor atraso das legendas</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
