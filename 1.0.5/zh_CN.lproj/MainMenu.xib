@@ -1139,7 +1139,7 @@
 				<nil key="NSViewClass"/>
 				<string key="NSWindowContentMinSize">{480, 360}</string>
 				<object class="NSView" key="NSWindowView" id="439893737">
-					<nil key="NSNextResponder"/>
+					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">274</int>
 					<object class="NSMutableArray" key="NSSubviews">
 						<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1166,7 +1166,7 @@
 											<int key="NSfFlags">3100</int>
 										</object>
 										<reference key="NSControlView" ref="1044331986"/>
-										<int key="NSButtonFlags">1223971071</int>
+										<int key="NSButtonFlags">1215582463</int>
 										<int key="NSButtonFlags2">2</int>
 										<string key="NSAlternateContents"/>
 										<string key="NSKeyEquivalent"/>
@@ -1197,7 +1197,7 @@
 													<int key="NSfFlags">1044</int>
 												</object>
 												<reference key="NSControlView" ref="658583842"/>
-												<int key="NSButtonFlags">147079423</int>
+												<int key="NSButtonFlags">138690815</int>
 												<int key="NSButtonFlags2">194</int>
 												<object class="NSCustomResource" key="NSNormalImage">
 													<string key="NSClassName">NSImage</string>
@@ -1223,7 +1223,7 @@
 												<string key="NSContents">下一章</string>
 												<reference key="NSSupport" ref="723267852"/>
 												<reference key="NSControlView" ref="723958092"/>
-												<int key="NSButtonFlags">147079423</int>
+												<int key="NSButtonFlags">138690815</int>
 												<int key="NSButtonFlags2">194</int>
 												<object class="NSCustomResource" key="NSNormalImage">
 													<string key="NSClassName">NSImage</string>
@@ -1249,7 +1249,7 @@
 												<string key="NSContents">togglePlayPause</string>
 												<reference key="NSSupport" ref="723267852"/>
 												<reference key="NSControlView" ref="930446879"/>
-												<int key="NSButtonFlags">1223971071</int>
+												<int key="NSButtonFlags">1215582463</int>
 												<int key="NSButtonFlags2">194</int>
 												<object class="NSCustomResource" key="NSNormalImage">
 													<string key="NSClassName">NSImage</string>
@@ -1322,7 +1322,7 @@
 											<int key="NSfFlags">3614</int>
 										</object>
 										<reference key="NSControlView" ref="730515757"/>
-										<int key="NSButtonFlags">1223971071</int>
+										<int key="NSButtonFlags">1215582463</int>
 										<int key="NSButtonFlags2">194</int>
 										<object class="NSCustomResource" key="NSNormalImage">
 											<string key="NSClassName">NSImage</string>
@@ -1576,7 +1576,7 @@
 										<string key="NSContents">VolumeButton</string>
 										<reference key="NSSupport" ref="723267852"/>
 										<reference key="NSControlView" ref="2615583"/>
-										<int key="NSButtonFlags">1223971071</int>
+										<int key="NSButtonFlags">1215582463</int>
 										<int key="NSButtonFlags2">194</int>
 										<object class="NSCustomResource" key="NSNormalImage">
 											<string key="NSClassName">NSImage</string>
@@ -1629,7 +1629,7 @@
 										<string key="NSContents">toggleFillScreen</string>
 										<reference key="NSSupport" ref="723267852"/>
 										<reference key="NSControlView" ref="75692459"/>
-										<int key="NSButtonFlags">1223971071</int>
+										<int key="NSButtonFlags">1215582463</int>
 										<int key="NSButtonFlags2">194</int>
 										<object class="NSCustomResource" key="NSNormalImage">
 											<string key="NSClassName">NSImage</string>
@@ -1659,7 +1659,7 @@
 										<string key="NSContents">toggleFullScreen</string>
 										<reference key="NSSupport" ref="723267852"/>
 										<reference key="NSControlView" ref="148756898"/>
-										<int key="NSButtonFlags">1223971071</int>
+										<int key="NSButtonFlags">1215582463</int>
 										<int key="NSButtonFlags2">194</int>
 										<object class="NSCustomResource" key="NSNormalImage">
 											<string key="NSClassName">NSImage</string>
@@ -1740,6 +1740,7 @@
 						</object>
 					</object>
 					<string key="NSFrame">{{7, 11}, {480, 360}}</string>
+					<reference key="NSSuperview"/>
 					<reference key="NSNextKeyView" ref="417279129"/>
 					<bool key="NSViewIsLayerTreeHost">YES</bool>
 					<int key="NSViewLayerContentsRedrawPolicy">2</int>
