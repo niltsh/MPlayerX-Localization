@@ -6756,6 +6756,7 @@ YWxsIGxpbmVzIHdpdGggYSAoLTEgMiA2IDIgLTEpIGZpbHRlci4</string>
 							<string>resetAspectRatio:</string>
 							<string>resetFrameScaleRatio:</string>
 							<string>seekTo:</string>
+							<string>setAspectRatio:</string>
 							<string>setAudioWithID:</string>
 							<string>setSubWithID:</string>
 							<string>setVideoWithID:</string>
@@ -6810,6 +6811,7 @@ YWxsIGxpbmVzIHdpdGggYSAoLTEgMiA2IDIgLTEpIGZpbHRlci4</string>
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>
+							<string>id</string>
 						</object>
 					</object>
 					<object class="NSMutableDictionary" key="actionInfosByName">
@@ -6827,6 +6829,7 @@ YWxsIGxpbmVzIHdpdGggYSAoLTEgMiA2IDIgLTEpIGZpbHRlci4</string>
 							<string>resetAspectRatio:</string>
 							<string>resetFrameScaleRatio:</string>
 							<string>seekTo:</string>
+							<string>setAspectRatio:</string>
 							<string>setAudioWithID:</string>
 							<string>setSubWithID:</string>
 							<string>setVideoWithID:</string>
@@ -6892,6 +6895,10 @@ YWxsIGxpbmVzIHdpdGggYSAoLTEgMiA2IDIgLTEpIGZpbHRlci4</string>
 							</object>
 							<object class="IBActionInfo">
 								<string key="name">seekTo:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">setAspectRatio:</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
