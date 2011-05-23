@@ -64,15 +64,15 @@
 						<object class="NSTextField" id="776450443">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">266</int>
-							<string key="NSFrame">{{17, 69}, {402, 42}}</string>
+							<string key="NSFrame">{{17, 67}, {402, 42}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="456046237"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="206703984">
 								<int key="NSCellFlags">68288064</int>
 								<int key="NSCellFlags2">4330496</int>
-								<string type="base64-UTF8" key="NSContents">zpHPgc+HzrXOr86/OgklQArOus+JzrTOuc66zr/PgM6/zq/Ot8+Dzrc6CQklQArPg865zrPOv8+Fz4HO
-uc6sOgklZg</string>
+								<string type="base64-UTF8" key="NSContents">zpHPgc+HzrXOr86/OgkJCSVACs66z4nOtM65zrrOv8+Azr/Or863z4POtzoJCSVACs+DzrnOs86/z4XP
+gc65zqw6CQkJJWY</string>
 								<object class="NSFont" key="NSSupport" id="26">
 									<string key="NSName">LucidaGrande</string>
 									<double key="NSSize">11</double>
@@ -108,7 +108,7 @@ uc6sOgklZg</string>
 							<reference key="NSNextKeyView" ref="428386816"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSPopUpButtonCell" key="NSCell" id="370592617">
-								<int key="NSCellFlags">-2080244160</int>
+								<int key="NSCellFlags">-2076049856</int>
 								<int key="NSCellFlags2">133120</int>
 								<reference key="NSSupport" ref="26"/>
 								<reference key="NSControlView" ref="350923233"/>

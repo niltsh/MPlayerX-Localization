@@ -74,7 +74,7 @@
 						<object class="NSTextField" id="4890324">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{14, 250}, {67, 14}}</string>
+							<string key="NSFrame">{{17, 250}, {64, 14}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="570702879"/>
 							<bool key="NSEnabled">YES</bool>
@@ -476,7 +476,7 @@
 						<object class="NSTextField" id="49458495">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{17, 134}, {64, 14}}</string>
+							<string key="NSFrame">{{22, 134}, {59, 14}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="332382579"/>
 							<bool key="NSEnabled">YES</bool>
@@ -497,7 +497,7 @@
 						<object class="NSButton" id="977391091">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{367, 128}, {23, 23}}</string>
+							<string key="NSFrame">{{368, 128}, {23, 23}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="794124464"/>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>
@@ -523,7 +523,7 @@
 						<object class="NSButton" id="332382579">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{84, 128}, {23, 23}}</string>
+							<string key="NSFrame">{{85, 128}, {23, 23}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="332392762"/>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>
@@ -774,7 +774,7 @@
 						<object class="NSButton" id="194107108">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">269</int>
-							<string key="NSFrame">{{175, 18}, {123, 19}}</string>
+							<string key="NSFrame">{{179, 18}, {116, 19}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView"/>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>

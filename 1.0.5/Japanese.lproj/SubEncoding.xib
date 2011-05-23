@@ -103,12 +103,12 @@ CSVmA</string>
 						<object class="NSPopUpButton" id="350923233">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">266</int>
-							<string key="NSFrame">{{213, 43}, {206, 22}}</string>
+							<string key="NSFrame">{{203, 43}, {216, 22}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="428386816"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSPopUpButtonCell" key="NSCell" id="370592617">
-								<int key="NSCellFlags">-2080244160</int>
+								<int key="NSCellFlags">-2076049856</int>
 								<int key="NSCellFlags2">133120</int>
 								<reference key="NSSupport" ref="26"/>
 								<reference key="NSControlView" ref="350923233"/>
@@ -183,7 +183,7 @@ CSVmA</string>
 						<object class="NSTextField" id="456046237">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{17, 47}, {194, 14}}</string>
+							<string key="NSFrame">{{17, 47}, {184, 14}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="350923233"/>
 							<bool key="NSEnabled">YES</bool>

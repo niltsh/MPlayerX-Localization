@@ -27,6 +27,7 @@ RTFS = $(filter %.rtf,$(ALLFILES))
 
 ### the compiled results of xib
 NIBS = $(subst .xib,.nib,$(XIBS))
+EXSTRS = $(subst .xib,.txt,$(XIBS))
 
 ### There must be at least one strings file in the folder
 ### So it is safe to define the dir
@@ -38,6 +39,7 @@ DEST_DIRS = $(addprefix $(DESTROOT)/, $(LANG_DIRS))
 TARGET_STRS = $(addprefix $(DESTROOT)/, $(STRS))
 TARGET_NIBS = $(addprefix $(DESTROOT)/, $(NIBS))
 TARGET_RTFS = $(addprefix $(DESTROOT)/, $(RTFS))
+TARGET_EXSTRS = $(addprefix $(DESTROOT)/, $(EXSTRS))
 
 ########################## Tragets #############################
 all: $(TARGET_NIBS) $(TARGET_STRS) $(TARGET_RTFS)
@@ -46,7 +48,13 @@ all: $(TARGET_NIBS) $(TARGET_STRS) $(TARGET_RTFS)
 clean:
 	rm -Rf $(DESTROOT)
 
+exstr: $(TARGET_EXSTRS)
+
 ############################# rules ############################
+$(DESTROOT)/%.txt: %.xib $(DESTROOT)
+	ibtool --generate-strings-file "$@" "$<"
+	ibtool --strings-file "$@" --write "$(DESTROOT)/$<" English.lproj/$(notdir $<)
+	
 $(DESTROOT)/%.nib: %.xib $(DESTROOT)
 #	cp "$<" "$@"
 	ibtool --compile "$@" "$<"

@@ -39,7 +39,7 @@
 			<object class="NSWindowTemplate" id="1005">
 				<int key="NSWindowStyleMask">8343</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{196, 226}, {451, 284}}</string>
+				<string key="NSWindowRect">{{196, 226}, {452, 284}}</string>
 				<int key="NSWTFlags">-528997376</int>
 				<string key="NSWindowTitle">Настройка видео</string>
 				<string key="NSWindowClass">NSPanel</string>
@@ -51,7 +51,7 @@
 						<object class="NSSlider" id="902036486">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{160, 243}, {240, 17}}</string>
+							<string key="NSFrame">{{155, 243}, {240, 17}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="830129517"/>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>
@@ -74,7 +74,7 @@
 						<object class="NSTextField" id="4890324">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{60, 250}, {64, 14}}</string>
+							<string key="NSFrame">{{55, 250}, {64, 14}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="570702879"/>
 							<bool key="NSEnabled">YES</bool>
@@ -109,7 +109,7 @@
 						<object class="NSButton" id="830129517">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{410, 243}, {23, 23}}</string>
+							<string key="NSFrame">{{405, 243}, {23, 23}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="719503299"/>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>
@@ -139,7 +139,7 @@
 						<object class="NSButton" id="570702879">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{127, 243}, {23, 23}}</string>
+							<string key="NSFrame">{{122, 243}, {23, 23}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="902036486"/>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>
@@ -165,7 +165,7 @@
 						<object class="NSSlider" id="431469802">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{160, 214}, {240, 17}}</string>
+							<string key="NSFrame">{{155, 214}, {240, 17}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="238305497"/>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>
@@ -188,7 +188,7 @@
 						<object class="NSTextField" id="719503299">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{60, 221}, {64, 14}}</string>
+							<string key="NSFrame">{{30, 221}, {89, 14}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="579277734"/>
 							<bool key="NSEnabled">YES</bool>
@@ -209,7 +209,7 @@
 						<object class="NSButton" id="238305497">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{410, 214}, {23, 23}}</string>
+							<string key="NSFrame">{{405, 214}, {23, 23}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="441914523"/>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>
@@ -235,7 +235,7 @@
 						<object class="NSButton" id="579277734">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{127, 214}, {23, 23}}</string>
+							<string key="NSFrame">{{122, 214}, {23, 23}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="431469802"/>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>
@@ -261,7 +261,7 @@
 						<object class="NSSlider" id="865809363">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{160, 185}, {240, 17}}</string>
+							<string key="NSFrame">{{155, 185}, {240, 17}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="100743752"/>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>
@@ -284,7 +284,7 @@
 						<object class="NSTextField" id="441914523">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{70, 192}, {54, 14}}</string>
+							<string key="NSFrame">{{61, 192}, {58, 14}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="912478926"/>
 							<bool key="NSEnabled">YES</bool>
@@ -305,7 +305,7 @@
 						<object class="NSButton" id="100743752">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{410, 185}, {23, 23}}</string>
+							<string key="NSFrame">{{405, 185}, {23, 23}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="431481931"/>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>
@@ -331,7 +331,7 @@
 						<object class="NSButton" id="912478926">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{127, 185}, {23, 23}}</string>
+							<string key="NSFrame">{{122, 185}, {23, 23}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="865809363"/>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>
@@ -357,7 +357,7 @@
 						<object class="NSSlider" id="1043857880">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{160, 156}, {240, 17}}</string>
+							<string key="NSFrame">{{155, 156}, {240, 17}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="1051351875"/>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>
@@ -380,7 +380,7 @@
 						<object class="NSTextField" id="431481931">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{75, 163}, {49, 14}}</string>
+							<string key="NSFrame">{{70, 163}, {49, 14}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="337171375"/>
 							<bool key="NSEnabled">YES</bool>
@@ -401,9 +401,9 @@
 						<object class="NSButton" id="1051351875">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{410, 157}, {23, 23}}</string>
+							<string key="NSFrame">{{405, 157}, {23, 23}}</string>
 							<reference key="NSSuperview" ref="1006"/>
-							<reference key="NSNextKeyView" ref="332382579"/>
+							<reference key="NSNextKeyView" ref="49458495"/>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="274556945">
@@ -427,7 +427,7 @@
 						<object class="NSButton" id="337171375">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{127, 157}, {23, 23}}</string>
+							<string key="NSFrame">{{122, 157}, {23, 23}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="1043857880"/>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>
@@ -453,7 +453,7 @@
 						<object class="NSSlider" id="332392762">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{160, 127}, {240, 17}}</string>
+							<string key="NSFrame">{{155, 127}, {240, 17}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="977391091"/>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>
@@ -476,9 +476,9 @@
 						<object class="NSTextField" id="49458495">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{95, 134}, {29, 14}}</string>
+							<string key="NSFrame">{{83, 134}, {36, 14}}</string>
 							<reference key="NSSuperview" ref="1006"/>
-							<reference key="NSNextKeyView" ref="332392762"/>
+							<reference key="NSNextKeyView" ref="332382579"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="436081809">
 								<int key="NSCellFlags">68288064</int>
@@ -497,7 +497,7 @@
 						<object class="NSButton" id="977391091">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{410, 128}, {23, 23}}</string>
+							<string key="NSFrame">{{406, 128}, {23, 23}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="794124464"/>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>
@@ -523,9 +523,9 @@
 						<object class="NSButton" id="332382579">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{127, 128}, {23, 23}}</string>
+							<string key="NSFrame">{{123, 128}, {23, 23}}</string>
 							<reference key="NSSuperview" ref="1006"/>
-							<reference key="NSNextKeyView" ref="49458495"/>
+							<reference key="NSNextKeyView" ref="332392762"/>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="557257057">
@@ -549,7 +549,7 @@
 						<object class="NSSlider" id="728003644">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{160, 81}, {240, 17}}</string>
+							<string key="NSFrame">{{155, 81}, {240, 17}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="616962687"/>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>
@@ -572,7 +572,7 @@
 						<object class="NSTextField" id="71697007">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{17, 88}, {107, 14}}</string>
+							<string key="NSFrame">{{12, 88}, {107, 14}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="155019335"/>
 							<bool key="NSEnabled">YES</bool>
@@ -593,7 +593,7 @@
 						<object class="NSButton" id="616962687">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{410, 82}, {23, 23}}</string>
+							<string key="NSFrame">{{405, 82}, {23, 23}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="693172742"/>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>
@@ -619,7 +619,7 @@
 						<object class="NSButton" id="155019335">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{127, 82}, {23, 23}}</string>
+							<string key="NSFrame">{{122, 82}, {23, 23}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="728003644"/>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>
@@ -645,7 +645,7 @@
 						<object class="NSSlider" id="844707451">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{160, 51}, {240, 17}}</string>
+							<string key="NSFrame">{{155, 51}, {240, 17}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="162850713"/>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>
@@ -668,7 +668,7 @@
 						<object class="NSTextField" id="693172742">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{60, 58}, {64, 14}}</string>
+							<string key="NSFrame">{{55, 58}, {64, 14}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="1040672787"/>
 							<bool key="NSEnabled">YES</bool>
@@ -689,7 +689,7 @@
 						<object class="NSButton" id="162850713">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{410, 51}, {23, 23}}</string>
+							<string key="NSFrame">{{405, 51}, {23, 23}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="194107108"/>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>
@@ -715,7 +715,7 @@
 						<object class="NSButton" id="1040672787">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{127, 51}, {23, 23}}</string>
+							<string key="NSFrame">{{122, 51}, {23, 23}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="844707451"/>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>
@@ -741,8 +741,8 @@
 						<object class="NSBox" id="794124464">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">12</int>
-							<string key="NSFrame">{{63, 111}, {368, 5}}</string>
-							<string key="NSBounds">{{208, 0}, {368, 5}}</string>
+							<string key="NSFrame">{{12, 111}, {428, 5}}</string>
+							<string key="NSBounds">{{208, 0}, {428, 5}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="71697007"/>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>
@@ -774,7 +774,7 @@
 						<object class="NSButton" id="194107108">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">269</int>
-							<string key="NSFrame">{{244, 18}, {72, 19}}</string>
+							<string key="NSFrame">{{239, 18}, {72, 19}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView"/>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>
@@ -798,7 +798,7 @@
 							</object>
 						</object>
 					</array>
-					<string key="NSFrame">{{7, 11}, {451, 284}}</string>
+					<string key="NSFrame">{{7, 11}, {452, 284}}</string>
 					<reference key="NSSuperview"/>
 					<reference key="NSNextKeyView" ref="4890324"/>
 				</object>
