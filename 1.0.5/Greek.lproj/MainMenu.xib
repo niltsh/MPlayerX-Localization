@@ -469,14 +469,14 @@
 								</object>
 								<object class="NSMenuItem" id="101001662">
 									<reference key="NSMenu" ref="912779322"/>
-									<string key="NSTitle">Λόγος διαστάσεων</string>
+									<string key="NSTitle">Αναλογία εικόνας</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
 									<reference key="NSMixedImage" ref="502551668"/>
 									<string key="NSAction">submenuAction:</string>
 									<object class="NSMenu" key="NSSubmenu" id="454004890">
-										<string key="NSTitle">Λόγος διαστάσεων</string>
+										<string key="NSTitle">Αναλογία εικόνας</string>
 										<object class="NSMutableArray" key="NSMenuItems">
 											<bool key="EncodedWithXMLCoder">YES</bool>
 											<object class="NSMenuItem" id="436413833">
@@ -1139,7 +1139,7 @@
 				<nil key="NSViewClass"/>
 				<string key="NSWindowContentMinSize">{480, 360}</string>
 				<object class="NSView" key="NSWindowView" id="439893737">
-					<reference key="NSNextResponder"/>
+					<nil key="NSNextResponder"/>
 					<int key="NSvFlags">274</int>
 					<object class="NSMutableArray" key="NSSubviews">
 						<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1740,7 +1740,6 @@
 						</object>
 					</object>
 					<string key="NSFrame">{{7, 11}, {480, 360}}</string>
-					<reference key="NSSuperview"/>
 					<reference key="NSNextKeyView" ref="417279129"/>
 					<bool key="NSViewIsLayerTreeHost">YES</bool>
 					<int key="NSViewLayerContentsRedrawPolicy">2</int>
@@ -1761,7 +1760,7 @@
 				<string key="NSWindowContentMaxSize">{500, 94}</string>
 				<string key="NSWindowContentMinSize">{500, 94}</string>
 				<object class="NSView" key="NSWindowView" id="77567990">
-					<reference key="NSNextResponder"/>
+					<nil key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
 					<object class="NSMutableArray" key="NSSubviews">
 						<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1948,7 +1947,6 @@
 						</object>
 					</object>
 					<string key="NSFrame">{{7, 11}, {500, 94}}</string>
-					<reference key="NSSuperview"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1920, 1178}}</string>
 				<string key="NSMinSize">{500, 116}</string>
