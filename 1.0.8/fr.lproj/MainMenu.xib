@@ -821,19 +821,19 @@
 								<object class="NSMenuItem" id="277556048">
 									<reference key="NSMenu" ref="302108905"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">Channels</string>
+									<string key="NSTitle">Canaux</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
 									<reference key="NSMixedImage" ref="502551668"/>
 									<string key="NSAction">submenuAction:</string>
 									<object class="NSMenu" key="NSSubmenu" id="889858886">
-										<string key="NSTitle">Channels</string>
+										<string key="NSTitle">Canaux</string>
 										<object class="NSMutableArray" key="NSMenuItems">
 											<bool key="EncodedWithXMLCoder">YES</bool>
 											<object class="NSMenuItem" id="577632562">
 												<reference key="NSMenu" ref="889858886"/>
-												<string key="NSTitle">Restore</string>
+												<string key="NSTitle">Restaurer</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSMnemonicLoc">2147483647</int>
 												<reference key="NSOnImage" ref="35465992"/>
@@ -851,7 +851,7 @@
 											</object>
 											<object class="NSMenuItem" id="607119673">
 												<reference key="NSMenu" ref="889858886"/>
-												<string key="NSTitle">Stereo</string>
+												<string key="NSTitle">Stéréo</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSMnemonicLoc">2147483647</int>
 												<reference key="NSOnImage" ref="35465992"/>
@@ -860,7 +860,7 @@
 											</object>
 											<object class="NSMenuItem" id="938540675">
 												<reference key="NSMenu" ref="889858886"/>
-												<string key="NSTitle">Left only</string>
+												<string key="NSTitle">Gauche uniquement</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSMnemonicLoc">2147483647</int>
 												<reference key="NSOnImage" ref="35465992"/>
@@ -869,7 +869,7 @@
 											</object>
 											<object class="NSMenuItem" id="483576981">
 												<reference key="NSMenu" ref="889858886"/>
-												<string key="NSTitle">Right only</string>
+												<string key="NSTitle">Droite uniquement</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSMnemonicLoc">2147483647</int>
 												<reference key="NSOnImage" ref="35465992"/>
@@ -878,7 +878,7 @@
 											</object>
 											<object class="NSMenuItem" id="94954928">
 												<reference key="NSMenu" ref="889858886"/>
-												<string key="NSTitle">Left expanded</string>
+												<string key="NSTitle">Gauche étendue</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSMnemonicLoc">2147483647</int>
 												<reference key="NSOnImage" ref="35465992"/>
@@ -887,7 +887,7 @@
 											</object>
 											<object class="NSMenuItem" id="405903029">
 												<reference key="NSMenu" ref="889858886"/>
-												<string key="NSTitle">Right expanded</string>
+												<string key="NSTitle">Droite étendue</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSMnemonicLoc">2147483647</int>
 												<reference key="NSOnImage" ref="35465992"/>
@@ -1065,7 +1065,7 @@
 								<object class="NSMenuItem" id="496418012">
 									<reference key="NSMenu" ref="891719963"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">Chapters</string>
+									<string key="NSTitle">Chapitres</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
