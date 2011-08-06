@@ -1248,7 +1248,7 @@
 				<nil key="NSUserInterfaceItemIdentifier"/>
 				<string key="NSWindowContentMinSize">{480, 360}</string>
 				<object class="NSView" key="NSWindowView" id="439893737">
-					<reference key="NSNextResponder"/>
+					<nil key="NSNextResponder"/>
 					<int key="NSvFlags">274</int>
 					<object class="NSMutableArray" key="NSSubviews">
 						<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1839,7 +1839,6 @@
 						</object>
 					</object>
 					<string key="NSFrameSize">{480, 360}</string>
-					<reference key="NSSuperview"/>
 					<reference key="NSNextKeyView" ref="417279129"/>
 					<bool key="NSViewIsLayerTreeHost">YES</bool>
 					<int key="NSViewLayerContentsRedrawPolicy">2</int>
@@ -2037,7 +2036,7 @@
 						<object class="NSTextField" id="968896216">
 							<reference key="NSNextResponder" ref="77567990"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{18, 20}, {254, 14}}</string>
+							<string key="NSFrame">{{17, 23}, {254, 14}}</string>
 							<reference key="NSSuperview" ref="77567990"/>
 							<reference key="NSNextKeyView" ref="505954479"/>
 							<bool key="NSEnabled">YES</bool>
