@@ -477,14 +477,14 @@
 						<object class="NSTextField" id="49458495">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{72, 134}, {29, 14}}</string>
+							<string key="NSFrame">{{17, 134}, {84, 14}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSNextKeyView" ref="332382579"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="436081809">
 								<int key="NSCellFlags">68288064</int>
 								<int key="NSCellFlags2">71439360</int>
-								<string key="NSContents">Hue:</string>
+								<string key="NSContents">Tonalidade:</string>
 								<reference key="NSSupport" ref="26"/>
 								<reference key="NSControlView" ref="49458495"/>
 								<reference key="NSBackgroundColor" ref="429011394"/>
