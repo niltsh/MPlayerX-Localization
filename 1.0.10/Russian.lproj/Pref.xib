@@ -1041,7 +1041,7 @@ v9GA0L7QvNC+0YLQutC4A</string>
 						<object class="NSButtonCell" key="NSCell" id="29885064">
 							<int key="NSCellFlags">-2080244224</int>
 							<int key="NSCellFlags2">0</int>
-							<string key="NSContents">Always try to use secondary screen</string>
+							<string key="NSContents">Выводить полноэкранное изображение на второй дисплей</string>
 							<reference key="NSSupport" ref="472449914"/>
 							<string key="NSCellIdentifier">_NS:239</string>
 							<reference key="NSControlView" ref="172220793"/>

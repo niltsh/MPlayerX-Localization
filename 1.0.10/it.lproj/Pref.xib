@@ -1040,7 +1040,7 @@
 						<object class="NSButtonCell" key="NSCell" id="29885064">
 							<int key="NSCellFlags">-2080244224</int>
 							<int key="NSCellFlags2">0</int>
-							<string key="NSContents">Always try to use secondary screen</string>
+							<string key="NSContents">Utilizza sempre il monitor secondario, se disponibile</string>
 							<reference key="NSSupport" ref="472449914"/>
 							<string key="NSCellIdentifier">_NS:239</string>
 							<reference key="NSControlView" ref="172220793"/>
