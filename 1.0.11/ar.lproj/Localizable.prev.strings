@@ -1,0 +1,351 @@
+/* OSD hint */
+" " = " ";
+
+/* Inspector Info */
+" tracks" = " مسارات";
+
+/* OSD hint media info */
+"%@, %.1fkbps, %.1fkHz %dbit, %d channels" = "%1$@, %2$.1fkbps, %3$.1fkHz %4$dbit, %5$d قنوات";
+
+/* OSD hint media info */
+"%@, %.1fkbps, %d×%d, %.1ffps\n" = "%1$@, %2$.1fkbps, %3$d×%4$d, %5$.1ffps\n";
+
+/* OSD hint media info */
+"%@, %.1fkHz %dbit, %d channels" = "%1$@, %2$.1fkHz %3$dbit, %4$d قنوات";
+
+/* OSD hint media info */
+"%@, %d×%d, %.1ffps\n" = "%1$@, %2$d×%3$d, %4$.1ffps\n";
+
+/* PrefToolBarLabel */
+"Advanced" = "متقدم";
+
+/* Text Enc */
+"Arabic (ISO 8859-6)" = "العربية (ISO 8859-6)";
+
+/* Text Enc */
+"Arabic (Mac)" = "العربية (Mac)";
+
+/* Text Enc */
+"Arabic (Windows-1256)" = "العربية (Windows-1256)";
+
+/* preference */
+"Ask me" = "إسألني";
+
+/* OSD hint */
+"Aspect Ratio: Locked" = "تثبيت نسبة الأبعاد";
+
+/* OSD hint */
+"Aspect Ratio: Restored" = "إستعادة نسبة الأبعاد";
+
+/* OSD hint */
+"Aspect Ratio: Unlocked" = "إلغاء تثبيت نسبة الأبعاد";
+
+/* PrefToolBarLabel */
+"Audio" = "الصوت";
+
+/* OSD hint */
+"Audio %@" = "الصوت %@";
+
+/* OSD hint */
+"Audio Delay: %.1f s" = "تأخير الصوت: %.1f s";
+
+/* Inspector Info */
+"Audio:%d" = "الصوت:%d";
+
+/* Text Enc */
+"Baltic (ISO 8859-13)" = "البلطيقية (ISO 8859-13)";
+
+/* Text Enc */
+"Baltic (ISO 8859-4)" = "البلطيقية (ISO 8859-4)";
+
+/* Text Enc */
+"Baltic (Windows-1257)" = "البلطيقية (Windows-1257)";
+
+/* OSD hint */
+"Caching: %4.2f%%" = "يجري التخزين المؤقت: %4.2f%%";
+
+/* No comment provided by engineer. */
+"Can't find a proper file to play" = "لم يتم العثور على ملف مناسب ليُشغل";
+
+/* Playlist warning */
+"Can't find next episode.\nPerhaps this is already the last episode." = "لم يتم العثور على الحلقة التالية، قد تكون هذه الحلقة الأخيرة.";
+
+/* Playlist warning */
+"Can't find previous episode.\nPerhaps this is already the first episode." = "لم يتم العثور على الحلقة السابقة، قد تكون هذه الحلقة الأولى.";
+
+/* Text Enc */
+"Celtic (ISO 8859-14)" = "السلتية (ISO 8859-14)";
+
+/* Text Enc */
+"Celtic (Mac)" = "السلتية  (Mac)";
+
+/* Text Enc */
+"Central Europe (ISO 8859-16)" = "أوروبا الوسطى (ISO 8859-16)";
+
+/* Text Enc */
+"Central Europe (ISO 8859-2)" = "أوروبا الوسطى (ISO 8859-2)";
+
+/* Text Enc */
+"Central Europe (Mac)" = "أوروبا الوسطى (Mac)";
+
+/* Text Enc */
+"Central Europe (Windows-1250)" = "أوروبا الوسطى (Windows-1250)";
+
+/* Text Enc */
+"Chinese Simplified (EUC)" = "الصينية المبسّطة (EUC)";
+
+/* Text Enc */
+"Chinese Simplified (GB18030)" = "الصينية المبسّطة (GB18030)";
+
+/* Text Enc */
+"Chinese Simplified (ISO 2022)" = "الصينية المبسّطة (ISO 2022)";
+
+/* Text Enc */
+"Chinese Simplified (Mac)" = "الصينية المبسّطة (Mac)";
+
+/* Text Enc */
+"Chinese Simplified (Windows-936)" = "الصينية المبسّطة (Windows-936)";
+
+/* Text Enc */
+"Chinese Traditional (Big5 HKSCS)" = "الصينية التقليدية (Big5 HKSCS)";
+
+/* Text Enc */
+"Chinese Traditional (Big5)" = "الصينية التقليدية (Big5)";
+
+/* Text Enc */
+"Chinese Traditional (EUC)" = "الصينية التقليدية (EUC)";
+
+/* Text Enc */
+"Chinese Traditional (Mac)" = "الصينية التقليدية (Mac)";
+
+/* Text Enc */
+"Chinese Traditional (Windows-950)" = "الصينية التقليدية (Windows-950)";
+
+/* open url panel */
+"Clear Menu..." = "مسح القائمة...";
+
+/* Text Enc */
+"Cyrillic (ISO 8859-5)" = "السيريلية (ISO 8859-5)";
+
+/* Text Enc */
+"Cyrillic (KOI8-R)" = "السيريلية (KOI8-R)";
+
+/* Text Enc */
+"Cyrillic (KOI8-U)" = "السيريلية (KOI8-U)";
+
+/* Text Enc */
+"Cyrillic (Mac)" = "السيريلية (Mac)";
+
+/* Text Enc */
+"Cyrillic (Windows-1251)" = "السيريلية (Windows-1251)";
+
+/* SubEncoding */
+"Detected file:\t%@\nEncoding:\t\t%@\nconfidence:\t%2.1f%%" = "ملف محذوف:\t%1$@\nالترميز:\t\t%2$@\nالوثوقية:\t%3$.1f%%";
+
+/* No comment provided by engineer. */
+"Disable" = "تعطيل";
+
+/* menu */
+"Enter Fullscreen" = "الدخول في وضع ملئ الشاشة";
+
+/* No comment provided by engineer. */
+"Error" = "خطأ";
+
+/* menu */
+"Exit Fullscreen" = "الخروج من وضع ملئ الشاشة";
+
+/* PrefToolBarLabel */
+"General" = "عام";
+
+/* Text Enc */
+"Greek (ISO 8859-7)" = "اليونانية (ISO 8859-7)";
+
+/* Text Enc */
+"Greek (Mac)" = "اليونانية (Mac)";
+
+/* Text Enc */
+"Greek (Windows-1253)" = "اليونانية (Windows-1253)";
+
+/* Text Enc */
+"Hebrew (ISO 8859-8)" = "العبرية (ISO 8859-8)";
+
+/* Text Enc */
+"Hebrew (Mac)" = "العبرية (Mac)";
+
+/* Text Enc */
+"Hebrew (Windows-1255)" = "العبرية (Windows-1255)";
+
+/* menu */
+"Hide Auxiliary Controls" = "إخفاء عناصر التحكم المساعدة";
+
+/* menu */
+"Hide Letterbox" = "إخفاء حيز الترجمة";
+
+/* Text Enc */
+"Japanese (EUC)" = "اليابانية (EUC)";
+
+/* Text Enc */
+"Japanese (ISO 2022)" = "اليابانية (ISO 2022)";
+
+/* Text Enc */
+"Japanese (Mac)" = "اليابانية (Mac)";
+
+/* Text Enc */
+"Japanese (Shift-JIS)" = "اليابانية (Shift-JIS)";
+
+/* Text Enc */
+"Japanese (Windows-932)" = "اليابانية (Windows-932)";
+
+/* Text Enc */
+"Korean (EUC)" = "الكورية (EUC)";
+
+/* Text Enc */
+"Korean (ISO 2022)" = "الكورية (ISO 2022)";
+
+/* Text Enc */
+"Korean (Mac)" = "الكورية (Mac)";
+
+/* Text Enc */
+"Korean (Windows-949)" = "الكورية (Windows-949)";
+
+/* menu */
+"Lock Aspect Ratio" = "تثبيت نسبة الأبعاد";
+
+/* OSD hint */
+"Mute OFF" = "إلغاء كتم الصوت";
+
+/* OSD hint */
+"Mute ON" = "كتم الصوت";
+
+/* PrefToolBarLabel */
+"Network" = "الشبكة";
+
+/* Playlist warning */
+"Next/Previous is only supported on local media" = "التالي/اللاحق تدعم الوسائط المحلية فقط";
+
+/* Inspector Info */
+"No Info" = "لا تتوفر معلومات";
+
+/* No comment provided by engineer. */
+"OK" = "موافق";
+
+/* No comment provided by engineer. */
+"Open Media Files" = "فتح ملفات الوسائط";
+
+/* No comment provided by engineer. */
+"Open VIDEO_TS" = "فتح وسائط DVD...";
+
+/* OSD hint */
+"OSD settings changed" = "تم تعديل إعدادات العرض على الشاشة";
+
+/* OSD hint */
+"Paused" = "إيقاف مؤقت";
+
+/* menu */
+"Show Auxiliary Controls" = "إظهار عناصر التحكم المساعدة";
+
+/* menu */
+"Show Letterbox" = "إظهار حيز الترجمة";
+
+/* Text Enc */
+"South Europe (ISO 8859-3)" = "أوروبا الجنوبية (ISO 8859-3)";
+
+/* OSD hint */
+"Speed: %.1fX" = "السرعة: %.1fX";
+
+/* OSD hint */
+"Stopped" = "إيقاف";
+
+/* OSD hint */
+"Sub Delay: %.1f s" = "تأخير الترجمة: %.1f s";
+
+/* OSD hint */
+"Sub: %@" = "الترجمة: %@";
+
+/* PrefToolBarLabel */
+"Subtitle" = "الترجمة";
+
+/* Inspector Info */
+"Subtitle:%d" = "الترجمة:%d";
+
+/* Text Enc */
+"Thai (ISO 8859-11)" = "التايلاندية (ISO 8859-11)";
+
+/* Text Enc */
+"Thai (Mac)" = "التايلاندية (Mac)";
+
+/* Text Enc */
+"Thai (Windows-874/TIS-620)" = "التايلاندية (Windows-874/TIS-620)";
+
+/* No comment provided by engineer. */
+"The file does not exist" = "الملف غير موجود";
+
+/* No comment provided by engineer. */
+"The file is not supported by MPlayerX." = "هذا الملف غير مدعوم من قبل MPlayerX";
+
+/* No comment provided by engineer. */
+"The URL is not supported by MPlayerX." = "هذا العنوان غير مدعوم من قبل MPlayerX";
+
+/* Text Enc */
+"Turkish (ISO 8859-9)" = "التركية (ISO 8859-9)";
+
+/* Text Enc */
+"Turkish (Mac)" = "التركية (Mac)";
+
+/* Text Enc */
+"Turkish (Windows-1254)" = "التركية (Windows-1254)";
+
+/* Text Enc */
+"Unicode (UTF-16BE)" = "Unicode (UTF-16BE)";
+
+/* Text Enc */
+"Unicode (UTF-16LE)" = "Unicode (UTF-16LE)";
+
+/* Text Enc */
+"Unicode (UTF-32BE)" = "Unicode (UTF-32BE)";
+
+/* Text Enc */
+"Unicode (UTF-32LE)" = "Unicode (UTF-32LE)";
+
+/* Text Enc */
+"Unicode (UTF-8)" = "Unicode (UTF-8)";
+
+/* menu */
+"Unlock Aspect Ratio" = "إلغاء تثبيت نسبة الأبعاد";
+
+/* PrefToolBarLabel */
+"Video" = "الفيديو";
+
+/* OSD hint */
+"Video %@" = "الفيديو %@";
+
+/* Inspector Info */
+"Video:%d" = "الفيديو:%d";
+
+/* Text Enc */
+"Vietnamese (Mac)" = "الفيتنامية (Mac)";
+
+/* Text Enc */
+"Vietnamese (Windows-1258)" = "الفيتنامية (Windows-1258)";
+
+/* OSD hint */
+"Volume: %.1f" = "مستوى الصوت: %.1f";
+
+/* Text Enc */
+"Western Europe (ISO 8859-1)" = "أوروبا الغربية (ISO 8859-1)";
+
+/* Text Enc */
+"Western Europe (ISO 8859-15)" = "أوروبا الغربية (ISO 8859-15)";
+
+/* Text Enc */
+"Western Europe (Mac)" = "أوروبا الغربية (Mac)";
+
+/* Text Enc */
+"Western Europe (Windows-1252)" = "أوروبا الغربية (Windows-1252)";
+
+/* OpenURL Panel */
+"⌘-OK: Use FFMpeg to handle the stream" = "اضغط على مفتاح ⌘ مع موافق لاستخدام ffmpeg في معالجة تدفق البيانات";
+
+/* OpenURL Panel */
+"⌘-OK: Use MPlayer to handle the stream" = "اضغط على مفتاح ⌘ مع موافق لاستخدام MPlayer في معالجة تدفق البيانات";
+
