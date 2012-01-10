@@ -4506,9 +4506,9 @@ aWVyLCBzaW5vbiBsYWlzc2UgY2V0IGVzcGFjZSB2aWRlLg</string>
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">nextKeyView</string>
 						<reference key="source" ref="772162383"/>
-						<reference key="destination" ref="615974115"/>
+						<reference key="destination" ref="1038513569"/>
 					</object>
-					<int key="connectionID">550</int>
+					<int key="connectionID">572</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
@@ -4599,6 +4599,14 @@ aWVyLCBzaW5vbiBsYWlzc2UgY2V0IGVzcGFjZSB2aWRlLg</string>
 						</object>
 					</object>
 					<int key="connectionID">571</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">nextKeyView</string>
+						<reference key="source" ref="1038513569"/>
+						<reference key="destination" ref="615974115"/>
+					</object>
+					<int key="connectionID">573</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -6934,7 +6942,7 @@ YWxsIGxpbmVzIHdpdGggYSAoLTEgMiA2IDIgLTEpIGZpbHRlci4</string>
 				<reference key="dict.values" ref="0"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">571</int>
+			<int key="maxID">573</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -7045,6 +7053,8 @@ YWxsIGxpbmVzIHdpdGggYSAoLTEgMiA2IDIgLTEpIGZpbHRlci4</string>
 							<string>resetAspectRatio:</string>
 							<string>resetFrameScaleRatio:</string>
 							<string>seekTo:</string>
+							<string>setABLoopReturn:</string>
+							<string>setABLoopStart:</string>
 							<string>setAspectRatio:</string>
 							<string>setAudioWithID:</string>
 							<string>setChapterWithTime:</string>
@@ -7056,6 +7066,7 @@ YWxsIGxpbmVzIHdpdGggYSAoLTEgMiA2IDIgLTEpIGZpbHRlci4</string>
 							<string>stepSubtitles:</string>
 							<string>stepVideos:</string>
 							<string>stepWindowSize:</string>
+							<string>stopABLoop:</string>
 							<string>toggleAccessaryControls:</string>
 							<string>toggleFillScreen:</string>
 							<string>toggleFlip:</string>
@@ -7070,6 +7081,9 @@ YWxsIGxpbmVzIHdpdGggYSAoLTEgMiA2IDIgLTEpIGZpbHRlci4</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>
@@ -7122,6 +7136,8 @@ YWxsIGxpbmVzIHdpdGggYSAoLTEgMiA2IDIgLTEpIGZpbHRlci4</string>
 							<string>resetAspectRatio:</string>
 							<string>resetFrameScaleRatio:</string>
 							<string>seekTo:</string>
+							<string>setABLoopReturn:</string>
+							<string>setABLoopStart:</string>
 							<string>setAspectRatio:</string>
 							<string>setAudioWithID:</string>
 							<string>setChapterWithTime:</string>
@@ -7133,6 +7149,7 @@ YWxsIGxpbmVzIHdpdGggYSAoLTEgMiA2IDIgLTEpIGZpbHRlci4</string>
 							<string>stepSubtitles:</string>
 							<string>stepVideos:</string>
 							<string>stepWindowSize:</string>
+							<string>stopABLoop:</string>
 							<string>toggleAccessaryControls:</string>
 							<string>toggleFillScreen:</string>
 							<string>toggleFlip:</string>
@@ -7196,6 +7213,14 @@ YWxsIGxpbmVzIHdpdGggYSAoLTEgMiA2IDIgLTEpIGZpbHRlci4</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
+								<string key="name">setABLoopReturn:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">setABLoopStart:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
 								<string key="name">setAspectRatio:</string>
 								<string key="candidateClassName">id</string>
 							</object>
@@ -7237,6 +7262,10 @@ YWxsIGxpbmVzIHdpdGggYSAoLTEgMiA2IDIgLTEpIGZpbHRlci4</string>
 							</object>
 							<object class="IBActionInfo">
 								<string key="name">stepWindowSize:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">stopABLoop:</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
@@ -7295,6 +7324,9 @@ YWxsIGxpbmVzIHdpdGggYSAoLTEgMiA2IDIgLTEpIGZpbHRlci4</string>
 							<string>fillScreenButton</string>
 							<string>fullScreenButton</string>
 							<string>hintTime</string>
+							<string>menuABLPCancel</string>
+							<string>menuABLPSetReturn</string>
+							<string>menuABLPSetStart</string>
 							<string>menuAudioChannels</string>
 							<string>menuAudioDelayDec</string>
 							<string>menuAudioDelayInc</string>
@@ -7408,6 +7440,9 @@ YWxsIGxpbmVzIHdpdGggYSAoLTEgMiA2IDIgLTEpIGZpbHRlci4</string>
 							<string>NSMenuItem</string>
 							<string>NSMenuItem</string>
 							<string>NSMenuItem</string>
+							<string>NSMenuItem</string>
+							<string>NSMenuItem</string>
+							<string>NSMenuItem</string>
 							<string>NSButton</string>
 							<string>OsdText</string>
 							<string>NSButton</string>
@@ -7436,6 +7471,9 @@ YWxsIGxpbmVzIHdpdGggYSAoLTEgMiA2IDIgLTEpIGZpbHRlci4</string>
 							<string>fillScreenButton</string>
 							<string>fullScreenButton</string>
 							<string>hintTime</string>
+							<string>menuABLPCancel</string>
+							<string>menuABLPSetReturn</string>
+							<string>menuABLPSetStart</string>
 							<string>menuAudioChannels</string>
 							<string>menuAudioDelayDec</string>
 							<string>menuAudioDelayInc</string>
@@ -7522,6 +7560,18 @@ YWxsIGxpbmVzIHdpdGggYSAoLTEgMiA2IDIgLTEpIGZpbHRlci4</string>
 							<object class="IBToOneOutletInfo">
 								<string key="name">hintTime</string>
 								<string key="candidateClassName">NSTextField</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">menuABLPCancel</string>
+								<string key="candidateClassName">NSMenuItem</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">menuABLPSetReturn</string>
+								<string key="candidateClassName">NSMenuItem</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">menuABLPSetStart</string>
+								<string key="candidateClassName">NSMenuItem</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">menuAudioChannels</string>
@@ -8174,6 +8224,7 @@ YWxsIGxpbmVzIHdpdGggYSAoLTEgMiA2IDIgLTEpIGZpbHRlci4</string>
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>VTController</string>
 							<string>controlUI</string>
+							<string>osd</string>
 							<string>playerController</string>
 							<string>playerWindow</string>
 							<string>shortCutManager</string>
@@ -8183,6 +8234,7 @@ YWxsIGxpbmVzIHdpdGggYSAoLTEgMiA2IDIgLTEpIGZpbHRlci4</string>
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>VideoTunerController</string>
 							<string>ControlUIView</string>
+							<string>OsdText</string>
 							<string>PlayerController</string>
 							<string>PlayerWindow</string>
 							<string>ShortCutManager</string>
@@ -8195,6 +8247,7 @@ YWxsIGxpbmVzIHdpdGggYSAoLTEgMiA2IDIgLTEpIGZpbHRlci4</string>
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>VTController</string>
 							<string>controlUI</string>
+							<string>osd</string>
 							<string>playerController</string>
 							<string>playerWindow</string>
 							<string>shortCutManager</string>
@@ -8209,6 +8262,10 @@ YWxsIGxpbmVzIHdpdGggYSAoLTEgMiA2IDIgLTEpIGZpbHRlci4</string>
 							<object class="IBToOneOutletInfo">
 								<string key="name">controlUI</string>
 								<string key="candidateClassName">ControlUIView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">osd</string>
+								<string key="candidateClassName">OsdText</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">playerController</string>
