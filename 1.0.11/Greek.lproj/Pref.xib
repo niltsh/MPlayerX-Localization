@@ -2908,7 +2908,7 @@ zq7Pg863z4Igz4PPhM63zr0gzrHOvc6xz4DOsc+BzrHOs8+JzrPOri4</string>
 						<object class="NSButtonCell" key="NSCell" id="556964982">
 							<int key="NSCellFlags">-2080244224</int>
 							<int key="NSCellFlags2">0</int>
-							<string key="NSContents">Let AppleRemote control the system volume</string>
+							<string key="NSContents">Έλεγχος ήχου με το Apple Remote</string>
 							<reference key="NSSupport" ref="472449914"/>
 							<string key="NSCellIdentifier">_NS:771</string>
 							<reference key="NSControlView" ref="1038513569"/>

@@ -2914,7 +2914,7 @@ qtmKINiq2LjZh9ixINi52YTZiSDYtNmD2YQg2YXYsdio2LnYp9iqLg</string>
 						<object class="NSButtonCell" key="NSCell" id="556964982">
 							<int key="NSCellFlags">-2080244224</int>
 							<int key="NSCellFlags2">0</int>
-							<string key="NSContents">Let AppleRemote control the system volume</string>
+							<string key="NSContents">السماح لجهاز التحكم عن بعد الخاص بآبل Apple Remote بالتحكم بمستوى الصوت</string>
 							<reference key="NSSupport" ref="472449914"/>
 							<string key="NSCellIdentifier">_NS:771</string>
 							<reference key="NSControlView" ref="1038513569"/>

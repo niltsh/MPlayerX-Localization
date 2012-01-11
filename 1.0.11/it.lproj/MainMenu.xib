@@ -404,7 +404,7 @@
 								<object class="NSMenuItem" id="800071804">
 									<reference key="NSMenu" ref="912779322"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">Half Size</string>
+									<string key="NSTitle">Dimensione dimezzata</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -1071,19 +1071,19 @@
 								</object>
 								<object class="NSMenuItem" id="548477137">
 									<reference key="NSMenu" ref="891719963"/>
-									<string key="NSTitle">A-B Loop</string>
+									<string key="NSTitle">Ciclo A - B</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
 									<reference key="NSMixedImage" ref="502551668"/>
 									<string key="NSAction">submenuAction:</string>
 									<object class="NSMenu" key="NSSubmenu" id="761763655">
-										<string key="NSTitle">A-B Loop</string>
+										<string key="NSTitle">Ciclo A - B</string>
 										<object class="NSMutableArray" key="NSMenuItems">
 											<bool key="EncodedWithXMLCoder">YES</bool>
 											<object class="NSMenuItem" id="175847431">
 												<reference key="NSMenu" ref="761763655"/>
-												<string key="NSTitle">Set Start Point</string>
+												<string key="NSTitle">Imposta il punto d'inizio</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSMnemonicLoc">2147483647</int>
 												<reference key="NSOnImage" ref="35465992"/>
@@ -1091,7 +1091,7 @@
 											</object>
 											<object class="NSMenuItem" id="1043330419">
 												<reference key="NSMenu" ref="761763655"/>
-												<string key="NSTitle">Set Return Point</string>
+												<string key="NSTitle">Imposta il punto di fine</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSMnemonicLoc">2147483647</int>
 												<reference key="NSOnImage" ref="35465992"/>
@@ -1109,7 +1109,7 @@
 											</object>
 											<object class="NSMenuItem" id="635205445">
 												<reference key="NSMenu" ref="761763655"/>
-												<string key="NSTitle">Cancel</string>
+												<string key="NSTitle">Annulla</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSMnemonicLoc">2147483647</int>
 												<reference key="NSOnImage" ref="35465992"/>
