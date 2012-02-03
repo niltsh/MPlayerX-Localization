@@ -245,7 +245,7 @@
 										<object class="NSTextFieldCell" key="NSCell" id="569483789">
 											<int key="NSCellFlags">68288064</int>
 											<int key="NSCellFlags2">272630784</int>
-											<string key="NSContents">저절로 안보일 때까지의 시간</string>
+											<string key="NSContents">저절로 안보일 때까지 시간</string>
 											<reference key="NSSupport" ref="472449914"/>
 											<reference key="NSControlView" ref="252110283"/>
 											<object class="NSColor" key="NSBackgroundColor" id="592303529">
@@ -421,7 +421,7 @@
 										<object class="NSButtonCell" key="NSCell" id="520699319">
 											<int key="NSCellFlags">-2080244224</int>
 											<int key="NSCellFlags2">0</int>
-											<string key="NSContents">OSD를 표시</string>
+											<string key="NSContents">OSD표시</string>
 											<reference key="NSSupport" ref="472449914"/>
 											<reference key="NSControlView" ref="160711234"/>
 											<int key="NSButtonFlags">1211912703</int>
@@ -696,7 +696,7 @@
 										<object class="NSTextFieldCell" key="NSCell" id="639616776">
 											<int key="NSCellFlags">68288064</int>
 											<int key="NSCellFlags2">272630784</int>
-											<string key="NSContents">저절로 안보일 때까지의 시간</string>
+											<string key="NSContents">저절로 안보일 때까지 시간</string>
 											<reference key="NSSupport" ref="472449914"/>
 											<reference key="NSControlView" ref="881927557"/>
 											<reference key="NSBackgroundColor" ref="592303529"/>
