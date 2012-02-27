@@ -2,6 +2,8 @@
 
 export masterLProj="English.lproj"
 
+export IBTOOL=/Applications/Xcode.app/Contents/Developer/usr/bin/ibtool
+
 if [ $# != 2 ] ; then
 	echo "Usage: ./initNewVersion.sh old_versino_number new_version_number"
 else
@@ -49,7 +51,7 @@ else
 								do
 									# 寻找旧文件夹里面所有的【翻译版本】
 									echo "update: $folderPath/$fileNameNoExt.$ext"
-									ibtool --previous-file ./$oldVer/$masterLProj/$fileName --incremental-file ./$folderPath/$fileName --localize-incremental --write ./$folderPath/$fileNameNoExt.$ext $filePath
+									${IBTOOL} --previous-file ./$oldVer/$masterLProj/$fileName --incremental-file ./$folderPath/$fileName --localize-incremental --write ./$folderPath/$fileNameNoExt.$ext $filePath
 								done
 							else
 								# 如果是普通文件的话，直接拷贝
@@ -112,7 +114,7 @@ else
 							if [ -f ./$oldVer/$masterLProj/$fileName ] && [ -f ./$filePath ] && [ -f ./$newVer/$masterLProj/$fileName ] ; then
 								# 对于xib文件，命令不一样
 								echo "update ./$newVer/$folderName/$fileName"
-								ibtool --previous-file ./$oldVer/$masterLProj/$fileName --incremental-file ./$filePath --localize-incremental --write ./$newVer/$folderName/$fileName ./$newVer/$masterLProj/$fileName
+								${IBTOOL} --previous-file ./$oldVer/$masterLProj/$fileName --incremental-file ./$filePath --localize-incremental --write ./$newVer/$folderName/$fileName ./$newVer/$masterLProj/$fileName
 							else
 								echo "necessary files are missing for xib transformation"
 							fi

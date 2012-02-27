@@ -1,4 +1,6 @@
 
+IBTOOL=/Applications/Xcode.app/Contents/Developer/usr/bin/ibtool
+
 #this one must be ahead of EXPAND since FILES will be defined 
 DESTROOT = results
 
@@ -49,7 +51,7 @@ clean:
 ############################# rules ############################
 $(DESTROOT)/%.nib: %.xib $(DESTROOT)
 #	cp "$<" "$@"
-	ibtool --compile "$@" "$<"
+	${IBTOOL} --compile "$@" "$<"
 
 $(DESTROOT)/%.strings: %.strings $(DESTROOT)
 	cp "$<" "$@"
