@@ -395,7 +395,7 @@
 								<object class="NSMenuItem" id="800071804">
 									<reference key="NSMenu" ref="912779322"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">Metade do tamanho</string>
+									<string key="NSTitle">Metade do Tamanho</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -1001,7 +1001,7 @@
 								</object>
 								<object class="NSMenuItem" id="851150020">
 									<reference key="NSMenu" ref="302108905"/>
-									<string key="NSTitle">Resetar Atraso da Legenda</string>
+									<string key="NSTitle">Redefinir Atraso da Legenda</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>

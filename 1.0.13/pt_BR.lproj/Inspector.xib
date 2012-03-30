@@ -43,7 +43,7 @@
 				<int key="NSWindowBacking">2</int>
 				<string key="NSWindowRect">{{870, 720}, {430, 220}}</string>
 				<int key="NSWTFlags">1685586944</int>
-				<string key="NSWindowTitle">Inspector</string>
+				<string key="NSWindowTitle">Inspetor</string>
 				<string key="NSWindowClass">NSPanel</string>
 				<nil key="NSViewClass"/>
 				<nil key="NSUserInterfaceItemIdentifier"/>
@@ -218,7 +218,7 @@
 									<object class="NSTextFieldCell" key="NSCell" id="247241577">
 										<int key="NSCellFlags">68288064</int>
 										<int key="NSCellFlags2">71439360</int>
-										<string key="NSContents">Informações de Trilha:</string>
+										<string key="NSContents">Informações da Trilha:</string>
 										<reference key="NSSupport" ref="26"/>
 										<reference key="NSControlView" ref="289215259"/>
 										<reference key="NSBackgroundColor" ref="1034800408"/>
