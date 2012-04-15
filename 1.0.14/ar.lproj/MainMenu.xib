@@ -810,19 +810,19 @@
 								</object>
 								<object class="NSMenuItem" id="1044550076">
 									<reference key="NSMenu" ref="302108905"/>
-									<string key="NSTitle">Deinterlace Method</string>
+									<string key="NSTitle">أسلوب تشابك الإطارات:</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
 									<reference key="NSMixedImage" ref="502551668"/>
 									<string key="NSAction">submenuAction:</string>
 									<object class="NSMenu" key="NSSubmenu" id="353687751">
-										<string key="NSTitle">Deinterlace Method</string>
+										<string key="NSTitle">أسلوب تشابك الإطارات:</string>
 										<object class="NSMutableArray" key="NSMenuItems">
 											<bool key="EncodedWithXMLCoder">YES</bool>
 											<object class="NSMenuItem" id="137965554">
 												<reference key="NSMenu" ref="353687751"/>
-												<string key="NSTitle">None</string>
+												<string key="NSTitle">بلا</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSMnemonicLoc">2147483647</int>
 												<reference key="NSOnImage" ref="35465992"/>
@@ -1359,7 +1359,7 @@
 				<nil key="NSUserInterfaceItemIdentifier"/>
 				<string key="NSWindowContentMinSize">{480, 360}</string>
 				<object class="NSView" key="NSWindowView" id="439893737">
-					<nil key="NSNextResponder"/>
+					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">274</int>
 					<object class="NSMutableArray" key="NSSubviews">
 						<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1950,6 +1950,7 @@
 						</object>
 					</object>
 					<string key="NSFrameSize">{480, 360}</string>
+					<reference key="NSSuperview"/>
 					<reference key="NSNextKeyView" ref="417279129"/>
 					<bool key="NSViewIsLayerTreeHost">YES</bool>
 					<int key="NSViewLayerContentsRedrawPolicy">2</int>
@@ -1972,7 +1973,7 @@
 				<string key="NSWindowContentMaxSize">{500, 94}</string>
 				<string key="NSWindowContentMinSize">{500, 94}</string>
 				<object class="NSView" key="NSWindowView" id="77567990">
-					<nil key="NSNextResponder"/>
+					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
 					<object class="NSMutableArray" key="NSSubviews">
 						<bool key="EncodedWithXMLCoder">YES</bool>
@@ -2163,6 +2164,7 @@
 						</object>
 					</object>
 					<string key="NSFrameSize">{500, 94}</string>
+					<reference key="NSSuperview"/>
 					<reference key="NSNextKeyView" ref="532294819"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1920, 1178}}</string>
@@ -2171,7 +2173,7 @@
 				<bool key="NSWindowIsRestorable">YES</bool>
 			</object>
 			<object class="NSCustomView" id="568663015">
-				<nil key="NSNextResponder"/>
+				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">274</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
@@ -2243,6 +2245,7 @@
 					</object>
 				</object>
 				<string key="NSFrameSize">{541, 62}</string>
+				<reference key="NSSuperview"/>
 				<reference key="NSNextKeyView" ref="54709664"/>
 				<string key="NSReuseIdentifierKey">_NS:499</string>
 				<string key="NSClassName">NSView</string>
@@ -2257,14 +2260,14 @@
 				<nil key="NSViewClass"/>
 				<nil key="NSUserInterfaceItemIdentifier"/>
 				<object class="NSView" key="NSWindowView" id="90702681">
-					<nil key="NSNextResponder"/>
+					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
 					<object class="NSMutableArray" key="NSSubviews">
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSTextField" id="33296084">
 							<reference key="NSNextResponder" ref="90702681"/>
 							<int key="NSvFlags">274</int>
-							<string key="NSFrame">{{57, 52}, {406, 40}}</string>
+							<string key="NSFrame">{{33, 52}, {406, 40}}</string>
 							<reference key="NSSuperview" ref="90702681"/>
 							<reference key="NSNextKeyView" ref="1044683611"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
@@ -2272,7 +2275,7 @@
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="185338382">
 								<int key="NSCellFlags">67239424</int>
-								<int key="NSCellFlags2">272891904</int>
+								<int key="NSCellFlags2">71565312</int>
 								<string key="NSContents">Multiline Label</string>
 								<object class="NSFont" key="NSSupport">
 									<string key="NSName">LucidaGrande</string>
@@ -2289,7 +2292,7 @@
 							<reference key="NSNextResponder" ref="90702681"/>
 							<int key="NSvFlags">1284</int>
 							<object class="NSPSMatrix" key="NSDrawMatrix"/>
-							<string key="NSFrame">{{36, 76}, {16, 16}}</string>
+							<string key="NSFrame">{{444, 76}, {16, 16}}</string>
 							<reference key="NSSuperview" ref="90702681"/>
 							<reference key="NSNextKeyView" ref="33296084"/>
 							<string key="NSReuseIdentifierKey">_NS:926</string>
@@ -2299,14 +2302,14 @@
 						<object class="NSButton" id="1044683611">
 							<reference key="NSNextResponder" ref="90702681"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{384, 12}, {82, 32}}</string>
+							<string key="NSFrame">{{14, 12}, {82, 32}}</string>
 							<reference key="NSSuperview" ref="90702681"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="255765163">
 								<int key="NSCellFlags">67239424</int>
 								<int key="NSCellFlags2">134217728</int>
-								<string key="NSContents">Cancel</string>
+								<string key="NSContents">إلغاء</string>
 								<reference key="NSSupport" ref="723267852"/>
 								<string key="NSCellIdentifier">_NS:9</string>
 								<reference key="NSControlView" ref="1044683611"/>
@@ -2320,6 +2323,7 @@
 						</object>
 					</object>
 					<string key="NSFrameSize">{480, 112}</string>
+					<reference key="NSSuperview"/>
 					<reference key="NSNextKeyView" ref="346616591"/>
 					<string key="NSReuseIdentifierKey">_NS:20</string>
 				</object>
@@ -5633,8 +5637,8 @@
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="33296084"/>
-							<reference ref="1044683611"/>
 							<reference ref="346616591"/>
+							<reference ref="1044683611"/>
 						</object>
 						<reference key="parent" ref="203626497"/>
 					</object>
