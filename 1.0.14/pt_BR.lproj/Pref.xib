@@ -1034,7 +1034,7 @@
 						<object class="NSButtonCell" key="NSCell" id="185427260">
 							<int key="NSCellFlags">-2080244224</int>
 							<int key="NSCellFlags2">0</int>
-							<string key="NSContents">Use animation when entering/exiting fullscreen</string>
+							<string key="NSContents">Usar animação quando entrar/sair da tela cheia</string>
 							<reference key="NSSupport" ref="472449914"/>
 							<string key="NSCellIdentifier">_NS:9</string>
 							<reference key="NSControlView" ref="135654454"/>
