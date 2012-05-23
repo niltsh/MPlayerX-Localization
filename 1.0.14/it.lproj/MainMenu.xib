@@ -1324,7 +1324,7 @@
 								</object>
 								<object class="NSMenuItem" id="776040492">
 									<reference key="NSMenu" ref="992780483"/>
-									<string key="NSTitle">Sengala errori / Feedback...</string>
+									<string key="NSTitle">Segnala errori / Feedback...</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
