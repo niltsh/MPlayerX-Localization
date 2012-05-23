@@ -84,9 +84,11 @@
 				</object>
 				<nil key="NSUserInterfaceItemIdentifier"/>
 				<object class="NSView" key="NSWindowView" id="1006">
-					<nil key="NSNextResponder"/>
+					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
 					<string key="NSFrameSize">{413, 228}</string>
+					<reference key="NSSuperview"/>
+					<reference key="NSWindow"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1920, 1178}}</string>
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
@@ -94,7 +96,7 @@
 				<bool key="NSWindowIsRestorable">YES</bool>
 			</object>
 			<object class="NSCustomView" id="379309208">
-				<nil key="NSNextResponder"/>
+				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">274</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
@@ -632,7 +634,7 @@
 					<object class="NSPopUpButton" id="948250791">
 						<reference key="NSNextResponder" ref="379309208"/>
 						<int key="NSvFlags">268</int>
-						<string key="NSFrame">{{156, 425}, {160, 26}}</string>
+						<string key="NSFrame">{{163, 425}, {160, 26}}</string>
 						<reference key="NSSuperview" ref="379309208"/>
 						<reference key="NSNextKeyView" ref="303374544"/>
 						<bool key="NSEnabled">YES</bool>
@@ -1178,6 +1180,7 @@
 					</object>
 				</object>
 				<string key="NSFrameSize">{560, 469}</string>
+				<reference key="NSSuperview"/>
 				<reference key="NSNextKeyView" ref="510195735"/>
 				<string key="NSClassName">NSView</string>
 			</object>
@@ -1472,7 +1475,7 @@
 									<object class="NSSegmentedControl" id="817081484">
 										<reference key="NSNextResponder" ref="289672069"/>
 										<int key="NSvFlags">268</int>
-										<string key="NSFrame">{{189, 44}, {171, 19}}</string>
+										<string key="NSFrame">{{186, 44}, {177, 19}}</string>
 										<reference key="NSSuperview" ref="289672069"/>
 										<reference key="NSNextKeyView" ref="529795975"/>
 										<bool key="NSEnabled">YES</bool>
@@ -1539,7 +1542,7 @@
 									<object class="NSSegmentedControl" id="199157407">
 										<reference key="NSNextResponder" ref="289672069"/>
 										<int key="NSvFlags">268</int>
-										<string key="NSFrame">{{187, 12}, {147, 19}}</string>
+										<string key="NSFrame">{{186, 12}, {149, 19}}</string>
 										<reference key="NSSuperview" ref="289672069"/>
 										<reference key="NSNextKeyView" ref="495317593"/>
 										<bool key="NSEnabled">YES</bool>
