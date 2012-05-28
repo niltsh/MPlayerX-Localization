@@ -381,7 +381,7 @@
 								</object>
 								<object class="NSMenuItem" id="1035171433">
 									<reference key="NSMenu" ref="458109416"/>
-									<string key="NSTitle">Goto Snapshot Folder...</string>
+									<string key="NSTitle">Képernyőfotó-mappa megnyitása...</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -1565,7 +1565,7 @@
 										<object class="NSTextField" id="630664672">
 											<reference key="NSNextResponder" ref="491486245"/>
 											<int key="NSvFlags">260</int>
-											<string key="NSFrame">{{277, 4}, {32, 16}}</string>
+											<string key="NSFrame">{{281, 4}, {32, 16}}</string>
 											<reference key="NSSuperview" ref="491486245"/>
 											<reference key="NSNextKeyView" ref="427466563"/>
 											<int key="NSViewLayerContentsRedrawPolicy">2</int>
@@ -1591,7 +1591,7 @@
 										<object class="NSTextField" id="10152653">
 											<reference key="NSNextResponder" ref="491486245"/>
 											<int key="NSvFlags">260</int>
-											<string key="NSFrame">{{227, 7}, {50, 11}}</string>
+											<string key="NSFrame">{{202, 7}, {81, 11}}</string>
 											<reference key="NSSuperview" ref="491486245"/>
 											<reference key="NSNextKeyView" ref="630664672"/>
 											<int key="NSViewLayerContentsRedrawPolicy">2</int>
@@ -1639,7 +1639,7 @@
 										<object class="NSTextField" id="263273036">
 											<reference key="NSNextResponder" ref="491486245"/>
 											<int key="NSvFlags">260</int>
-											<string key="NSFrame">{{111, 7}, {60, 11}}</string>
+											<string key="NSFrame">{{82, 7}, {91, 11}}</string>
 											<reference key="NSSuperview" ref="491486245"/>
 											<reference key="NSNextKeyView" ref="129911483"/>
 											<int key="NSViewLayerContentsRedrawPolicy">2</int>
@@ -1688,7 +1688,7 @@
 										<object class="NSTextField" id="567307658">
 											<reference key="NSNextResponder" ref="491486245"/>
 											<int key="NSvFlags">260</int>
-											<string key="NSFrame">{{17, 7}, {34, 11}}</string>
+											<string key="NSFrame">{{3, 7}, {48, 11}}</string>
 											<reference key="NSSuperview" ref="491486245"/>
 											<reference key="NSNextKeyView" ref="278255822"/>
 											<int key="NSViewLayerContentsRedrawPolicy">2</int>
@@ -2146,7 +2146,7 @@
 						<object class="NSTextField" id="968896216">
 							<reference key="NSNextResponder" ref="77567990"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{17, 23}, {254, 14}}</string>
+							<string key="NSFrame">{{17, 23}, {269, 14}}</string>
 							<reference key="NSSuperview" ref="77567990"/>
 							<reference key="NSNextKeyView" ref="505954479"/>
 							<bool key="NSEnabled">YES</bool>
@@ -2199,7 +2199,7 @@
 					<object class="NSTextField" id="140570207">
 						<reference key="NSNextResponder" ref="568663015"/>
 						<int key="NSvFlags">266</int>
-						<string key="NSFrame">{{145, 20}, {335, 22}}</string>
+						<string key="NSFrame">{{121, 20}, {359, 22}}</string>
 						<reference key="NSSuperview" ref="568663015"/>
 						<reference key="NSNextKeyView" ref="778028461"/>
 						<string key="NSReuseIdentifierKey">_NS:248</string>
@@ -2224,7 +2224,7 @@
 					<object class="NSTextField" id="54709664">
 						<reference key="NSNextResponder" ref="568663015"/>
 						<int key="NSvFlags">268</int>
-						<string key="NSFrame">{{17, 25}, {123, 17}}</string>
+						<string key="NSFrame">{{17, 25}, {99, 17}}</string>
 						<reference key="NSSuperview" ref="568663015"/>
 						<reference key="NSNextKeyView" ref="140570207"/>
 						<string key="NSReuseIdentifierKey">_NS:3936</string>
