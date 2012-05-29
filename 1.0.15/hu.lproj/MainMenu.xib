@@ -373,7 +373,7 @@
 								<object class="NSMenuItem" id="89559302">
 									<reference key="NSMenu" ref="458109416"/>
 									<bool key="NSIsDisabled">YES</bool>
-									<string key="NSTitle">Képernyőfotó</string>
+									<string key="NSTitle">Pillanatkép</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -381,7 +381,7 @@
 								</object>
 								<object class="NSMenuItem" id="1035171433">
 									<reference key="NSMenu" ref="458109416"/>
-									<string key="NSTitle">Képernyőfotó-mappa megnyitása...</string>
+									<string key="NSTitle">Pillanatkép-mappa megnyitása...</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -636,7 +636,7 @@
 								</object>
 								<object class="NSMenuItem" id="356932461">
 									<reference key="NSMenu" ref="912779322"/>
-									<string key="NSTitle">Tükrözés</string>
+									<string key="NSTitle">Tükrözés vízszintesen</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -644,7 +644,7 @@
 								</object>
 								<object class="NSMenuItem" id="389315182">
 									<reference key="NSMenu" ref="912779322"/>
-									<string key="NSTitle">Fejtetőre állítás</string>
+									<string key="NSTitle">Tükrözés függőlegesen</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
