@@ -219,15 +219,6 @@
 									<reference key="NSOnImage" ref="35465992"/>
 									<reference key="NSMixedImage" ref="502551668"/>
 								</object>
-								<object class="NSMenuItem" id="45875320">
-									<reference key="NSMenu" ref="720053764"/>
-									<string key="NSTitle">Otevřít VIDEO_TS...</string>
-									<string key="NSKeyEquiv">d</string>
-									<int key="NSKeyEquivModMask">1048576</int>
-									<int key="NSMnemonicLoc">2147483647</int>
-									<reference key="NSOnImage" ref="35465992"/>
-									<reference key="NSMixedImage" ref="502551668"/>
-								</object>
 								<object class="NSMenuItem" id="462099003">
 									<reference key="NSMenu" ref="720053764"/>
 									<string key="NSTitle">Otevřít URL...</string>
@@ -2516,14 +2507,6 @@
 					<int key="connectionID">1000</int>
 				</object>
 				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
-						<string key="label">openVIDEOTS:</string>
-						<reference key="source" ref="1014"/>
-						<reference key="destination" ref="45875320"/>
-					</object>
-					<int key="connectionID">1089</int>
-				</object>
-				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">initialFirstResponder</string>
 						<reference key="source" ref="972006081"/>
@@ -4232,7 +4215,6 @@
 							<reference ref="462099003"/>
 							<reference ref="628185863"/>
 							<reference ref="728876290"/>
-							<reference ref="45875320"/>
 						</object>
 						<reference key="parent" ref="379814623"/>
 					</object>
@@ -5223,11 +5205,6 @@
 						<reference key="parent" ref="912779322"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">1088</int>
-						<reference key="object" ref="45875320"/>
-						<reference key="parent" ref="720053764"/>
-					</object>
-					<object class="IBObjectRecord">
 						<int key="objectID">1090</int>
 						<reference key="object" ref="1044331986"/>
 						<object class="NSMutableArray" key="children">
@@ -5797,7 +5774,6 @@
 					<string>1077.IBPluginDependency</string>
 					<string>1084.IBPluginDependency</string>
 					<string>1085.IBPluginDependency</string>
-					<string>1088.IBPluginDependency</string>
 					<string>1090.IBPluginDependency</string>
 					<string>1091.IBPluginDependency</string>
 					<string>1093.IBPluginDependency</string>
@@ -6125,7 +6101,6 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<boolean value="NO"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -6269,7 +6244,7 @@
 						<object class="IBToolTipAttribute" key="NS.object.0">
 							<string key="name">ToolTip</string>
 							<reference key="object" ref="278255822"/>
-							<string key="toolTip">set play speed</string>
+							<string key="toolTip">Set play speed</string>
 						</object>
 					</object>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -6287,7 +6262,7 @@
 						<object class="IBToolTipAttribute" key="NS.object.0">
 							<string key="name">ToolTip</string>
 							<reference key="object" ref="129911483"/>
-							<string key="toolTip">set Audio Delay</string>
+							<string key="toolTip">Set audio delay</string>
 						</object>
 					</object>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -6299,7 +6274,7 @@
 						<object class="IBToolTipAttribute" key="NS.object.0">
 							<string key="name">ToolTip</string>
 							<reference key="object" ref="630664672"/>
-							<string key="toolTip">set Subtitle Delay</string>
+							<string key="toolTip">Set subtitle delay</string>
 						</object>
 					</object>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>

@@ -219,15 +219,6 @@
 									<reference key="NSOnImage" ref="35465992"/>
 									<reference key="NSMixedImage" ref="502551668"/>
 								</object>
-								<object class="NSMenuItem" id="45875320">
-									<reference key="NSMenu" ref="720053764"/>
-									<string key="NSTitle">Open VIDEO_TS...</string>
-									<string key="NSKeyEquiv">d</string>
-									<int key="NSKeyEquivModMask">1048576</int>
-									<int key="NSMnemonicLoc">2147483647</int>
-									<reference key="NSOnImage" ref="35465992"/>
-									<reference key="NSMixedImage" ref="502551668"/>
-								</object>
 								<object class="NSMenuItem" id="462099003">
 									<reference key="NSMenu" ref="720053764"/>
 									<string key="NSTitle">Open URL...</string>
@@ -1372,7 +1363,6 @@
 									<int key="NSvFlags">265</int>
 									<string key="NSFrame">{{369, 8}, {58, 14}}</string>
 									<reference key="NSSuperview" ref="85098728"/>
-									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="495638360"/>
 									<int key="NSViewLayerContentsRedrawPolicy">2</int>
 									<bool key="NSEnabled">YES</bool>
@@ -1404,7 +1394,6 @@
 											<int key="NSvFlags">268</int>
 											<string key="NSFrame">{{2, 2}, {24, 24}}</string>
 											<reference key="NSSuperview" ref="482950071"/>
-											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="930446879"/>
 											<int key="NSViewLayerContentsRedrawPolicy">2</int>
 											<bool key="NSEnabled">YES</bool>
@@ -1435,7 +1424,6 @@
 											<int key="NSvFlags">265</int>
 											<string key="NSFrame">{{110, 2}, {24, 24}}</string>
 											<reference key="NSSuperview" ref="482950071"/>
-											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="75692459"/>
 											<int key="NSViewLayerContentsRedrawPolicy">2</int>
 											<bool key="NSEnabled">YES</bool>
@@ -1462,7 +1450,6 @@
 											<int key="NSvFlags">269</int>
 											<string key="NSFrame">{{56, 2}, {24, 24}}</string>
 											<reference key="NSSuperview" ref="482950071"/>
-											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="723958092"/>
 											<int key="NSViewLayerContentsRedrawPolicy">2</int>
 											<bool key="NSEnabled">YES</bool>
@@ -1491,7 +1478,6 @@
 									</object>
 									<string key="NSFrame">{{148, 28}, {136, 28}}</string>
 									<reference key="NSSuperview" ref="85098728"/>
-									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="658583842"/>
 									<int key="NSViewLayerContentsRedrawPolicy">2</int>
 									<string key="NSClassName">NSView</string>
@@ -1501,7 +1487,6 @@
 									<int key="NSvFlags">301</int>
 									<string key="NSFrame">{{104, 32}, {75, 14}}</string>
 									<reference key="NSSuperview" ref="85098728"/>
-									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="482950071"/>
 									<int key="NSViewLayerContentsRedrawPolicy">2</int>
 									<bool key="NSEnabled">YES</bool>
@@ -1534,7 +1519,6 @@
 									<int key="NSvFlags">265</int>
 									<string key="NSFrame">{{402, 31}, {22, 22}}</string>
 									<reference key="NSSuperview" ref="85098728"/>
-									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="756809417"/>
 									<int key="NSViewLayerContentsRedrawPolicy">2</int>
 									<bool key="NSEnabled">YES</bool>
@@ -1574,7 +1558,6 @@
 											<int key="NSvFlags">260</int>
 											<string key="NSFrame">{{277, 4}, {32, 16}}</string>
 											<reference key="NSSuperview" ref="491486245"/>
-											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="427466563"/>
 											<int key="NSViewLayerContentsRedrawPolicy">2</int>
 											<bool key="NSEnabled">YES</bool>
@@ -1601,7 +1584,6 @@
 											<int key="NSvFlags">260</int>
 											<string key="NSFrame">{{227, 7}, {50, 11}}</string>
 											<reference key="NSSuperview" ref="491486245"/>
-											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="630664672"/>
 											<int key="NSViewLayerContentsRedrawPolicy">2</int>
 											<bool key="NSEnabled">YES</bool>
@@ -1624,7 +1606,6 @@
 											<int key="NSvFlags">260</int>
 											<string key="NSFrame">{{171, 4}, {32, 16}}</string>
 											<reference key="NSSuperview" ref="491486245"/>
-											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="10152653"/>
 											<int key="NSViewLayerContentsRedrawPolicy">2</int>
 											<bool key="NSEnabled">YES</bool>
@@ -1651,7 +1632,6 @@
 											<int key="NSvFlags">260</int>
 											<string key="NSFrame">{{111, 7}, {60, 11}}</string>
 											<reference key="NSSuperview" ref="491486245"/>
-											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="129911483"/>
 											<int key="NSViewLayerContentsRedrawPolicy">2</int>
 											<bool key="NSEnabled">YES</bool>
@@ -1674,7 +1654,6 @@
 											<int key="NSvFlags">260</int>
 											<string key="NSFrame">{{51, 4}, {32, 16}}</string>
 											<reference key="NSSuperview" ref="491486245"/>
-											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="263273036"/>
 											<int key="NSViewLayerContentsRedrawPolicy">2</int>
 											<bool key="NSEnabled">YES</bool>
@@ -1702,7 +1681,6 @@
 											<int key="NSvFlags">260</int>
 											<string key="NSFrame">{{17, 7}, {34, 11}}</string>
 											<reference key="NSSuperview" ref="491486245"/>
-											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="278255822"/>
 											<int key="NSViewLayerContentsRedrawPolicy">2</int>
 											<bool key="NSEnabled">YES</bool>
@@ -1723,7 +1701,6 @@
 									</object>
 									<string key="NSFrame">{{56, 0}, {320, 25}}</string>
 									<reference key="NSSuperview" ref="85098728"/>
-									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="567307658"/>
 									<int key="NSViewLayerContentsRedrawPolicy">2</int>
 									<string key="NSClassName">NSView</string>
@@ -1733,7 +1710,6 @@
 									<int key="NSvFlags">266</int>
 									<string key="NSFrame">{{62, 7}, {306, 15}}</string>
 									<reference key="NSSuperview" ref="85098728"/>
-									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="694480288"/>
 									<int key="NSViewLayerContentsRedrawPolicy">2</int>
 									<bool key="NSEnabled">YES</bool>
@@ -1757,7 +1733,6 @@
 									<int key="NSvFlags">265</int>
 									<string key="NSFrame">{{369, 8}, {58, 14}}</string>
 									<reference key="NSSuperview" ref="85098728"/>
-									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="1044331986"/>
 									<int key="NSViewLayerContentsRedrawPolicy">2</int>
 									<bool key="NSEnabled">YES</bool>
@@ -1781,7 +1756,6 @@
 									<int key="NSvFlags">268</int>
 									<string key="NSFrame">{{3, 8}, {58, 14}}</string>
 									<reference key="NSSuperview" ref="85098728"/>
-									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="491486245"/>
 									<int key="NSViewLayerContentsRedrawPolicy">2</int>
 									<bool key="NSEnabled">YES</bool>
@@ -1803,7 +1777,6 @@
 									<int key="NSvFlags">268</int>
 									<string key="NSFrame">{{14, 33}, {18, 18}}</string>
 									<reference key="NSSuperview" ref="85098728"/>
-									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="771744907"/>
 									<int key="NSViewLayerContentsRedrawPolicy">2</int>
 									<bool key="NSEnabled">YES</bool>
@@ -1834,7 +1807,6 @@
 									<int key="NSvFlags">268</int>
 									<string key="NSFrame">{{38, 36}, {53, 12}}</string>
 									<reference key="NSSuperview" ref="85098728"/>
-									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="663614641"/>
 									<int key="NSViewLayerContentsRedrawPolicy">2</int>
 									<bool key="NSEnabled">YES</bool>
@@ -1858,7 +1830,6 @@
 									<int key="NSvFlags">265</int>
 									<string key="NSFrame">{{334, 30}, {24, 24}}</string>
 									<reference key="NSSuperview" ref="85098728"/>
-									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="148756898"/>
 									<int key="NSViewLayerContentsRedrawPolicy">2</int>
 									<bool key="NSEnabled">YES</bool>
@@ -1889,7 +1860,6 @@
 									<int key="NSvFlags">265</int>
 									<string key="NSFrame">{{370, 31}, {22, 22}}</string>
 									<reference key="NSSuperview" ref="85098728"/>
-									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="730515757"/>
 									<int key="NSViewLayerContentsRedrawPolicy">2</int>
 									<bool key="NSEnabled">YES</bool>
@@ -1918,7 +1888,6 @@
 							</object>
 							<string key="NSFrame">{{24, 13}, {432, 60}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
-							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="2615583"/>
 							<double key="NSViewAlphaValue">0.25323943661971821</double>
 							<int key="NSViewLayerContentsRedrawPolicy">2</int>
@@ -1929,7 +1898,6 @@
 							<int key="NSvFlags">289</int>
 							<string key="NSFrame">{{466, 2}, {12, 12}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
-							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView"/>
 							<bool key="NSViewIsLayerTreeHost">YES</bool>
 							<int key="NSViewLayerContentsRedrawPolicy">2</int>
@@ -1940,7 +1908,6 @@
 							<int key="NSvFlags">266</int>
 							<string key="NSFrame">{{17, 231}, {446, 104}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
-							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="85098728"/>
 							<int key="NSViewLayerContentsRedrawPolicy">2</int>
 							<bool key="NSEnabled">YES</bool>
@@ -1967,7 +1934,6 @@
 							<int key="NSvFlags">266</int>
 							<string key="NSFrame">{{0, 337}, {480, 23}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
-							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="171470766"/>
 							<bool key="NSViewIsLayerTreeHost">YES</bool>
 							<int key="NSViewLayerContentsRedrawPolicy">2</int>
@@ -1976,7 +1942,6 @@
 					</object>
 					<string key="NSFrameSize">{480, 360}</string>
 					<reference key="NSSuperview"/>
-					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="417279129"/>
 					<bool key="NSViewIsLayerTreeHost">YES</bool>
 					<int key="NSViewLayerContentsRedrawPolicy">2</int>
@@ -2542,14 +2507,6 @@
 						<reference key="destination" ref="105068016"/>
 					</object>
 					<int key="connectionID">1000</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
-						<string key="label">openVIDEOTS:</string>
-						<reference key="source" ref="1014"/>
-						<reference key="destination" ref="45875320"/>
-					</object>
-					<int key="connectionID">1089</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
@@ -4260,7 +4217,6 @@
 							<reference ref="462099003"/>
 							<reference ref="628185863"/>
 							<reference ref="728876290"/>
-							<reference ref="45875320"/>
 						</object>
 						<reference key="parent" ref="379814623"/>
 					</object>
@@ -5251,11 +5207,6 @@
 						<reference key="parent" ref="912779322"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">1088</int>
-						<reference key="object" ref="45875320"/>
-						<reference key="parent" ref="720053764"/>
-					</object>
-					<object class="IBObjectRecord">
 						<int key="objectID">1090</int>
 						<reference key="object" ref="1044331986"/>
 						<object class="NSMutableArray" key="children">
@@ -5825,7 +5776,6 @@
 					<string>1077.IBPluginDependency</string>
 					<string>1084.IBPluginDependency</string>
 					<string>1085.IBPluginDependency</string>
-					<string>1088.IBPluginDependency</string>
 					<string>1090.IBPluginDependency</string>
 					<string>1091.IBPluginDependency</string>
 					<string>1093.IBPluginDependency</string>
@@ -6153,7 +6103,6 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<boolean value="NO"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -6297,7 +6246,7 @@
 						<object class="IBToolTipAttribute" key="NS.object.0">
 							<string key="name">ToolTip</string>
 							<reference key="object" ref="278255822"/>
-							<string key="toolTip">set play speed</string>
+							<string key="toolTip">Set play speed</string>
 						</object>
 					</object>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -6315,7 +6264,7 @@
 						<object class="IBToolTipAttribute" key="NS.object.0">
 							<string key="name">ToolTip</string>
 							<reference key="object" ref="129911483"/>
-							<string key="toolTip">set Audio Delay</string>
+							<string key="toolTip">Set audio delay</string>
 						</object>
 					</object>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -6327,7 +6276,7 @@
 						<object class="IBToolTipAttribute" key="NS.object.0">
 							<string key="name">ToolTip</string>
 							<reference key="object" ref="630664672"/>
-							<string key="toolTip">set Subtitle Delay</string>
+							<string key="toolTip">Set subtitle delay</string>
 						</object>
 					</object>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
