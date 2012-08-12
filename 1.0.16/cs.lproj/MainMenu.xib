@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="7.10">
 	<data>
-		<int key="IBDocument.SystemTarget">1080</int>
+		<int key="IBDocument.SystemTarget">1070</int>
 		<string key="IBDocument.SystemVersion">12A269</string>
 		<string key="IBDocument.InterfaceBuilderVersion">2549</string>
 		<string key="IBDocument.AppKitVersion">1187</string>
@@ -1370,6 +1370,9 @@
 								<object class="NSButton" id="1044331986">
 									<reference key="NSNextResponder" ref="85098728"/>
 									<int key="NSvFlags">265</int>
+									<object class="NSMutableArray" key="NSSubviews">
+										<bool key="EncodedWithXMLCoder">YES</bool>
+									</object>
 									<string key="NSFrame">{{369, 8}, {58, 14}}</string>
 									<reference key="NSSuperview" ref="85098728"/>
 									<reference key="NSNextKeyView" ref="495638360"/>
@@ -1401,6 +1404,9 @@
 										<object class="NSButton" id="658583842">
 											<reference key="NSNextResponder" ref="482950071"/>
 											<int key="NSvFlags">268</int>
+											<object class="NSMutableArray" key="NSSubviews">
+												<bool key="EncodedWithXMLCoder">YES</bool>
+											</object>
 											<string key="NSFrame">{{2, 2}, {24, 24}}</string>
 											<reference key="NSSuperview" ref="482950071"/>
 											<reference key="NSNextKeyView" ref="930446879"/>
@@ -1431,6 +1437,9 @@
 										<object class="NSButton" id="723958092">
 											<reference key="NSNextResponder" ref="482950071"/>
 											<int key="NSvFlags">265</int>
+											<object class="NSMutableArray" key="NSSubviews">
+												<bool key="EncodedWithXMLCoder">YES</bool>
+											</object>
 											<string key="NSFrame">{{110, 2}, {24, 24}}</string>
 											<reference key="NSSuperview" ref="482950071"/>
 											<reference key="NSNextKeyView" ref="75692459"/>
@@ -1457,6 +1466,9 @@
 										<object class="NSButton" id="930446879">
 											<reference key="NSNextResponder" ref="482950071"/>
 											<int key="NSvFlags">269</int>
+											<object class="NSMutableArray" key="NSSubviews">
+												<bool key="EncodedWithXMLCoder">YES</bool>
+											</object>
 											<string key="NSFrame">{{56, 2}, {24, 24}}</string>
 											<reference key="NSSuperview" ref="482950071"/>
 											<reference key="NSNextKeyView" ref="723958092"/>
@@ -1525,6 +1537,9 @@
 								<object class="NSButton" id="730515757">
 									<reference key="NSNextResponder" ref="85098728"/>
 									<int key="NSvFlags">265</int>
+									<object class="NSMutableArray" key="NSSubviews">
+										<bool key="EncodedWithXMLCoder">YES</bool>
+									</object>
 									<string key="NSFrame">{{402, 31}, {22, 22}}</string>
 									<reference key="NSSuperview" ref="85098728"/>
 									<reference key="NSNextKeyView" ref="756809417"/>
@@ -1782,6 +1797,9 @@
 								<object class="NSButton" id="2615583">
 									<reference key="NSNextResponder" ref="85098728"/>
 									<int key="NSvFlags">268</int>
+									<object class="NSMutableArray" key="NSSubviews">
+										<bool key="EncodedWithXMLCoder">YES</bool>
+									</object>
 									<string key="NSFrame">{{14, 33}, {18, 18}}</string>
 									<reference key="NSSuperview" ref="85098728"/>
 									<reference key="NSNextKeyView" ref="771744907"/>
@@ -1835,6 +1853,9 @@
 								<object class="NSButton" id="75692459">
 									<reference key="NSNextResponder" ref="85098728"/>
 									<int key="NSvFlags">265</int>
+									<object class="NSMutableArray" key="NSSubviews">
+										<bool key="EncodedWithXMLCoder">YES</bool>
+									</object>
 									<string key="NSFrame">{{334, 30}, {24, 24}}</string>
 									<reference key="NSSuperview" ref="85098728"/>
 									<reference key="NSNextKeyView" ref="148756898"/>
@@ -1865,6 +1886,9 @@
 								<object class="NSButton" id="148756898">
 									<reference key="NSNextResponder" ref="85098728"/>
 									<int key="NSvFlags">265</int>
+									<object class="NSMutableArray" key="NSSubviews">
+										<bool key="EncodedWithXMLCoder">YES</bool>
+									</object>
 									<string key="NSFrame">{{370, 31}, {22, 22}}</string>
 									<reference key="NSSuperview" ref="85098728"/>
 									<reference key="NSNextKeyView" ref="730515757"/>
@@ -2069,7 +2093,7 @@
 								<object class="NSComboTableView" key="NSTableView" id="320193884">
 									<reference key="NSNextResponder"/>
 									<int key="NSvFlags">274</int>
-									<string key="NSFrameSize">{13, 0}</string>
+									<string key="NSFrameSize">{15, 0}</string>
 									<reference key="NSSuperview"/>
 									<reference key="NSWindow"/>
 									<bool key="NSEnabled">YES</bool>
@@ -2078,7 +2102,7 @@
 									<object class="NSMutableArray" key="NSTableColumns">
 										<bool key="EncodedWithXMLCoder">YES</bool>
 										<object class="NSTableColumn">
-											<double key="NSWidth">10</double>
+											<double key="NSWidth">12</double>
 											<double key="NSMinWidth">10</double>
 											<double key="NSMaxWidth">1000</double>
 											<object class="NSTableHeaderCell" key="NSHeaderCell">
@@ -2129,7 +2153,7 @@
 									</object>
 									<double key="NSRowHeight">19</double>
 									<string key="NSAction">tableViewAction:</string>
-									<int key="NSTvFlags">-765427712</int>
+									<int key="NSTvFlags">-767524864</int>
 									<reference key="NSDelegate" ref="524065192"/>
 									<reference key="NSDataSource" ref="524065192"/>
 									<reference key="NSTarget" ref="524065192"/>
@@ -8560,6 +8584,10 @@
 		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaFramework</string>
+		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencyDefaults">
+			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.macosx</string>
+			<real value="1070" key="NS.object.0"/>
+		</object>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.InterfaceBuilder3</string>
 			<integer value="3000" key="NS.object.0"/>
