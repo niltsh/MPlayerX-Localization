@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="7.10">
 	<data>
-		<int key="IBDocument.SystemTarget">1070</int>
+		<int key="IBDocument.SystemTarget">1080</int>
 		<string key="IBDocument.SystemVersion">12A269</string>
 		<string key="IBDocument.InterfaceBuilderVersion">2549</string>
 		<string key="IBDocument.AppKitVersion">1187</string>
@@ -84,9 +84,11 @@
 				</object>
 				<nil key="NSUserInterfaceItemIdentifier"/>
 				<object class="NSView" key="NSWindowView" id="1006">
-					<nil key="NSNextResponder"/>
+					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
 					<string key="NSFrameSize">{413, 228}</string>
+					<reference key="NSSuperview"/>
+					<reference key="NSWindow"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1920, 1178}}</string>
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
@@ -1209,7 +1211,7 @@
 				<string key="NSClassName">NSView</string>
 			</object>
 			<object class="NSCustomView" id="668958637">
-				<nil key="NSNextResponder"/>
+				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">274</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1663,6 +1665,7 @@
 					</object>
 				</object>
 				<string key="NSFrameSize">{560, 429}</string>
+				<reference key="NSSuperview"/>
 				<reference key="NSNextKeyView" ref="404347190"/>
 				<string key="NSClassName">NSView</string>
 			</object>
@@ -3142,7 +3145,7 @@ ciBsbGV2YWRvcyBhIGxhIHJlcHJvZHVjY2nDs24uA</string>
 				<string key="NSClassName">NSView</string>
 			</object>
 			<object class="NSCustomView" id="615974115">
-				<nil key="NSNextResponder"/>
+				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">274</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
@@ -3198,7 +3201,7 @@ ciBsbGV2YWRvcyBhIGxhIHJlcHJvZHVjY2nDs24uA</string>
 					<object class="NSButton" id="1038513569">
 						<reference key="NSNextResponder" ref="615974115"/>
 						<int key="NSvFlags">266</int>
-						<string key="NSFrame">{{18, 67}, {524, 18}}</string>
+						<string key="NSFrame">{{18, 65}, {524, 18}}</string>
 						<reference key="NSSuperview" ref="615974115"/>
 						<reference key="NSNextKeyView" ref="342034347"/>
 						<string key="NSReuseIdentifierKey">_NS:771</string>
@@ -3224,7 +3227,7 @@ ciBsbGV2YWRvcyBhIGxhIHJlcHJvZHVjY2nDs24uA</string>
 					<object class="NSButton" id="772162383">
 						<reference key="NSNextResponder" ref="615974115"/>
 						<int key="NSvFlags">266</int>
-						<string key="NSFrame">{{18, 96}, {524, 34}}</string>
+						<string key="NSFrame">{{18, 88}, {524, 34}}</string>
 						<reference key="NSSuperview" ref="615974115"/>
 						<reference key="NSNextKeyView" ref="1038513569"/>
 						<string key="NSReuseIdentifierKey">_NS:239</string>
@@ -3324,7 +3327,7 @@ byBlbiBibGFuY28uA</string>
 					<object class="NSTextField" id="215475764">
 						<reference key="NSNextResponder" ref="615974115"/>
 						<int key="NSvFlags">266</int>
-						<string key="NSFrame">{{110, 230}, {412, 22}}</string>
+						<string key="NSFrame">{{128, 230}, {412, 22}}</string>
 						<reference key="NSSuperview" ref="615974115"/>
 						<reference key="NSNextKeyView" ref="672910746"/>
 						<bool key="NSEnabled">YES</bool>
@@ -3360,6 +3363,7 @@ byBlbiBibGFuY28uA</string>
 					</object>
 				</object>
 				<string key="NSFrameSize">{560, 272}</string>
+				<reference key="NSSuperview"/>
 				<reference key="NSNextKeyView" ref="104985871"/>
 				<string key="NSClassName">NSView</string>
 			</object>
@@ -9196,10 +9200,6 @@ IGxpbmVhcyBjb24gdW4gZmlsdHJvICgtMSAyIDYgMiAtMSkuA</string>
 		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaFramework</string>
-		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencyDefaults">
-			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.macosx</string>
-			<real value="1070" key="NS.object.0"/>
-		</object>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.InterfaceBuilder3</string>
 			<integer value="3000" key="NS.object.0"/>
