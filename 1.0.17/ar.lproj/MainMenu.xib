@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="7.10">
 	<data>
-		<int key="IBDocument.SystemTarget">1070</int>
+		<int key="IBDocument.SystemTarget">1080</int>
 		<string key="IBDocument.SystemVersion">12B19</string>
 		<string key="IBDocument.InterfaceBuilderVersion">2549</string>
 		<string key="IBDocument.AppKitVersion">1187</string>
@@ -81,7 +81,7 @@
 								</object>
 								<object class="NSMenuItem" id="460290782">
 									<reference key="NSMenu" ref="110575045"/>
-									<string key="NSTitle">Check For Updates...</string>
+									<string key="NSTitle">التحقق من وجود تحديثات...</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -2111,7 +2111,7 @@
 								<object class="NSComboTableView" key="NSTableView" id="320193884">
 									<reference key="NSNextResponder"/>
 									<int key="NSvFlags">274</int>
-									<string key="NSFrameSize">{13, 0}</string>
+									<string key="NSFrameSize">{15, 0}</string>
 									<reference key="NSSuperview"/>
 									<reference key="NSWindow"/>
 									<bool key="NSEnabled">YES</bool>
@@ -2120,7 +2120,7 @@
 									<object class="NSMutableArray" key="NSTableColumns">
 										<bool key="EncodedWithXMLCoder">YES</bool>
 										<object class="NSTableColumn">
-											<double key="NSWidth">10</double>
+											<double key="NSWidth">12</double>
 											<double key="NSMinWidth">10</double>
 											<double key="NSMaxWidth">1000</double>
 											<object class="NSTableHeaderCell" key="NSHeaderCell">
@@ -2171,7 +2171,7 @@
 									</object>
 									<double key="NSRowHeight">19</double>
 									<string key="NSAction">tableViewAction:</string>
-									<int key="NSTvFlags">-765427712</int>
+									<int key="NSTvFlags">-767524864</int>
 									<reference key="NSDelegate" ref="524065192"/>
 									<reference key="NSDataSource" ref="524065192"/>
 									<reference key="NSTarget" ref="524065192"/>
@@ -8691,10 +8691,6 @@
 		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaFramework</string>
-		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencyDefaults">
-			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.macosx</string>
-			<real value="1070" key="NS.object.0"/>
-		</object>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.InterfaceBuilder3</string>
 			<integer value="3000" key="NS.object.0"/>
