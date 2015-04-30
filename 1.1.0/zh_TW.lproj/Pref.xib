@@ -541,7 +541,7 @@ And you don‘t have to worry about the 0 padding</string>
                                 </textFieldCell>
                             </textField>
                             <segmentedControl verticalHuggingPriority="750" id="414">
-                                <rect key="frame" x="186" y="12" width="130" height="19"/>
+                                <rect key="frame" x="186" y="12" width="135" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <string key="toolTip">FFMpeg: FFMpeg  deinterlacing filter that deinterlaces the given block by filtering every second line with a (-1  4  2  4 -1) filter.
 
@@ -1170,7 +1170,7 @@ LPF5: Vertically applied FIR lowpass deinterlacing filter that deinterlaces the 
                                 </connections>
                             </popUpButton>
                             <textField verticalHuggingPriority="750" id="347">
-                                <rect key="frame" x="15" y="0.0" width="494" height="14"/>
+                                <rect key="frame" x="15" y="14" width="494" height="14"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" controlSize="small" sendsActionOnEndEditing="YES" title="設定自信閥值為 100% 將關閉自動檢測文字編碼，但是通常不推薦這麼做。" id="348">
                                     <font key="font" metaFont="smallSystem"/>

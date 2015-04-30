@@ -539,7 +539,7 @@
                                 </textFieldCell>
                             </textField>
                             <segmentedControl verticalHuggingPriority="750" id="414">
-                                <rect key="frame" x="183" y="12" width="130" height="19"/>
+                                <rect key="frame" x="183" y="12" width="135" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <string key="toolTip">FFMpeg: FFMpeg  隔行扫描过滤器用 (-1  4  2  4 -1) 过滤器过滤给定块的每个偶数行来实现隔行扫描。
 
@@ -1093,7 +1093,7 @@ LPF5: 纵向应用 FIR 低通隔行扫描过滤器用 (-1 2 6 2 -1) 过滤器来
                                 </connections>
                             </button>
                             <textField verticalHuggingPriority="750" id="487">
-                                <rect key="frame" x="23" y="-28" width="486" height="28"/>
+                                <rect key="frame" x="23" y="16" width="486" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" controlSize="small" allowsUndo="NO" sendsActionOnEndEditing="YES" id="488">
                                     <font key="font" metaFont="smallSystem"/>
@@ -1168,7 +1168,7 @@ LPF5: 纵向应用 FIR 低通隔行扫描过滤器用 (-1 2 6 2 -1) 过滤器来
                                 </connections>
                             </popUpButton>
                             <textField verticalHuggingPriority="750" id="347">
-                                <rect key="frame" x="15" y="0.0" width="494" height="14"/>
+                                <rect key="frame" x="15" y="14" width="494" height="14"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" controlSize="small" sendsActionOnEndEditing="YES" title="设定自信阀值为 100% 将关闭自动检测文本编码，但是通常不推荐这么做。" id="348">
                                     <font key="font" metaFont="smallSystem"/>

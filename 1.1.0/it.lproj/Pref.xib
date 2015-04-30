@@ -543,7 +543,7 @@ Non ci si deve preoccupare degli 0 di allineamento</string>
                                 </textFieldCell>
                             </textField>
                             <segmentedControl verticalHuggingPriority="750" id="414">
-                                <rect key="frame" x="220" y="12" width="165" height="19"/>
+                                <rect key="frame" x="220" y="12" width="171" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <string key="toolTip">FFMpeg: il filtro di deinterlacciamento FFMpeg deinterlaccia un blocco filtrando ogni seconda linea con un filtro (-1  4  2  4 -1).
 

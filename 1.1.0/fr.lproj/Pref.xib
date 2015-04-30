@@ -542,7 +542,7 @@ de temps</string>
                                 </textFieldCell>
                             </textField>
                             <segmentedControl verticalHuggingPriority="750" id="414">
-                                <rect key="frame" x="219" y="12" width="151" height="19"/>
+                                <rect key="frame" x="219" y="12" width="152" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <string key="toolTip">FFMpeg: FFMpeg  deinterlacing filter that deinterlaces the given block by filtering every second line with a (-1  4  2  4 -1) filter.
 

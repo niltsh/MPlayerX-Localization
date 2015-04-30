@@ -539,7 +539,7 @@
                                 </textFieldCell>
                             </textField>
                             <segmentedControl verticalHuggingPriority="750" id="414">
-                                <rect key="frame" x="186" y="12" width="141" height="19"/>
+                                <rect key="frame" x="186" y="12" width="146" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <string key="toolTip">FFMpeg: FFMpeg  deinterlacing filter that deinterlaces the given block by filtering every second line with a (-1  4  2  4 -1) filter.
 
@@ -1095,7 +1095,7 @@ LPF5: Vertically applied FIR lowpass deinterlacing filter that deinterlaces the 
                                 </connections>
                             </button>
                             <textField verticalHuggingPriority="750" id="487">
-                                <rect key="frame" x="23" y="-14" width="486" height="28"/>
+                                <rect key="frame" x="23" y="14" width="486" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" controlSize="small" allowsUndo="NO" sendsActionOnEndEditing="YES" id="488">
                                     <font key="font" metaFont="smallSystem"/>

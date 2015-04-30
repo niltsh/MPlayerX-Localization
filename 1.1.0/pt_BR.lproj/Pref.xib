@@ -541,7 +541,7 @@ E você não precisa se preocupar com os preenchimentos com 0.</string>
                                 </textFieldCell>
                             </textField>
                             <segmentedControl verticalHuggingPriority="750" id="414">
-                                <rect key="frame" x="209" y="12" width="147" height="19"/>
+                                <rect key="frame" x="209" y="12" width="152" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <string key="toolTip">FFMpeg: o filtro de desentrelaçamento do que desentrelaça um bloco filtrando cada linha por segundo com filtro (-1 4 2 4 -1).
 

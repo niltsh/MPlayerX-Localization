@@ -541,7 +541,7 @@ A zero paddinggel Önnek nem kell foglalkoznia.</string>
                                 </textFieldCell>
                             </textField>
                             <segmentedControl verticalHuggingPriority="750" id="414">
-                                <rect key="frame" x="219" y="12" width="149" height="19"/>
+                                <rect key="frame" x="219" y="12" width="152" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <string key="toolTip">FFmpeg: Az FFmpeg szűrő a váltottsorosság megszüntetése érdekében minden második soron (-1  4  2  4 -1) értékű szűrést végez.
 

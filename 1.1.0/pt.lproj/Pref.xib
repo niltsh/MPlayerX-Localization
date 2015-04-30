@@ -541,7 +541,7 @@ And you don‘t have to worry about the 0 padding</string>
                                 </textFieldCell>
                             </textField>
                             <segmentedControl verticalHuggingPriority="750" id="414">
-                                <rect key="frame" x="193" y="12" width="164" height="19"/>
+                                <rect key="frame" x="193" y="12" width="168" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <string key="toolTip">FFMpeg: FFMpeg  deinterlacing filter that deinterlaces the given block by filtering every second line with a (-1  4  2  4 -1) filter.
 
@@ -1084,7 +1084,7 @@ LPF5: Vertically applied FIR lowpass deinterlacing filter that deinterlaces the 
                                 </textFieldCell>
                             </textField>
                             <button id="484">
-                                <rect key="frame" x="16" y="60" width="492" height="18"/>
+                                <rect key="frame" x="16" y="77" width="492" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="Ao activar ecrã completo, ajustar a altura da letterbox à altura da janela" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="485">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -1096,7 +1096,7 @@ LPF5: Vertically applied FIR lowpass deinterlacing filter that deinterlaces the 
                                 </connections>
                             </button>
                             <textField verticalHuggingPriority="750" id="487">
-                                <rect key="frame" x="23" y="14" width="486" height="56"/>
+                                <rect key="frame" x="23" y="15" width="486" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" controlSize="small" allowsUndo="NO" sendsActionOnEndEditing="YES" id="488">
                                     <font key="font" metaFont="smallSystem"/>

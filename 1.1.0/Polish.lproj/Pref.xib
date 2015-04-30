@@ -507,7 +507,7 @@ And you don‘t have to worry about the 0 padding</string>
                                 </connections>
                             </textField>
                             <segmentedControl verticalHuggingPriority="750" id="407">
-                                <rect key="frame" x="187" y="44" width="208" height="19"/>
+                                <rect key="frame" x="186" y="44" width="208" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <segmentedCell key="cell" controlSize="small" state="on" borderStyle="border" alignment="left" style="texturedSquare" trackingMode="selectOne" id="408">
                                     <font key="font" metaFont="smallSystem"/>
@@ -541,7 +541,7 @@ And you don‘t have to worry about the 0 padding</string>
                                 </textFieldCell>
                             </textField>
                             <segmentedControl verticalHuggingPriority="750" id="414">
-                                <rect key="frame" x="186" y="12" width="143" height="19"/>
+                                <rect key="frame" x="186" y="12" width="149" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <string key="toolTip">FFMpeg: FFMpeg  deinterlacing filter that deinterlaces the given block by filtering every second line with a (-1  4  2  4 -1) filter.
 

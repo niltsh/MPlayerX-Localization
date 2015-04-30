@@ -541,7 +541,7 @@ Du behöver inte padda filnamn med 0:or</string>
                                 </textFieldCell>
                             </textField>
                             <segmentedControl verticalHuggingPriority="750" id="414">
-                                <rect key="frame" x="186" y="12" width="149" height="19"/>
+                                <rect key="frame" x="186" y="12" width="154" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <string key="toolTip">FFMpeg: FFMpeg  deinterlace-filter som deinterlacar ett givet block genom att filtrera varannan rad med ett (-1  4  2  4 -1) filter.
 
@@ -1084,7 +1084,7 @@ LPF5: Applicera ett vertikalt FIR-lågpass deinterlace-filter som deinterlacar e
                                 </textFieldCell>
                             </textField>
                             <button id="484">
-                                <rect key="frame" x="16" y="60" width="492" height="18"/>
+                                <rect key="frame" x="16" y="76" width="492" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="Ändra höjden för letterbox för att passa skärmens höjd, vid fullskärm" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="485">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>

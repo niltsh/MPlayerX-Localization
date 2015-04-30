@@ -541,7 +541,7 @@ No tiene que preocuparse por el relleno 0</string>
                                 </textFieldCell>
                             </textField>
                             <segmentedControl verticalHuggingPriority="750" id="414">
-                                <rect key="frame" x="195" y="12" width="164" height="19"/>
+                                <rect key="frame" x="195" y="12" width="168" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <string key="toolTip">FFMpeg: FFMpeg filtro de desentrelazado que desentrelaza del bloque determinado mediante el filtrado de todos los de segunda línea con un filtro (-1 4 2 4 -1).
 
