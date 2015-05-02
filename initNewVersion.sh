@@ -53,6 +53,11 @@ else
 									echo "update: $folderPath/$fileNameNoExt.$ext"
 									${IBTOOL} --previous-file ./$oldVer/$masterLProj/$fileName --incremental-file ./$folderPath/$fileName --localize-incremental --write ./$folderPath/$fileNameNoExt.$ext $filePath
 								done
+							elif [ $ext == "strings" ]; then
+								find $oldVer -name *.lproj -and -not -name $masterLProj | while read folderPath
+								do
+									./mergeStrings -o ./$folderPath/$fileNameNoExt.$ext -n $filePath -O ./$folderPath/$fileNameNoExt.$ext
+								done
 							else
 								# 如果是普通文件的话，直接拷贝
 								
@@ -120,11 +125,15 @@ else
 							fi
 						else
 							# 如果是其他文件，既拷贝旧【翻译版本】，也拷贝新【Master版本】
-							echo "copy  : $newVer/$folderName/$fileNameNoExt.prev.$ext"
+							echo "copy  : ./$filePath -> $newVer/$folderName/$fileNameNoExt.prev.$ext"
 							cp ./$filePath ./$newVer/$folderName/$fileNameNoExt.prev.$ext
 							
-							echo "copy  : $newVer/$folderName/$fileNameNoExt.now.$ext"
+							echo "copy  : ./$newVer/$masterLProj/$fileName -> $newVer/$folderName/$fileNameNoExt.now.$ext"
 							cp ./$newVer/$masterLProj/$fileName ./$newVer/$folderName/$fileNameNoExt.now.$ext
+
+							if [[ $ext == "strings" ]]; then
+								./mergeStrings -o ./$filePath -n ./$newVer/$masterLProj/$fileName -O ./$newVer/$folderName/$fileNameNoExt.$ext
+							fi
 						fi
 					done
 				done
