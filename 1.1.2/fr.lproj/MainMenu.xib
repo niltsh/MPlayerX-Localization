@@ -757,7 +757,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <textField toolTip="Set play speed" verticalHuggingPriority="750" id="737" userLabel="speed (1.0)" customClass="ArrowTextField">
-                                        <rect key="frame" x="51" y="1" width="32" height="16"/>
+                                        <rect key="frame" x="55" y="1" width="32" height="16"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                         <textFieldCell key="cell" controlSize="mini" lineBreakMode="truncatingTail" selectable="YES" editable="YES" continuous="YES" allowsUndo="NO" state="on" alignment="left" title="1.0" usesSingleLineMode="YES" id="738">
                                             <font key="font" metaFont="miniSystem"/>
@@ -779,7 +779,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <textField toolTip="Set audio delay" verticalHuggingPriority="750" id="744" userLabel="audioDelay (0.0)" customClass="ArrowTextField">
-                                        <rect key="frame" x="171" y="1" width="32" height="16"/>
+                                        <rect key="frame" x="175" y="1" width="32" height="16"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                         <textFieldCell key="cell" controlSize="mini" lineBreakMode="truncatingTail" selectable="YES" editable="YES" continuous="YES" allowsUndo="NO" state="on" alignment="left" title="0.0" usesSingleLineMode="YES" id="745">
                                             <font key="font" metaFont="miniSystem"/>
@@ -801,7 +801,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <textField toolTip="Set subtitle delay" verticalHuggingPriority="750" id="747" userLabel="subDelay (0.0)" customClass="ArrowTextField">
-                                        <rect key="frame" x="277" y="1" width="32" height="16"/>
+                                        <rect key="frame" x="281" y="1" width="32" height="16"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                         <textFieldCell key="cell" controlSize="mini" lineBreakMode="truncatingTail" selectable="YES" editable="YES" continuous="YES" allowsUndo="NO" state="on" alignment="left" title="0.0" usesSingleLineMode="YES" id="748">
                                             <font key="font" metaFont="miniSystem"/>
