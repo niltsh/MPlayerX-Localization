@@ -27,7 +27,7 @@
                                     <action selector="orderFrontStandardAboutPanel:" target="-1" id="974"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Check For Updates..." id="1212">
+                            <menuItem title="Sök efter uppdateringar..." id="1212">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="checkForUpdate:" target="961" id="1213"/>
@@ -161,13 +161,13 @@
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="787"/>
-                            <menuItem title="Snapshot" enabled="NO" id="786">
+                            <menuItem title="Skärmbild" enabled="NO" id="786">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="writeSnapshotToFile:" target="961" id="972"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Goto Snapshot Folder..." id="1206">
+                            <menuItem title="Gå till skärmbildsmapp..." id="1206">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="revealSnapshotPath:" target="820" id="1210"/>
@@ -506,25 +506,25 @@
                                     <action selector="changeSubScale:" target="540" id="833"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="DMindre undertexter" enabled="NO" id="830">
+                            <menuItem title="Mindre undertexter" enabled="NO" id="830">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="changeSubScale:" target="540" id="834"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Increase Subtitle Delay" tag="1" enabled="NO" id="1075">
+                            <menuItem title="Öka undertextfördröjning" tag="1" enabled="NO" id="1075">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="changeSubDelay:" target="540" id="1079"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Öka undertextfördröjning" tag="-1" enabled="NO" id="1076">
+                            <menuItem title="Minska undertextfördröjning" tag="-1" enabled="NO" id="1076">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="changeSubDelay:" target="540" id="1081"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Minska undertextfördröjning" id="1077">
+                            <menuItem title="Återställ undertextfördröjning" id="1077">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="changeSubDelay:" target="540" id="1083"/>
